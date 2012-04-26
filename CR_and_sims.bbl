@@ -1,4 +1,4 @@
-\begin{thebibliography}{99}
+\begin{thebibliography}{106}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Abdo} {et~al.}(2009){Abdo}, {Ackermann}, {Ajello}, {Asano},
@@ -239,6 +239,9 @@
 {Battaglia}, N., {Bond}, J.~R., {Pfrommer}, C., \& {Sievers}, J.~L. 2011,
   ArXiv:1109.3709
 
+\bibitem[{{Blasi} \& {Colafrancesco}(1999)}]{1999APh....12..169B}
+{Blasi}, P. \& {Colafrancesco}, S. 1999, Astroparticle Physics, 12, 169
+
 \bibitem[{{Blasi} {et~al.}(2007){Blasi}, {Gabici}, \&
   {Brunetti}}]{2007IJMPA..22..681B}
 {Blasi}, P., {Gabici}, S., \& {Brunetti}, G. 2007, International Journal of
@@ -268,6 +271,11 @@ B{\"o}hringer, H., Tanaka, Y., Mushotzky, R., Ikebe, Y., \& Hattori, M. 1998
 
 \bibitem[{{Brunetti} \& {Blasi}(2005)}]{2005MNRAS.363.1173B}
 {Brunetti}, G. \& {Blasi}, P. 2005, \mnras, 363, 1173
+
+\bibitem[{{Brunetti} {et~al.}(2004){Brunetti}, {Blasi}, {Cassano}, \&
+  {Gabici}}]{2004MNRAS.350.1174B}
+{Brunetti}, G., {Blasi}, P., {Cassano}, R., \& {Gabici}, S. 2004, \mnras, 350,
+  1174
 
 \bibitem[{{Brunetti} {et~al.}(2009){Brunetti}, {Cassano}, {Dolag}, \&
   {Setti}}]{2009A&A...507..661B}
@@ -328,6 +336,12 @@ B{\"o}hringer, H., Tanaka, Y., Mushotzky, R., Ikebe, Y., \& Hattori, M. 1998
 {Deiss}, B.~M., {Reich}, W., {Lesch}, H., \& {Wielebinski}, R. 1997, \aap, 321,
   55
 
+\bibitem[{{Dennison}(1980)}]{1980ApJ...239L..93D}
+{Dennison}, B. 1980, \apjl, 239, L93
+
+\bibitem[{{Dolag} \& {En{\ss}lin}(2000)}]{2000A&A...362..151D}
+{Dolag}, K. \& {En{\ss}lin}, T.~A. 2000, \aap, 362, 151
+
 \bibitem[{{Domainko} {et~al.}(2009){Domainko}, {Nedbal}, {Hinton}, \&
   {Martineau-Huynh}}]{2009arXiv0907.3001D}
 {Domainko}, W., {Nedbal}, D., {Hinton}, J.~A., \& {Martineau-Huynh}, O. 2009,
@@ -356,11 +370,6 @@ B{\"o}hringer, H., Tanaka, Y., Mushotzky, R., Ikebe, Y., \& Hattori, M. 1998
   {Subramanian}}]{2011A&A...527A..99E}
 {En{\ss}lin}, T., {Pfrommer}, C., {Miniati}, F., \& {Subramanian}, K. 2011,
   \aap, 527, A99+
-
-\bibitem[{{En{\ss}lin} {et~al.}(1997){En{\ss}lin}, {Biermann}, {Kronberg}, \&
-  {Wu}}]{1997ApJ...477..560E}
-{En{\ss}lin}, T.~A., {Biermann}, P.~L., {Kronberg}, P.~P., \& {Wu}, X.-P. 1997,
-  \apj, 477, 560
 
 \bibitem[{{En{\ss}lin} \& {R{\"o}ttgering}(2002)}]{2002A&A...396...83E}
 {En{\ss}lin}, T.~A. \& {R{\"o}ttgering}, H. 2002, \aap, 396, 83
@@ -497,9 +506,15 @@ B{\"o}hringer, H., Tanaka, Y., Mushotzky, R., Ikebe, Y., \& Hattori, M. 1998
 {Million}, E.~T., {Allen}, S.~W., {Werner}, N., \& {Taylor}, G.~B. 2010,
   \mnras, 405, 1624
 
-\bibitem[{{Miniati} {et~al.}(2001){Miniati}, {Ryu}, {Kang}, \&
+\bibitem[{{Miniati} {et~al.}(2001{\natexlab{a}}){Miniati}, {Jones}, {Kang}, \&
+  {Ryu}}]{2001ApJ...562..233M}
+{Miniati}, F., {Jones}, T.~W., {Kang}, H., \& {Ryu}, D. 2001{\natexlab{a}},
+  \apj, 562, 233
+
+\bibitem[{{Miniati} {et~al.}(2001{\natexlab{b}}){Miniati}, {Ryu}, {Kang}, \&
   {Jones}}]{2001ApJ...559...59M}
-{Miniati}, F., {Ryu}, D., {Kang}, H., \& {Jones}, T.~W. 2001, \apj, 559, 59
+{Miniati}, F., {Ryu}, D., {Kang}, H., \& {Jones}, T.~W. 2001{\natexlab{b}},
+  \apj, 559, 59
 
 \bibitem[{{Murgia} {et~al.}(2010){Murgia}, {Eckert}, {Govoni}, {Ferrari},
   {Pandey-Pommier}, {Nevalainen}, \& {Paltani}}]{2010A&A...514A..76M}
@@ -564,6 +579,10 @@ B{\"o}hringer, H., Tanaka, Y., Mushotzky, R., Ikebe, Y., \& Hattori, M. 1998
 \bibitem[{{Pinzke} \& {Pfrommer}(2010)}]{2010MNRAS.409..449P}
 {Pinzke}, A. \& {Pfrommer}, C. 2010, \mnras, 409, 449
 
+\bibitem[{{Pinzke} {et~al.}(2011){Pinzke}, {Pfrommer}, \&
+  {Bergstr{\"o}m}}]{2011PhRvD..84l3509P}
+{Pinzke}, A., {Pfrommer}, C., \& {Bergstr{\"o}m}, L. 2011, \prd, 84, 123509
+
 \bibitem[{{Planck Collaboration} {et~al.}(2011){Planck Collaboration}, {Ade},
   {Aghanim}, {Arnaud}, {Ashdown}, {Aumont}, {Baccigalupi}, {Balbi}, {Banday},
   {Barreiro}, \& et~al.}]{2011A&A...536A..11P}
@@ -621,6 +640,10 @@ B{\"o}hringer, H., Tanaka, Y., Mushotzky, R., Ikebe, Y., \& Hattori, M. 1998
 {Schlickeiser}, R. 2002, {Cosmic ray astrophysics} (Springer.~ISBN
   3-540-66465-3)
 
+\bibitem[{{Schlickeiser} {et~al.}(1987){Schlickeiser}, {Sievers}, \&
+  {Thiemann}}]{1987A&A...182...21S}
+{Schlickeiser}, R., {Sievers}, A., \& {Thiemann}, H. 1987, \aap, 182, 21
+
 \bibitem[{{Sun} {et~al.}(2009){Sun}, {Voit}, {Donahue}, {Jones}, {Forman}, \&
   {Vikhlinin}}]{2009ApJ...693.1142S}
 {Sun}, M., {Voit}, G.~M., {Donahue}, M., {et~al.} 2009, \apj, 693, 1142
@@ -641,6 +664,9 @@ B{\"o}hringer, H., Tanaka, Y., Mushotzky, R., Ikebe, Y., \& Hattori, M. 1998
   {Cassano}, {Brunetti}, {Bardelli}, \& {Setti}}]{VenturiGMRT_2}
 {Venturi}, T., {Giacintucci}, S., {Dallacasa}, D., {et~al.} 2008, \aap, 484,
   327
+
+\bibitem[{{Vestrand}(1982)}]{1982AJ.....87.1266V}
+{Vestrand}, W.~T. 1982, \aj, 87, 1266
 
 \bibitem[{{V{\"o}lk} {et~al.}(1996){V{\"o}lk}, {Aharonian}, \&
   {Breitschwerdt}}]{1996SSRv...75..279V}

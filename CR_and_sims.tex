@@ -37,7 +37,7 @@
 \begin{document}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\title{On the Physics of Radio Halos: Scaling Relations and Luminosity Function}
+\title{On the Physics of Radio Halos in Galaxy Clusters: Scaling Relations and Luminosity Functions}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \author{
@@ -46,7 +46,7 @@
  Francisco Prada\inst{3,4,1}
 }
 \institute {Instituto de Astrof\'{\i}sica de Andaluc\'{\i}a (CSIC), Glorieta de la Astronom\'{\i}a, E-18080 Granada, Spain
- \and HITS, Schloss-Wolfsbrunnenweg 33, 69118 Heidelberg, Germany
+ \and Heidelberg Institute for Theoretical Studies, Schloss-Wolfsbrunnenweg 35, D-69118 Heidelberg, Germany
  \and Campus of International Excellence UAM+CSIC, Cantoblanco, E-28049 Madrid, Spain
  \and Instituto de F\'{\i}sica Te\'orica, (UAM/CSIC), Universidad Aut\'onoma de Madrid, Cantoblanco, E-28049 Madrid, Spain
 }
@@ -73,103 +73,196 @@ BLA BLA BLA
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Introduction}
 \label{sec:1}
-The presence of large scale diffuse synchrotron radio emission in clusters of galaxies proves the existence 
-of relativistic electrons and magnetic fields permeating the intra-cluster medium (ICM) (see e.g.~\citealp{2004NewAR..48.1137F}).
+The presence of large-scale diffuse synchrotron radio emission in clusters of
+galaxies proves the existence of relativistic electrons and magnetic fields
+permeating the intra-cluster medium (ICM) (see
+e.g.~\citealp{2004NewAR..48.1137F}).
 \begingroup
 \let\thefootnote\relax\footnotetext{ * fabio@iaa.es}
 \endgroup
-Diffuse cluster radio emission can be separated in two classes: radio relics and radio halos (see e.g.~\citealp{2004rcfg.procE..25K,2008SSRv..134...93F}). 
-Radio (mini-)halos (RHs) are located at the center of clusters and are characterized by a regular and unpolarized morphology with clear
-similarities with the thermal X-ray emission. On the contrary, radio relics typically lie at the cluster outskirts, have a irregular
-morphology, and often show a high polarization. While relics seem to directly trace structure formation shocks (see e.g.~\citealp{2011A&A...533A..35V}), 
-the explanation for the RHs phenomenon is challenging and still an open question.
+Diffuse cluster radio emission can be separated in two classes: radio relics and
+radio halos (see, e.g.~\citealp{2004rcfg.procE..25K,2008SSRv..134...93F}).
+Radio \mbox{(mini-)}halos (RHs) are centered on clusters and characterized by a
+regular and unpolarized morphology, resembling the morphology of the thermal
+X-ray emission. On the contrary, radio relics typically lie at the cluster
+outskirts, have an irregular morphology, and often show a high degree of
+polarization. While relics seem to directly trace structure formation shocks
+(see, e.g.~\citealp{2011A&A...533A..35V}), the explanation for the RHs phenomenon
+is challenging and still an open question.
                                    
-Two principal models have been proposed to explain RHs.  In the ``hadronic model'' the radio emitting electrons are produced in cosmic ray (CR) proton-proton
-interactions with the ICM, requiring only a very modest fraction of a few percent of CR-to-thermal pressure (see e.g.~\citealp{1997ApJ...477..560E, 
-2001ApJ...559...59M,2003A&A...407L..73P, 2004A&A...413...17P, 2004MNRAS.352...76P, 2007IJMPA..22..681B, 2008MNRAS.385.1211P, 2008MNRAS.385.1242P, 2009JCAP...09..024K, 2010MNRAS.401...47D, 2010arXiv1003.0336D, 2010arXiv1003.1133K, 2010arXiv1011.0729K, 2011A&A...527A..99E}).  
-CR protons and heavier nuclei, like electrons, can be accelerated and injected into the ICM by structure formation shocks, active 
-galactic nuclei (AGN) and galactic winds.  Due to their higher masses with respect to electrons, CR protons are accelerated more efficiently to
-relativistic energies and are expected to show a ratio of the spectral energy flux of CR protons-to-electrons above 1 GeV of about 100, similarly to
-what is observed in our Galaxy \citep{2002cra..book.....S}. Additionally, CR protons have radiative cooling times larger than electrons by the square
-of the mass ratio and therefore can accumulate in clusters for cosmological times \citep{1996SSRv...75..279V}. Indeed, CR electrons suffer more 
-severe energy losses via synchrotron and inverse Compton emission at GeV energies, and Bremsstrahlung and Coulomb losses below 100~MeV.
-In the ``re-acceleration model'', RHs are thought to be the result of electrons accelerated during powerful states of ICM turbulence, as a consequence of
-a cluster merger (see e.g.~\citealp{1993ApJ...406..399G, 2002A&A...386..456G, 2005MNRAS.363.1173B, 2007MNRAS.378..245B,
-2010arXiv1008.0184B, 2009A&A...507..661B}). This, however, requires a sufficiently long-lived CR electron 
-population at energies around 100~MeV which might be maintained by re-acceleration at a rate faster than the cooling processes.  We refer the reader
-to \citet{2011A&A...527A..99E} for a discussion on the strengths and weaknesses of these two models.
+Two principal models have been proposed to explain RHs.  In the ``hadronic
+model'' the radio emitting electrons are produced in cosmic ray (CR)
+proton-proton interactions within the ICM, requiring only a very modest fraction
+of a few percent of CR-to-thermal pressure (see
+\citealp{1980ApJ...239L..93D,1982AJ.....87.1266V, 1999APh....12..169B,
+  2000A&A...362..151D, 2001ApJ...559...59M, 2001ApJ...562..233M,
+  2003A&A...407L..73P, 2004A&A...413...17P, 2004MNRAS.352...76P,
+  2007IJMPA..22..681B, 2008MNRAS.385.1211P, 2008MNRAS.385.1242P,
+  2009JCAP...09..024K, 2010MNRAS.401...47D, 2010arXiv1003.0336D,
+  2010arXiv1003.1133K, 2010arXiv1011.0729K, 2011A&A...527A..99E}).  CR protons
+and heavier nuclei, like electrons, can be accelerated and injected into the ICM
+by structure formation shocks, active galactic nuclei (AGN) and galactic winds.
+Due to their higher masses with respect to electrons, CR protons are accelerated
+more efficiently to relativistic energies and are expected to show a ratio of
+the spectral energy flux of CR protons-to-electrons above 1 GeV of about 100,
+similarly to what is observed in our Galaxy
+\citep{2002cra..book.....S}. Additionally, CR protons have radiative cooling
+times larger than electrons by the square of the mass ratio and therefore can
+accumulate in clusters for cosmological times
+\citep{1996SSRv...75..279V}. Indeed, CR electrons suffer more severe energy
+losses via synchrotron and inverse Compton emission at GeV energies, and Coulomb
+losses below 100~MeV.  In the ``re-acceleration model'', RHs are thought to be
+the result of re-acceleration of electrons through interactions with plasma
+waves during powerful states of ICM turbulence, as a consequence of a cluster
+merger (see \citealp{1987A&A...182...21S, 1993ApJ...406..399G,
+  2002A&A...386..456G, 2004MNRAS.350.1174B, 2005MNRAS.363.1173B,
+  2007MNRAS.378..245B, 2010arXiv1008.0184B, 2009A&A...507..661B}). This,
+however, requires a sufficiently long-lived CR electron population at energies
+around 100~MeV which has to be provided by re-acceleration at a rate faster than
+the cooling processes.  We refer the reader to \citet{2011A&A...527A..99E} for a
+discussion on the strengths and weaknesses of these two models.
 
-RHs themselves can be divided in two classes. Radio halos are typically associated with merging clusters and have very large extensions, e.g. the 
-Coma cluster halo have an extension of about  2~Mpc. Radio mini-halos are associated with very relaxed clusters, that have a cool core
-harboring the halo, and have typical extension of few hundred kpc, e.g. the Perseus cluster mini-halo has an extension of about 0.2~Mpc. 
-The observed morphological similarities with the thermal X-ray emission suggests RHs may be of hadronic origin. Indeed, the hadronic model 
-would naturally explain the RHs generation mechanisms and, moreover, directly predict the existence of radio halos and mini-halos depending 
-on the cluster dynamical state. In fact, cool-core clusters (CCC) are characterized by very high thermal X-ray emissivity and very peaked ICM 
-densities with respect to the merging non cool-core clusters (NCCC) (see e.g.~\citealp{2008A&A...487..431C}). This dramatic difference in 
-the ICM density of CCC and NCCC would reflect in the two observed classes of RHs. 
+RHs can be divided in two classes. Giant radio halos are typically associated
+with merging clusters and have large extensions, e.g. the Coma radio halo has an
+extension of about 2~Mpc. Radio mini-halos are associated with relaxed clusters
+that harbor a cool core and typically extend over a few hundred kilo-parsecs,
+e.g. the Perseus radio mini-halo has an extension of about 0.2~Mpc.  The
+observed morphological similarities with the thermal X-ray emission suggests RHs
+may be of hadronic origin. In fact, cool-core clusters (CCC) are characterized
+by very high thermal X-ray emissivity and very peaked ICM densities in
+comparison to merging non cool-core clusters (NCCC) (see
+e.g.~\citealp{2008A&A...487..431C}). This dramatic difference in the ICM density
+of CCC and NCCC is reflected in the two observed classes of RHs.
 
-The RHs luminosity seems strongly correlated also with the clusters thermal X-ray emissivity (see e.g.~\citealp{2009A&A...507..661B,2011A&A...527A..99E}).
-However, a large fraction of clusters do not exhibit significant diffuse synchrotron emission of any kind. Galaxy clusters with the same thermal X-ray luminosity show
-an apparent bimodality with respect to their radio luminosity. Either they harbor a RH or they do not have any detectable diffuse radio emission. 
-This suggests the existence of a switch-on/switch-off mechanism able to change the radio luminosity by more than one order of magnitude.
-While such a mechanism could be easily realized in the framework of the re-acceleration model \citep{2009A&A...507..661B}, the \emph{classical} 
-hadronic model predicts the presence of RHs in all clusters. The failure to reproduce the observed cluster radio-to-X-ray bimodality was one of
-the main criticisms against the hadronic model. Another criticism to the \emph{classical} hadronic model is the the fact that t does not reproduce 
-some spectral features observed in clusters, as the total spectral curvature claimed in the Coma cluster radio halo or the spectral steepening observed at 
-some RH edges. In a recent work, \cite{2011A&A...527A..99E} asses this problem by analyzing how the CR distribution is shaped within a cluster. While 
-CR advection tends to result in centrally enhanced CR profiles, the propagation in form of CR streaming and diffusion tends to produce flat CR profiles. 
-The different  effects of such CR transport phenomena may account, in the hadronic model, for the observed radio-to-X-ray bimodality, as shown by En{\ss}lin and 
-collaborators, and can have an important impact in clusters in general. These phenomena were not considered in earlier analytical works (see 
-e.g.~\citealp{2004A&A...413...17P,2004MNRAS.352...76P}) as well as in hydrodynamic simulations (see e.g.~\citealp{2008MNRAS.385.1211P,
-2010MNRAS.409..449P}) for seek of simplicity, but can have indeed a dramatic impact.  We note that the effect of the CR transport processes 
-may also explain the spectral features observed in some clusters (see \citealp{2011A&A...527A..99E} for details).
+The RHs luminosity seems to be correlated to the thermal X-ray luminosity (see,
+e.g.~\citealp{2009A&A...507..661B,2011A&A...527A..99E}).  However, a large
+fraction of clusters do not exhibit significant diffuse synchrotron emission of
+any kind. Galaxy clusters with the same thermal X-ray luminosity show an
+apparent bimodality with respect to their radio luminosity. Either they harbor a
+RH or they do not have any detectable diffuse radio emission.  This suggests the
+existence of a switch-on/switch-off mechanism able to change the radio
+luminosity by more than one order of magnitude.  While such a mechanism could be
+easily realized in the framework of the re-acceleration model
+\citep{2009A&A...507..661B}, the \emph{classical} hadronic model predicts the
+presence of RHs in all clusters. The failure to reproduce the observed cluster
+radio-to-X-ray bimodality was one of the main criticisms against the hadronic
+model. Additionally, the \emph{classical} hadronic model cannot reproduce some
+spectral features observed in clusters, such as the total spectral curvature
+claimed in the Coma radio halo or the spectral steepening observed at the
+boundary of some RHs. In a recent work, \cite{2011A&A...527A..99E} assess this
+problem by analyzing CR transport processes within a cluster. While CR advection
+with the bulk flow results in centrally enhanced CR profiles, the propagation in
+form of CR streaming and diffusion produces flat CR profiles. Hence, different
+CR transport phenomena may also account for the observed bimodality of the radio
+luminosity in the hadronic model and may also explain the spectral features
+observed in some clusters \citep{2011A&A...527A..99E}. Note that these CR
+transport phenomena were not considered in earlier analytical works (see,
+e.g.~\citealp{2004A&A...413...17P}) as well as in hydrodynamic simulations (see,
+e.g.~\citealp{2001ApJ...562..233M, 2008MNRAS.385.1211P, 2010MNRAS.409..449P}).
 
-More recently, \cite{2012MNRAS.421L.112B} presented the first scaling relations between RH luminosity and Sunyaev-Zel'dovich (SZ) effect measurements,
-using the \emph{Planck} cluster catalogue. He found that while the correlation agrees with previous scaling measurements based on X-ray data, there is no indication
-for a bimodal cluster population divided into radio-loud and radio-quiet clusters.
+More recently, \cite{2012MNRAS.421L.112B} presented the first scaling relations
+between RH luminosity and Sunyaev-Zel'dovich (SZ) flux measurements, using the
+\emph{Planck} cluster catalogue. While the correlation agrees with previous
+scaling measurements based on X-ray data, there is no indication for a bimodal
+cluster population dividing clusters into radio-loud and radio-quiet objects at
+fixed SZ flux. While the SZ flux correlates tightly with cluster mass, the X-ray
+luminosity, $L_\rmn{X}$, exhibits a larger scatter. The CCCs predominantly
+populate the high-$L_\rmn{X}$ tail (at any cluster temperature) and make up
+approximately half of the radio-quiet objects \citep{2011A&A...527A..99E}
+suggesting that the switch-on/switch-off mechanism may not operate at fixed
+$L_\rmn{X}$ but also cause an evolution of that quantity, i.e. $L_\rmn{X}$
+increases as the cluster relaxes, cools and forms a denser core after a merger
+which may simultaneously decrease the radio luminosity.
  
-A clear way out to disentangle between the hadronic and re-acceleration models is to search for the gamma-ray emission that results from
-result of the neutral pion decays, secondary product of the hadronic CR interaction with the ICM, which is not predicted to be present
-by the re-acceleration model. Such observational effort have been undertaken in the last few years (for space-based cluster observations in the GeV-band, 
-see \citealt{2003ApJ...588..155R, 2010ApJ...717L..71A, 2010JCAP...05..025A,2012AAS...21920701Z,2012arXiv1201.1003H}; for ground-based 
-observations in the energy band $>100$~GeV, see \citealt{2006ApJ...644..148P, 2008AIPC.1085..569P, 2009A&A...495...27A,2009arXiv0907.0727T, 
-2009arXiv0907.3001D, 2009arXiv0907.5000G,cangaroo_clusters,2009ApJ...706L.275A,2010ApJ...710..634A,2011arXiv1111.5544M}) without being able to detect
-cluster gamma-ray emission\footnote[1]{Recently \cite{2012arXiv1201.1003H} claimed an evidence for diffuse gamma-ray emission in the \emph{Fermi} satellite data of 
-the Virgo cluster which however is excluded by a more recent analysis from the \emph{Fermi} collaboration itself (see Elliot Bloom talk at the UCLA Dark Matter 2012 conference, https://hepconf.physics.ucla.edu/dm12/).}.
-Despite the negative detections, we have been starting to put significant constraints on the gamma-ray predictions. The long observation campaign of the Perseus 
-galaxy cluster performed by the Major Atmospheric Gamma-ray Cherenkov (MAGIC) telescopes constrains the cluster average CR-to-thermal pressure to 
-be less than few percents \citep{2010ApJ...710..634A,2011arXiv1111.5544M}. Comparing the corresponding upper limits to predictions from 
-simulations of \cite{2010MNRAS.409..449P} constrains the maximum CR acceleration efficiency at structure formation shocks to be $<50\%$. 
-Alternatively, this may indeed suggest the presence of non-negligible CR transport processes into the outer cluster regions as explored by \cite{2011A&A...527A..99E}. 
-Constraints at the same level are confirmed also by the \emph{Fermi}-Large Area Telescope (LAT) data on the Coma cluster \citep{2012AAS...21920701Z,2012arXiv1201.1003H}. This however does not allow us to make any definitive statement on the RHs generation mechanisms as the hadronic model is still far from being really 
-probed by gamma-ray observations.
+An observational test that is able to disentangle between the hadronic and
+re-acceleration models is the gamma-ray emission resulting from neutral pion
+decays, a secondary product of the hadronic CR interaction with protons of the
+ICM, which is not predicted by the re-acceleration model. Such observational
+efforts have been undertaken in the last few years (for space-based cluster
+observations in the GeV-band, see \citealt{2003ApJ...588..155R,
+  2010ApJ...717L..71A, 2010JCAP...05..025A, 2012AAS...21920701Z,
+  2012arXiv1201.1003H}; for ground-based observations in the energy band
+$>100$~GeV, see \citealt{2006ApJ...644..148P, 2008AIPC.1085..569P,
+  2009A&A...495...27A, 2009arXiv0907.0727T, 2009arXiv0907.3001D,
+  2009arXiv0907.5000G, cangaroo_clusters, 2009ApJ...706L.275A,
+  2010ApJ...710..634A, 2011arXiv1111.5544M}) without being able to detect
+cluster gamma-ray emission\footnote[1]{Recently, \cite{2012arXiv1201.1003H}
+  claimed an evidence for diffuse gamma-ray emission in the \emph{Fermi}
+  satellite data of the Virgo cluster which however needs to be carefully
+  scrutinized by varying the uncertain foreground modeling (for a preliminary
+  assessment of the \emph{Fermi} collaboration, see Elliot Bloom's talk at the
+  UCLA Dark Matter 2012 conference, https://hepconf.physics.ucla.edu/dm12/).}.
+Despite the negative detections, gamma-ray limits enable us to put significant
+constraints on the relative CR pressure contributions. The long observation
+campaign of the Perseus galaxy cluster performed by the Major Atmospheric
+Gamma-ray Cherenkov (MAGIC) telescopes constrains the cluster average
+CR-to-thermal pressure to be less than a few percent
+\citep{2010ApJ...710..634A,2011arXiv1111.5544M}. Comparing the corresponding
+upper limits to predictions of simulations by \cite{2010MNRAS.409..449P}
+constrains the maximum CR acceleration efficiency at structure formation shocks
+to be $<50\%$.  Alternatively, this may indeed suggest the presence of
+non-negligible CR transport processes into the outer cluster regions as
+suggested by \cite{2011A&A...527A..99E}.  Constraints at the same level are
+confirmed also by the \emph{Fermi}-Large Area Telescope (LAT) data on the Coma
+cluster \citep{2011PhRvD..84l3509P, 2012AAS...21920701Z,
+  2012arXiv1201.1003H}. To summarize, gamma-ray observations are not yet
+sensitive enough to severely challenge hadronic models of RHs.
 
-An important step forward in this scenario would come from detailed RHs population analyses. Actually, we know only about 30 clusters that harbor RHs (see 
-\citealp{2011A&A...527A..99E} for an almost up-to-date list) and only two X-ray flux-limited studies, relevant for the universally of the conclusions, 
-have been made out of which only few clusters resulted to host a RH  \citep{1999NewA....4..141G,VenturiGMRT_2}. With such small samples, the
-conclusions than can be drown on the underlying mechanisms acting in the RHs generation are not very robust. Fortunately, this is going to change thanks to 
-the next-generation radio observatory Low Frequency Array (LOFAR) which officially started operations in 2010.\footnote[2]{www.lofar.org}
-In fact, a deep cluster survey is part of the LOFAR science key projects. This will soon provide us with a large number of radio-observed galaxy clusters 
-up to redshift $z\approx1$ (see e.g.~\citealp{2010A&A...509A..68C,2012JApA..tmp...34R}).
-This would hopefully permit to clearly determine the RHs characteristics against the galaxy cluster properties investigating the relations between 
-radio-loud/quiet, non cool-core/cool-core and non-merging/merging clusters, and exploring the role of different parameters like the magnetic field, 
-the CR acceleration efficiency, and the CR transport properties.
+An important step towards understanding the generating mechanism of RHs would
+come from detailed RH population analyses. To date, we know only of 30 clusters
+that harbor RHs (see \citealp{2011A&A...527A..99E}, for an almost up-to-date
+list). Only two X-ray flux-limited studies have been conducted that assess the
+important question of the RH frequency in clusters \citep{1999NewA....4..141G,
+  VenturiGMRT_2}. Since the number of RHs in such X-ray flux-limited samples is
+small with typically a few RHs, the conclusions on the underlying physical
+mechanisms of RHs are not very robust. Fortunately, this is going to change
+thanks to the next-generation of low-frequency radio observatories such as the
+Low Frequency Array (LOFAR) which officially started operations in
+2010.\footnote[2]{www.lofar.org} In fact, a deep cluster survey is part of the
+LOFAR science key projects and expected to provide a large number of
+radio-emitting galaxy clusters up to redshift $z\approx1$ (see
+e.g.~\citealp{2010A&A...509A..68C,2012JApA..tmp...34R}).  This will hopefully
+permit to clearly determine the RHs phenomenology with respect to galaxy cluster
+properties such as radio-loud/quiet, non cool-core/cool-core and
+non-merging/merging clusters, and exploring the role of different parameters
+like the magnetic field, the CR acceleration efficiency, and the CR transport
+properties.
 
-In this work, we present predictions for the RHs of a complete cosmological sample of galaxy clusters up to redshift 1, obtained from the MultiDark N-body 
-cosmological simulation \citep{2011arXiv1104.5130P}. We construct a \emph{phenomenological} model to assign to each halo in the MultiDark simulation 
-a gas density profile such as it reproduce the basic observed X-ray cluster properties. We assume that the RHs are generated by secondaries of the hadronic 
-CR interactions with the ICM. In adopting the hadronic scenario, we construct a \emph{hybrid} model merging the result of hydrodynamic simulations by \cite{2010MNRAS.409..449P} and the analytical model by \cite{2011A&A...527A..99E}.  As anticipated above, the inclusion of the latter is particularly important as CR transport 
-processes have a dramatic impact on overall emission shape and normalization. In fact, thanks to this, we are able to reproduce the main RHs characteristics and both
-the radio-to-X-ray and radio-to-SZ scaling relations. We show, once again, that the hadronic model is a perfectly viable explanation for RHs and it is not in tension 
-with any of current observations or constraints. We obtain RHs luminosity functions at different redshifts, and present predictions for the LOFAR
-cluster survey. 
+In this work, we present predictions for the RHs of a complete cosmological
+sample of galaxy clusters up to $z= 1$, obtained from the MultiDark N-body
+cosmological simulation \citep{2011arXiv1104.5130P}. We construct a
+\emph{phenomenological} model to assign a gas density profile to each halo in
+the MultiDark simulation that is based on observed X-ray cluster properties. We
+assume that the RHs are generated by secondaries of the hadronic CR interactions
+with the ICM. In adopting the hadronic scenario, we construct a \emph{hybrid}
+model merging the result of hydrodynamic simulations by
+\cite{2010MNRAS.409..449P} and the analytical model by
+\cite{2011A&A...527A..99E}.  As anticipated above, the inclusion of the latter
+is particularly important as CR transport processes have a dramatic impact on
+the emission profile and normalization. We will show that this approach enables
+us not only to reproduce the radio surface brightness profiles but also the
+radio-to-X-ray and radio-to-SZ scaling relations. Hence, this explicitely
+demonstrates that the hadronic model is an attractive model matching all current
+observational constraints and predict luminosity functions for the LOFAR cluster
+survey.
 
-%%%%Paper Summary
-In Section~\ref{sec:2}, we explain the methodology adopted to obtain from N-body, so dark matter (DM) only, simulated clusters the corresponding ICM gas densities.
-In doing this, we check that  our approach is able to reproduce the main observed cluster X-ray properties. We then construct the model for CR distribution 
-in clusters. In Section~\ref{sec:4}, we apply it to some RHs in order to show how it works and adapts to different situations. We investigate the radio-to-X-ray and radio-to-SZ scaling relations and the radio luminosity function of our simulated sample with respect to current observations in Section~\ref{sec:4}. We produce RHs luminosity functions at different redshifts and discuss them in view of the LOFAR cluster survey in Section~\ref{sec:5}. Finally, in Section~\ref{sec:6}, we present our conclusions.
-%%%%Constants
-In this work, the cluster mass $M_{x}$ and radius $R_{x}$ are defined with respect to $x=200$ or $x=500$ times the Universe \emph{critical} density. We adopt $\Omega_{\rm{m}}=0.3$, $\Omega_{\rm{\Delta}}=0.7$ and $H_0 = 100 \times h_{70}$~km~s$^{-1}$~Mpc$^{-1}$ where $h_{70} = 0.7$. 
+In Section~\ref{sec:2}, we explain the methodology of assigning gas density
+profiles to DM halos and demonstrate that the model reproduces the observed
+X-ray scaling relations and luminosity function. We then construct the model for
+the CR distribution in clusters. In Section~\ref{sec:3}, we apply our model to
+observed surface brightness profiles of individual RHs and explore the allowable
+parameter space for CRs and magnetic fields.  In Section~\ref{sec:4}, we compare
+the modeled radio-to-X-ray and radio-to-SZ scaling relations to current
+observations.  In Section~\ref{sec:5}, we show how the radio luminosity
+functions varies for different choices of our CR and magnetic
+parametrizations. We compare those luminosity functions to current observational
+constraints and provide predictions for the LOFAR cluster survey. Finally, in
+Section~\ref{sec:6}, we present our conclusions.  In this work, the cluster mass
+$M_{\Delta}$ and radius $R_{\Delta}$ are defined with respect to a density that
+is $\Delta=200$ or $\Delta=500$ times the \emph{critical} density of
+universe. We adopt density parameters of $\Omega_{\rm{m}}=0.3$,
+$\Omega_{\Lambda}=0.7$ and today's Hubble constant of $H_0 = 100 \times
+h_{70}$~km~s$^{-1}$~Mpc$^{-1}$ where $h_{70} = 0.7$.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
