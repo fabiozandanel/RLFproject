@@ -1,4 +1,4 @@
-\begin{thebibliography}{106}
+\begin{thebibliography}{103}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Abdo} {et~al.}(2009){Abdo}, {Ackermann}, {Ajello}, {Asano},
@@ -239,6 +239,11 @@
 {Battaglia}, N., {Bond}, J.~R., {Pfrommer}, C., \& {Sievers}, J.~L. 2011,
   ArXiv:1109.3709
 
+\bibitem[{{Battaglia} {et~al.}(2010){Battaglia}, {Bond}, {Pfrommer}, {Sievers},
+  \& {Sijacki}}]{2010ApJ...725...91B}
+{Battaglia}, N., {Bond}, J.~R., {Pfrommer}, C., {Sievers}, J.~L., \& {Sijacki},
+  D. 2010, \apj, 725, 91
+
 \bibitem[{{Blasi} \& {Colafrancesco}(1999)}]{1999APh....12..169B}
 {Blasi}, P. \& {Colafrancesco}, S. 1999, Astroparticle Physics, 12, 169
 
@@ -295,10 +300,6 @@ B{\"o}hringer, H., Tanaka, Y., Mushotzky, R., Ikebe, Y., \& Hattori, M. 1998
   {Tenzer}}]{2011MSAIS..17..159C}
 {Cappelluti}, N., {Predehl}, P., {B{\"o}hringer}, H., {et~al.} 2011, Memorie
   della Societa Astronomica Italiana Supplementi, 17, 159
-
-\bibitem[{{Carlstrom} {et~al.}(2002){Carlstrom}, {Holder}, \&
-  {Reese}}]{2002ARA&A..40..643C}
-{Carlstrom}, J.~E., {Holder}, G.~P., \& {Reese}, E.~D. 2002, \araa, 40, 643
 
 \bibitem[{{Cassano} {et~al.}(2010){Cassano}, {Brunetti}, {R{\"o}ttgering}, \&
   {Br{\"u}ggen}}]{2010A&A...509A..68C}
@@ -488,18 +489,10 @@ B{\"o}hringer, H., Tanaka, Y., Mushotzky, R., Ikebe, Y., \& Hattori, M. 1998
   {Waxman}}]{2009JCAP...09..024K}
 {Kushnir}, D., {Katz}, B., \& {Waxman}, E. 2009, \jcap, 9, 24
 
-\bibitem[{{Mantz} {et~al.}(2010{\natexlab{a}}){Mantz}, {Allen}, {Ebeling},
-  {Rapetti}, \& {Drlica-Wagner}}]{2010MNRAS.406.1773M}
+\bibitem[{{Mantz} {et~al.}(2010){Mantz}, {Allen}, {Ebeling}, {Rapetti}, \&
+  {Drlica-Wagner}}]{2010MNRAS.406.1773M}
 {Mantz}, A., {Allen}, S.~W., {Ebeling}, H., {Rapetti}, D., \& {Drlica-Wagner},
-  A. 2010{\natexlab{a}}, \mnras, 406, 1773
-
-\bibitem[{{Mantz} {et~al.}(2010{\natexlab{b}}){Mantz}, {Allen}, {Rapetti}, \&
-  {Ebeling}}]{2010MNRAS.406.1759M}
-{Mantz}, A., {Allen}, S.~W., {Rapetti}, D., \& {Ebeling}, H.
-  2010{\natexlab{b}}, \mnras, 406, 1759
-
-\bibitem[{{Maughan}(2007)}]{2007ApJ...668..772M}
-{Maughan}, B.~J. 2007, \apj, 668, 772
+  A. 2010, \mnras, 406, 1773
 
 \bibitem[{{Million} {et~al.}(2010){Million}, {Allen}, {Werner}, \&
   {Taylor}}]{2010MNRAS.405.1624M}
@@ -598,11 +591,6 @@ B{\"o}hringer, H., Tanaka, Y., Mushotzky, R., Ikebe, Y., \& Hattori, M. 1998
   {B{\"o}hringer}}]{2009A&A...498..361P}
 {Pratt}, G.~W., {Croston}, J.~H., {Arnaud}, M., \& {B{\"o}hringer}, H. 2009,
   \aap, 498, 361
-
-\bibitem[{{Reichert} {et~al.}(2011){Reichert}, {B{\"o}hringer}, {Fassbender},
-  \& {M{\"u}hlegger}}]{2011arXiv1109.3708R}
-{Reichert}, A., {B{\"o}hringer}, H., {Fassbender}, R., \& {M{\"u}hlegger}, M.
-  2011, \aap, 535, A4
 
 \bibitem[{{Reimer} {et~al.}(2003){Reimer}, {Pohl}, {Sreekumar}, \&
   {Mattox}}]{2003ApJ...588..155R}
