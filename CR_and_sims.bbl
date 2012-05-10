@@ -1,4 +1,4 @@
-\begin{thebibliography}{103}
+\begin{thebibliography}{104}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Abdo} {et~al.}(2009){Abdo}, {Ackermann}, {Ajello}, {Asano},
@@ -572,9 +572,15 @@ B{\"o}hringer, H., Tanaka, Y., Mushotzky, R., Ikebe, Y., \& Hattori, M. 1998
 \bibitem[{{Pinzke} \& {Pfrommer}(2010)}]{2010MNRAS.409..449P}
 {Pinzke}, A. \& {Pfrommer}, C. 2010, \mnras, 409, 449
 
-\bibitem[{{Pinzke} {et~al.}(2011){Pinzke}, {Pfrommer}, \&
+\bibitem[{{Pinzke} {et~al.}(2011{\natexlab{a}}){Pinzke}, {Pfrommer}, \&
   {Bergstr{\"o}m}}]{2011PhRvD..84l3509P}
-{Pinzke}, A., {Pfrommer}, C., \& {Bergstr{\"o}m}, L. 2011, \prd, 84, 123509
+{Pinzke}, A., {Pfrommer}, C., \& {Bergstr{\"o}m}, L. 2011{\natexlab{a}}, \prd,
+  84, 123509
+
+\bibitem[{{Pinzke} {et~al.}(2011{\natexlab{b}}){Pinzke}, {Pfrommer}, \&
+  {Bergstrom}}]{2011arXiv1105.3240P}
+{Pinzke}, A., {Pfrommer}, C., \& {Bergstrom}, L. 2011{\natexlab{b}}, ArXiv
+  e-prints
 
 \bibitem[{{Planck Collaboration} {et~al.}(2011){Planck Collaboration}, {Ade},
   {Aghanim}, {Arnaud}, {Ashdown}, {Aumont}, {Baccigalupi}, {Balbi}, {Banday},
