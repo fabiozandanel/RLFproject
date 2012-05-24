@@ -1,4 +1,4 @@
-\begin{thebibliography}{104}
+\begin{thebibliography}{105}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Abdo} {et~al.}(2009){Abdo}, {Ackermann}, {Ajello}, {Asano},
@@ -661,6 +661,11 @@ B{\"o}hringer, H., Tanaka, Y., Mushotzky, R., Ikebe, Y., \& Hattori, M. 1998
 
 \bibitem[{{Vestrand}(1982)}]{1982AJ.....87.1266V}
 {Vestrand}, W.~T. 1982, \aj, 87, 1266
+
+\bibitem[{{Vikhlinin} {et~al.}(2005){Vikhlinin}, {Markevitch}, {Murray},
+  {Jones}, {Forman}, \& {Van Speybroeck}}]{2005ApJ...628..655V}
+{Vikhlinin}, A., {Markevitch}, M., {Murray}, S.~S., {et~al.} 2005, \apj, 628,
+  655
 
 \bibitem[{{V{\"o}lk} {et~al.}(1996){V{\"o}lk}, {Aharonian}, \&
   {Breitschwerdt}}]{1996SSRv...75..279V}
