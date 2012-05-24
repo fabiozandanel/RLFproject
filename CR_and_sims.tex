@@ -771,10 +771,10 @@ to include the effect of CR streaming and diffusion on the CR spectrum.
 \includegraphics[width=0.62\textwidth]{figures/CR_profiles_FinalModel_paper.eps}
 \includegraphics[width=0.37\textwidth]{figures/CR_profiles_FinalModelvsREX_norm0.1.eps}
 \caption{Left panel: we show our final model profile for the normalization of
-  the CR distribution, $C_{\rmn{final}}$, for the NCCC and CCC cases and for
-  different values of $\gamma_{\rmn{tu}}$. We normalize $C_{\rmn{final}}$ by
+  the CR distribution, $C_{\rmn{hybrid}}$, for the NCCC and CCC cases and for
+  different values of $\gamma_{\rmn{tu}}$. We normalize $C_{\rmn{hybrid}}$ by
   requiring the CR populations to have a constant total CR number within
-  $R_{200}$. Right panel: we compare hybrid model $C_{\rmn{final}}$ with the semi-analytical
+  $R_{200}$. Right panel: we compare hybrid model $C_{\rmn{hybrid}}$ with the semi-analytical
   advection-only case (adopting our GNFW gas profiles and the outer temperature
   decrease to the simulation-derived model proposed by
   \citep{2010MNRAS.409..449P}) and with the exact analytical solution as in
@@ -807,12 +807,12 @@ Now, we introduce the \emph{semi-analytical} mass-dependent normalization of the
 CR profile of \cite{2010MNRAS.409..449P} such that
 \begin{equation}
 \eta(R) = \left( \frac{C_{\rmn{adv}}(R)}{C_0} \right)^{1/\beta_{\rmn{CR}}} = 
-\left( \frac{C_{\rmn{final}}(R)}{C_0} \right)^{1/\beta_{\rmn{CR}}} \, ,
+\left( \frac{C_{\rmn{hybrid}}(R)}{C_0} \right)^{1/\beta_{\rmn{CR}}} \, ,
 \label{eq:eta}
 \end{equation} 
 which effectively redefines $C_{\rmn{adv}}(R)$ by the CR normalization in our hybrid model,
 \begin{equation}
-C_{\rmn{final}}(R) =  \tilde{C}(R)\, \frac{\rho_{\rmn{gas}}(R)}{m_\rmn{p}} \frac{T(R)}{T(0)}.
+C_{\rmn{hybrid}}(R) =  \tilde{C}(R)\, \frac{\rho_{\rmn{gas}}(R)}{m_\rmn{p}} \frac{T(R)}{T(0)}.
 \label{eq:Cf}
 \end{equation} 
 Here, $\tilde{C}(R)$ is the normalization CR profile of Equation~(22) of
@@ -853,12 +853,12 @@ simulations, (iii) an effective parametrization of active CR transport
 processes, including CR streaming and diffusion, which allows us to explore
 different turbulent states of the clusters in our MultiDark sample.
 
-In the left panel of Figure~\ref{fig:CRFinalModel}, we show $C_{\rmn{final}}$
+In the left panel of Figure~\ref{fig:CRFinalModel}, we show $C_{\rmn{hybrid}}$
 for the NCCC and CCC cases and for different values of $\gamma_{\rmn{tu}}$. As
 expected, effective CR streaming (i.e., negligible advective turbulent transport
 or equivalently, $\gamma_{\rmn{tu}}\sim1$) flattens the spatial CR profiles
 irrespective of the the cluster state. Additionally, in the right panel, we
-compare our final hybrid model profile for $C_{\rmn{final}}$ with the
+compare our final hybrid model profile for $C_{\rmn{hybrid}}$ with the
 semi-analytical advection-only case (adopting our GNFW gas profiles and the
 outer temperature decrease to the model proposed by \citep{2010MNRAS.409..449P})
 and with the exact analytical solution as in \citet{2011A&A...527A..99E}, but
@@ -885,25 +885,28 @@ Section~\ref{sec:3}).
 \section{Radio Surface Brightness Modeling}
 \label{sec:3}
 
-In this Section we apply our model to successfully reproduce the emission
-characteristics of the well-observed RHs in the clusters Coma, A2163, and the
-mini-halos in Perseus and Ophiuchus. Hence for the purpose of this section, we
-adopt the measured gas profiles derived from X-ray observations of each cluster.
-Our final model includes a normalization parameter $g_{\rmn{CR}}$ which acts
-just as a linear scaling for the emission and can be included in the calculation
-substituting $A_{\nu}$ with $A_{\nu,\rmn{final}}=g_{\rmn{CR}}A_{\nu}$ (see
+In this Section we apply our model to reproduce the emission characteristics of
+four well-observed RHs. Hence for the purpose of this section, we adopt the
+measured gas profiles derived from X-ray observations of each cluster.  Our
+final model includes an overall CR normalization parameter $g_{\rmn{CR}}$,
+
+which acts just as
+a linear scaling for the emission and can be included in the calculation
+substituting $A_{\nu}$ with $A_{\nu,\rmn{hybrid}}=g_{\rmn{CR}}A_{\nu}$ (see
 Appendix~\ref{app:A}). Note that this parameter can be interpreted as the
 \emph{maximum CR acceleration efficiency parameter} $g(\zeta_{\rmn{p,max}})$ of
 \cite{2010MNRAS.409..449P} \emph{only} when $\gamma_{\rmn{tu}}\approx100$. We
 will additionally make use of the CR-to-thermal pressure
 $X_{\rmn{CR}}=P_{\rmn{CR}}/P_{\rmn{th}}$.\footnote[11]{The CR pressure is
-  $P_{\rmn{CR}}=\frac{g_{\rmn{CR}} C_{\rmn{final}} m_{\rmn{p}} c^{2}}{6}
+  $P_{\rmn{CR}}=\frac{g_{\rmn{CR}} C_{\rmn{hybrid}} m_{\rmn{p}} c^{2}}{6}
   \Sigma_{i=1}^{3} \Delta_{i} \beta_{1/(1+q^2)} \left(
     \frac{\alpha_{i}-1}{2},\frac{3-\alpha_{i}}{2} \right)$, where $c$ is the
   speed of light, $q=0.8$ \citep{2010MNRAS.409..449P} and $\Delta_{i} = (0.767,
   0.143, 0.0975)$ are the normalization factors found by
   \cite{2010MNRAS.409..449P} (see also Appendix~\ref{app:A}). The thermal
   pressure is $P_{\rmn{th}}=n_{\rmn{gas}}k_{\rmn{B}}T$.}
+
+\subsection{Modelling individual radio halos}
 
 We take as example four galaxy clusters. The giant radio halos of Coma \citep{1997A&A...321...55D} and Abell~2163 \citep{2001A&A...373..106F,2009A&A...499..679M} both merging NCCCs, and the radio-mini halos of Perseus \citep{1990MNRAS.246..477P} and Ophiuchus \citep{2009A&A...499..371G,2009A&A...499..679M} both non-merging CCCs. The radio emission of these clusters is representative of a wide class of RHs and, additionally, Perseus, Ophiuchus and Coma are among the most promising clusters for gamma-ray observations \citep{2010MNRAS.409..449P,2011arXiv1105.3240P}. In Table~\ref{tab:RadioHalos}, we summarize the main characteristics of these halos and we detail the main parameters adopted for the modeling and the corresponding results. In Figure~\ref{fig:SBmodeling}, we show the corresponding surface brightness and CR-to-thermal pressure. Note that we model these clusters at 1.4~GHz and within $R_{200}$.  
 
@@ -957,6 +960,8 @@ The Perseus diffuse radio emission is the best known example of radio-mini halo 
 The Ophiuchus cluster has been widely studied both in radio and X-rays in the last few years because of a claim of presence of a non-thermal hard X-ray tail \citep{2008A&A...479...27E,2008PASJ...60.1133F,2009A&A...499..371G,2009A&A...499..679M,2009MNRAS.396.2237P,2009A&A...508.1161N,2010A&A...514A..76M,2010MNRAS.405.1624M}. 
 It was classified as a merging cluster by \cite{2001PASJ...53..605W}, but more recently \cite{2008PASJ...60.1133F} did not found any evidence of merging and, on the contrary, classified it as one of the hottest clusters with a  cool-core (see also \citealp{2010MNRAS.405.1624M}). Its radio mini-halo displays similarities with the thermal X-ray emission. For our modeling we use the surface brightness provided by \cite{2009A&A...499..679M}. The position of radio and X-ray peaks seems displaced by about 24''. Again, Matteo Murgia has kindly provided the radio surface brightness computed with respect to the \cite{2002ApJ...567..716R} X-ray position, however the change is not very significant. 
 We proceed as before, adopting a central magnetic field value of $B_{0}=10$~$\mu$G. The best fit to the data is obtained for $\gamma_{\rmn{tu}}=5$ and $\alpha_B=0.7$, however, values as high as $\gamma_{\rmn{tu}} \approx 100$, and as low as $\gamma_{\rmn{tu}}=2$, can be easily accommodated. We recover the surface brightness shape and the total luminosity within about $20\%$. The gamma-ray flux within $R_{200}$ for the best fit case and for energies above 100~MeV (100~GeV) is $F_{\gamma} = 1.2 \times 10^{-10}$ ($4.3 \times 10^{-14}$) cm$^{-2}$~s$^{-1}$. Adopting $\gamma_{\rmn{tu}}=100$ and $\alpha_B=0.3$, the corresponding gamma-ray flux above 100~MeV (100~GeV) is $F_{\gamma} = 8.3 \times 10^{-11}$ ($3.1 \times 10^{-14}$) cm$^{-2}$~s$^{-1}$. The gamma-ray flux is, in both cases, about two orders of magnitude lower than the upper limit obtained by \emph{Fermi}-LAT \citep{2010ApJ...717L..71A}. Note also that in the case of $\gamma_{\rmn{tu}} = 100$ we obtain a maximum CR acceleration efficiency parameter of $0.014$. 
+
+\subsection{General conclusions on the hadronic model from surface brightness modelling}
 
 We want to stress the following points:
 
@@ -1254,7 +1259,7 @@ where $\alpha_{\rmn{e}}=\alpha+1$ and $\Gamma$ is the Gamma-function \citep{1965
 The generalization of the radio luminosity calculation to three CR spectral indexes and the inclusion of the maximum CR acceleration efficiency parameter $g_{\rmn{CR}}$, following \cite{2010MNRAS.409..449P}, changes $j_{\nu}$ into:
 
 \begin{eqnarray}
-j_{\nu,\rmn{final}} & = &g_{\rmn{CR}} C(R) \rho_{\rmn{gas}}(R) \frac{\epsilon_{\rmn{B}}(R)}{\epsilon_{\rmn{B}}(R)+\epsilon_{\rmn{CMB}}} \nonumber \\
+j_{\nu,\rmn{hybrid}} & = &g_{\rmn{CR}} C(R) \rho_{\rmn{gas}}(R) \frac{\epsilon_{\rmn{B}}(R)}{\epsilon_{\rmn{B}}(R)+\epsilon_{\rmn{CMB}}} \nonumber \\
 & \times & \Sigma_{i=1}^{3} \Delta_{i} A_{\nu,i} \left( \frac{\epsilon_{\rmn{B}}(R)}{\epsilon_{B_{\rmn{c}}}} \right)^{\frac{\alpha_{i}-2}{4}}  \, ,
 \end{eqnarray}
 
