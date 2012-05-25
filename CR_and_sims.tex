@@ -129,11 +129,11 @@ extension of about 2~Mpc. Radio mini-halos are associated with relaxed clusters
 that harbor a cool core and typically extend over a few hundred kilo-parsecs,
 e.g. the Perseus radio mini-halo has an extension of about 0.2~Mpc.  The
 observed morphological similarities with the thermal X-ray emission suggests RHs
-may be of hadronic origin. In fact, cool-core clusters (CCC) are characterized
+may be of hadronic origin. In fact, cool-core clusters (CCCs) are characterized
 by very high thermal X-ray emissivity and very peaked ICM densities in
-comparison to merging non cool-core clusters (NCCC) (see
+comparison to merging non cool-core clusters (NCCCs) (see
 e.g.~\citealp{2008A&A...487..431C}). This dramatic difference in the ICM density
-of CCC and NCCC is reflected in the two observed classes of RHs.
+of CCCs and NCCCs is reflected in the two observed classes of RHs.
 
 The RHs luminosity seems to be correlated to the thermal X-ray luminosity (see,
 e.g.~\citealp{2009A&A...507..661B,2011A&A...527A..99E}).  However, a large
@@ -359,8 +359,7 @@ provides the needed information is the \emph{Representative XMM-Newton Cluster
 dynamical states at redshift $0.06<z<0.18$ with detailed information of the
 de-projected electron density profiles \citep{2008A&A...487..431C}. In
 Figure~\ref{fig:gas_profiles}, we show the 31 electron density profiles of the
-REXCESS sample color-coded by cool-core and non-cool-core clusters (hereafter
-CCCs and NCCCs, respectively).
+REXCESS sample color-coded by CCCs and NCCCs.
 
 \begin{figure}[t]
 \centering
@@ -658,7 +657,7 @@ to the MultiDark mass function and accounting for the observational scatter in
 $L_{\rmn{X}}-M_{500}$ should yield an unbiased XLF. We show the resulting
 bolometric and soft-band ($0.1-2.4$~keV) XLF in Figure~\ref{fig:XLF} and compare
 those to the corresponding BCS XLFs (for which bolometric band there is only the 
-Schechter fit available) to our model predictions.  While the soft-band XLF by
+Schechter fit available) and to our model predictions.  While the soft-band XLF by
 \cite{2010MNRAS.406.1773M} agrees well with the BCS data points, it deviates
 from the corresponding Schechter fit at low luminosities. This is also true in
 the bolometric band, where the XLFs of \cite{2010MNRAS.406.1773M} and our model
@@ -717,7 +716,7 @@ microwave background (CMB), and $\epsilon_B=B^{2}/(8\pi)$ denotes the magnetic
 energy density. We assume a scaling of the magnetic field with gas density that
 is given by
 \begin{equation}
-B(R) = B_0\,\left(\frac{\rho(R)}{\rho(0)}\right)^{\alpha_B},
+B(R) = B_0\,\left(\frac{\rho_{\rmn{gas}}(R)}{\rho_{\rmn{gas},0}}\right)^{\alpha_B},
 \label{eq:B}
 \end{equation}
 where $B_0$ is the central magnetic field and $\alpha_{\rmn{B}}$ a parameter
@@ -753,7 +752,7 @@ yielding $\gamma_{\rmn{tu}}\gg 1$ which results in centrally enhanced CR
 profiles. In contrast, in a relaxed cluster, CR streaming should be the dominant
 transport mechanism implying $\gamma_{\rmn{tu}}\sim1$ and producing flat CR
 profiles (for a detailed discussion of these processes, see
-\citet{2011A&A...527A..99E}).
+\citealp{2011A&A...527A..99E}).
 
 What we propose here is to keep the spectral shape of the CR distribution
 function as determined from cosmological hydrodynamical simulation of clusters
@@ -768,13 +767,13 @@ to include the effect of CR streaming and diffusion on the CR spectrum.
 
 \begin{figure*}[t]
 \centering
-\includegraphics[width=0.62\textwidth]{figures/CR_profiles_FinalModel_paper.eps}
+\includegraphics[width=0.62\textwidth]{figures/CR_profiles_FinalModel.eps}
 \includegraphics[width=0.37\textwidth]{figures/CR_profiles_FinalModelvsREX_norm0.1.eps}
-\caption{Left panel: we show our final model profile for the normalization of
-  the CR distribution, $C_{\rmn{final}}$, for the NCCC and CCC cases and for
-  different values of $\gamma_{\rmn{tu}}$. We normalize $C_{\rmn{final}}$ by
+\caption{Left panel: we show our final hybrid model profile for the normalization of
+  the CR distribution for the NCCC and CCC cases and for
+  different values of $\gamma_{\rmn{tu}}$. We normalize $C$ by
   requiring the CR populations to have a constant total CR number within
-  $R_{200}$. Right panel: we compare hybrid model $C_{\rmn{final}}$ with the semi-analytical
+  $R_{200}$. Right panel: we compare the final hybrid model with the semi-analytical
   advection-only case (adopting our GNFW gas profiles and the outer temperature
   decrease to the simulation-derived model proposed by
   \citep{2010MNRAS.409..449P}) and with the exact analytical solution as in
@@ -796,23 +795,26 @@ C_{\rmn{adv}}(R)=C_{0} \left( \frac{P(R)}{P_{0}} \right)^{\frac{\beta_{\rmn{CR}}
 C_{0} \eta(R)^{\beta_{\rmn{CR}}},
 \label{eq:Csimple_1}
 \end{equation} 
-where $\beta_{\rmn{CR}}=(\alpha+2)/3$, $\gamma=5/3$, and we introduced the
-advective CR profile $\eta(R)=(P(R)/P(0))^{1/\gamma}$. Solving the continuity
+where $P(R)=n_{\rmn{e}}(R) k_{\rmn{B}} T(R)$ is the pressure, $\beta_{\rmn{CR}}=(\alpha+2)/3$, 
+$\gamma=5/3$, and we introduced the advective CR profile $\eta(R)=(P(R)/P_0)^{1/\gamma}$. 
+Solving the continuity
 equation for CRs, \citet{2011A&A...527A..99E} derive the CR density profile,
 \begin{equation}
-\rho_{\rmn{CR}}(R) = \rho_{\rmn{CR},0} \eta(R) \rmn{exp} \left( \frac{R}{R_{*}} \right) \, .
+\rho_{\rmn{CR}}(R) = \rho_{\rmn{CR},0} \eta(R) \rmn{exp} \left( \frac{R}{R_{*}} \right) \, ,
 \label{eg:rhoCR_1}
 \end{equation} 
+where $R_{*}=\gamma_{\rmn{\rmn{tu}}}R_{\rmn{c}}$ and $R_{\rmn{c}}$ is the characteristic 
+radius, of order the core radius, at which the turbulence is supposed to be injected.
 Now, we introduce the \emph{semi-analytical} mass-dependent normalization of the
 CR profile of \cite{2010MNRAS.409..449P} such that
 \begin{equation}
 \eta(R) = \left( \frac{C_{\rmn{adv}}(R)}{C_0} \right)^{1/\beta_{\rmn{CR}}} = 
-\left( \frac{C_{\rmn{final}}(R)}{C_0} \right)^{1/\beta_{\rmn{CR}}} \, ,
+\left( \frac{C_{\rmn{hybrid}}(R)}{C_0} \right)^{1/\beta_{\rmn{CR}}} \, ,
 \label{eq:eta}
 \end{equation} 
 which effectively redefines $C_{\rmn{adv}}(R)$ by the CR normalization in our hybrid model,
 \begin{equation}
-C_{\rmn{final}}(R) =  \tilde{C}(R)\, \frac{\rho_{\rmn{gas}}(R)}{m_\rmn{p}} \frac{T(R)}{T(0)}.
+C_{\rmn{hybrid}}(R) =  \tilde{C}(R)\, \frac{\rho_{\rmn{gas}}(R)}{m_\rmn{p}} \frac{T(R)}{T_0}.
 \label{eq:Cf}
 \end{equation} 
 Here, $\tilde{C}(R)$ is the normalization CR profile of Equation~(22) of
@@ -820,7 +822,10 @@ Here, $\tilde{C}(R)$ is the normalization CR profile of Equation~(22) of
 the cluster periphery expected by the fit to the universal temperature profile
 derived from cosmological cluster simulations
 \citep{2007MNRAS.378..385P,2010MNRAS.409..449P} and deep {\em Chandra} X-ray
-observations \citep{2005ApJ...628..655V}.
+observations \citep{2005ApJ...628..655V}. Eventually, our final hybrid CR
+normalization is $C(R)=C_{0}(\rho_{\rmn{CR}}(R)/\rho_{\rmn{CR},0})^{\beta_{\rmn{CR}}}$
+within $R_{\pm}$ of Equation~(\ref{eq:Rpm}) and $C(R) = C(R_{\pm})$ for $R > R_{+}$ 
+and $R < R_{-}$, respectively.
 
 The last step is to generalize the case of one CR population with a single
 spectral index $\alpha$ to include spectral curvature as suggested by
@@ -836,8 +841,8 @@ modifications are straight forward in the first two cases (and are adopted for
 our hybrid model, see Appendix~\ref{app:A}), introducing a sum over $\alpha_{i}$
 in Equation~(\ref{eq:Csimple_1}) would make impossible to analytically solve for
 $\eta(R)$ in Equation~(\ref{eq:eta}). For simplicity, we decided to only use
-$\alpha = 2.3$ in Equation~(\ref{eq:Ctransport}),\footnote[9]{We checked that
-  the choice of $\alpha$ in Equation~(\ref{eq:Ctransport}) has only a minor
+$\alpha = 2.3$ in this last case.\footnote[9]{We checked that
+  the choice of $\alpha$ in Equation~(\ref{eq:Csimple_1}), and therefore in Equation~(\ref{eq:Ctransport}), has only a minor
   effect on the results. Varying $\alpha$ within $2.15-2.55$ leaves the radial
   shape and the normalization unchanged within $0.5\%$.} For the highly
 turbulent cases, i.e., for $\gamma_{\rmn{tu}}=100$ (1000), we recover the radial
@@ -853,25 +858,25 @@ simulations, (iii) an effective parametrization of active CR transport
 processes, including CR streaming and diffusion, which allows us to explore
 different turbulent states of the clusters in our MultiDark sample.
 
-In the left panel of Figure~\ref{fig:CRFinalModel}, we show $C_{\rmn{final}}$
-for the NCCC and CCC cases and for different values of $\gamma_{\rmn{tu}}$. As
+In the left panel of Figure~\ref{fig:CRFinalModel}, we show our final hybrid CR 
+normalization for the NCCC and CCC cases and for different values of $\gamma_{\rmn{tu}}$. As
 expected, effective CR streaming (i.e., negligible advective turbulent transport
 or equivalently, $\gamma_{\rmn{tu}}\sim1$) flattens the spatial CR profiles
 irrespective of the the cluster state. Additionally, in the right panel, we
-compare our final hybrid model profile for $C_{\rmn{final}}$ with the
+compare our final hybrid model profile with the
 semi-analytical advection-only case (adopting our GNFW gas profiles and the
-outer temperature decrease to the model proposed by \citep{2010MNRAS.409..449P})
+outer temperature decrease to the model proposed by \citealp{2010MNRAS.409..449P})
 and with the exact analytical solution as in \citet{2011A&A...527A..99E}, but
 for our GNFW profiles (adopting $\alpha=2.3$ and $\gamma_{\rmn{tu}}=100$, see
-Appendix~\ref{app:B} for details).  The profiles are normalized at $0.1 \times
-R_{200}$. The main differences between our final model (and the semi-analytical
+Appendix~\ref{app:B} for details).  The profiles are normalized at $0.1 R_{200}$. 
+The main differences between our final model (and the semi-analytical
 model) on the one side and the analytical solution on the other side is the
-inclusion of the simulation-based ``reference'' profile $\tilde{C}_0$ for the
+inclusion of the simulation-based ``reference'' profile $\tilde{C}$ for the
 advection-only case and the universally observed temperature drop towards the
 outskirts of clusters in our hybrid model. Note that our final model profiles
 are generally more centrally peaked in comparison to the analytical GNFW case,
-which may partly be owing to the enhanced radiative cooling in these simulations
-\cite{2010MNRAS.409..449P} that did not account for AGN feedback. Thanks to the
+which may partly be owing to the enhanced radiative cooling in the \citet{2010MNRAS.409..449P} 
+simulations that did not account for AGN feedback. Thanks to the
 flexible parametrization in our model, this can be easily counteracted by
 changing $\gamma_{\rmn{tu}}$ and $\alpha_B$, however, at the expense that these
 parameters are now degenerate with our assumptions about the CR profile in the
@@ -897,7 +902,7 @@ Appendix~\ref{app:A}). Note that this parameter can be interpreted as the
 \cite{2010MNRAS.409..449P} \emph{only} when $\gamma_{\rmn{tu}}\approx100$. We
 will additionally make use of the CR-to-thermal pressure
 $X_{\rmn{CR}}=P_{\rmn{CR}}/P_{\rmn{th}}$.\footnote[11]{The CR pressure is
-  $P_{\rmn{CR}}=\frac{g_{\rmn{CR}} C_{\rmn{final}} m_{\rmn{p}} c^{2}}{6}
+  $P_{\rmn{CR}}=\frac{g_{\rmn{CR}} C m_{\rmn{p}} c^{2}}{6}
   \Sigma_{i=1}^{3} \Delta_{i} \beta_{1/(1+q^2)} \left(
     \frac{\alpha_{i}-1}{2},\frac{3-\alpha_{i}}{2} \right)$, where $c$ is the
   speed of light, $q=0.8$ \citep{2010MNRAS.409..449P} and $\Delta_{i} = (0.767,
@@ -1144,89 +1149,110 @@ F.~Z.~acknowledges the CSIC financial support as a JAE-Predoc grant of the progr
 \section{Cosmic Rays Modeling Details}
 \label{app:B}
 
-
-%% this part was moved from the main text:
-%% STARTING HERE
-
+In this Appendix, we detail how our final \emph{hybrid} model for CRs of Section~\ref{sec:2.3} has been built. 
 Following closely \cite{2011A&A...527A..99E}, when turbulent advection
-completely dominates the CR profile, this can be expressed as
-\begin{equation}
-C_{\rmn{adv}}(R) = C_{0} \left( \frac{P(R)}{P_{0}} \right)^{\frac{\beta_{\rmn{CR}}}{\gamma}} \, ,
-\label{eq:Csimple}
-\end{equation} 
-
-where $\beta_{\rmn{CR}}=(\alpha+2)/3$, $\gamma=5/3$ and $P(R)=n_{\rmn{e}}(R) k_{\rmn{B}} T(R)$ is the pressure. However, as explained before, both propagation and advection shape the CR profile and the ratio of their transport coefficients determines the exact shape. The treatment of this case is analytically developed in \cite{2011A&A...527A..99E} by solving the continuity equation for the CR density profile $\rho_{\rmn{CR}}$. They found
-
-\begin{equation}
-\rho_{\rmn{CR}}(R) = \rho_{\rmn{CR},0} \left( \frac{P(R)}{P_{0}} \right)^{\frac{1}{\gamma}} \rmn{exp} \left( \frac{R}{R_{*}} \right) \, ,
-\label{eg:rhoCR}
-\end{equation} 
-
-where $R_{*}=\gamma_{\rmn{\rmn{tu}}}R_{\rmn{c}}$, $\gamma_{\rmn{tu}}$ is the turbulent parameter, and $R_{\rmn{c}}$ is a characteristic radius where the turbulence is supposed to be injected which should be comparable to the clusters core radius. Assuming for simplicity that $P(R)/P_{0}=n_{\rmn{e}}(R)/n_{0}$, so neglecting the temperature dependence, and a standard $\beta$-profile for the electron density as
+completely dominates the CR profile, the CR normalization can be expressed as in 
+Equation~(\ref{eq:Csimple_1}). However, both propagation and advection shape the 
+CR profile. This is analytically developed by solving the continuity equation for CRs 
+and obtaining the CR density profile $\rho_{\rmn{CR}}$ of Equation~(\ref{eg:rhoCR_1}). 
+Assuming for simplicity that $P(R)/P_{0}=n_{\rmn{e}}(R)/n_{0}$, so neglecting the 
+temperature dependence, with a standard $\beta$-profile for the electron density,
 
 \begin{equation}
 n_{\rmn{e}} = n_{0} \left( 1+\frac{R^{2}}{R_{\rmn{c}}^{2}} \right)^{-\frac{3\beta_{\rmn{cl}}}{2}} \, ,
 \label{eq:beta_profile}
 \end{equation} 
 
-the CR density profile $C_{\rmn{transport}}(R)=C_{0}(\rho_{\rmn{CR}}(R)/\rho_{\rmn{CR},0})^{\beta_{\rmn{CR}}}$ finally results to be
-
-\begin{equation}
-C_{\rmn{transport}}(R) = C_{0}\left( 1+ \frac{R^{2}}{R_{C}^{2}} \right)^{-\beta_{\rmn{c}}} \rmn{exp}\left( {\frac{R}{R_{*}}\beta_{\rmn{CR}}} \right)
-\label{eq:Ctransport}
-\end{equation} 
-
-for $R_{-}<R<R_{+}$, where $\beta_{\rmn{c}}=3\beta_{\rmn{cl}}~\beta_{\rmn{CR}}/2\gamma$, while $C_{\rmn{transport}}(R) = C_{\rmn{transport}}(R_{\pm})$ for $R<R_{-}$ and $R>R_{+}$ respectively. The solution for these radii is
+the solution of Equation~(\ref{eg:rhoCR_1}) is physical only for $\rho_{\rmn{CR}}$ between
 
 \begin{equation}
 R_{\pm} = \frac{3\beta_{\rmn{cl}}}{2\gamma}R_{*}\left(1\pm\sqrt{1-\left(\frac{2R_{\rmn{c}}\gamma}{3\beta_{\rmn{cl}}R_{*}}\right)^{2}}\right) \, .
 \label{eq:Rpm}
 \end{equation} 
 
-Therefore, changing the value of the transport parameter $\gamma_{\rmn{tu}}$, we can mimic different CR transport cases in the cluster; for high $\gamma_{\rmn{tu}}$ we fall in the advection-dominated \emph{simple} case while in case $\gamma_{\rmn{tu}}\approx1$ the CR profile is flat. We show this in Appendix~\ref{app:B} for the two representative NCCC Coma and CCC Perseus cases, where we also show the result in case $C(R)=C_{\rmn{semi-analytical}}(R)=\tilde{C}(R)\rho_{\rmn{gas}}(R)/m_{\rmn{p}}$ with $\tilde{C}(R)$ the mass-dependent universal normalization CR profile found in cosmological simulations of \cite{2010MNRAS.409..449P}. As expected, the CR profile driven by simulations is characterized by a more centrally peaked profile with respect to the analytical case. Note also that the Perseus profile is much more centrally peaked with respect to Coma, which reflects their CCC and NCCC classification respectively.
+while it is non-stationary outside these radii where we just set $\rho_{\rmn{CR}}(R) = \rho_{\rm{CR}}(R_{\pm})$
+for $R > R_{+}$ and $R < R_{-}$, respectively. We refer the reader to \cite{2011A&A...527A..99E} for 
+further details. Eventually, the final CR normalization profile, 
+$C(R)=C_{0}(\rho_{\rmn{CR}}(R)/\rho_{\rmn{CR},0})^{\beta_{\rmn{CR}}}$, results to be
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{equation}
+C(R) = C_{0}\left( 1+ \frac{R^{2}}{R_{C}^{2}} \right)^{-\beta_{\rmn{c}}} \rmn{exp}\left( {\frac{R}{R_{*}}\beta_{\rmn{CR}}} \right)
+\label{eq:Ctransport}
+\end{equation} 
 
-As explained in Appendix~\ref{app:B}, in this case there is not an
-exact solution for the \cite{2011A&A...527A..99E} treatment of the problem. In
-fact, when trying to solve it analytically, one ends up with a 5-order
-equation. It is not practical to solve numerically such equation, and at the
-same time to discharge the unphysical solution, for our more than $10^4$
-halos. For simplicity, we will proceed with the approximation of using the
-\cite{2011A&A...527A..99E} formalism, after some modifications in order to adapt
-it to our case (see Appendix~\ref{app:B}). 
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\footnote[10]{In our final model, $R_{\rmn{c}}$ of
-  Equation~(\ref{eq:Rpm}) becomes the characteristic radius of our GNFW gas
-  profile of Section~\ref{sec:2.2}, i.e.~$R_{\rmn{c}}=0.2\times R_{500}$, and
-  $\beta_{\rmn{cl}}=0.8$ (changing the value of $\beta_{\rmn{cl}}$ between
-  e.g. 0.4 and 1.2 has no impact at all).}
-
-%% ENDING HERE
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+for $R_{-}<R<R_{+}$, where $\beta_{\rmn{c}}=3\beta_{\rmn{cl}}~\beta_{\rmn{CR}}/2\gamma$, 
+and $C(R) = C(R_{\pm})$ for $R<R_{-}$ and $R>R_{+}$, respectively. Therefore, we can 
+mimic different CR transport cases varying the value of the transport parameter 
+$\gamma_{\rmn{tu}}$. For a high $\gamma_{\rmn{tu}}$ value, we fall in the 
+advection-dominated case, while when $\gamma_{\rmn{tu}} \sim1$ the CR 
+profile is flat \citep{2011A&A...527A..99E}. 
 
 \begin{figure*}[t]
 \centering
 \includegraphics[width=0.99\textwidth]{figures/CR_profiles_simple_comparison.eps}
-\caption{Comparison of different CR profiles. The left plot shows $C_{\rmn{adv}}$ for the Coma and Perseus cases both neglecting the temperature dependence ($\rho$) and considering it ($P$). The temperature profile of Coma has been modified so that it follows the characteristic decline toward the cluster periphery \citep{2007MNRAS.378..385P,2010MNRAS.409..449P}. Perseus is a CCC and it is characterized by a central dip in the temperature profile which may importantly affect the final CR profile, so we adopt the temperature profile as given in \citep{2004A&A...413...17P} ($P_{1}$). We also show the case where we only apply the characteristic decline toward the cluster periphery ($P_{2}$). The other two right plots show the \emph{transport} case of Coma and Perseus for different values of $\gamma_{\rmn{tu}}$ in comparison with the \emph{simple} case. Additionally shown is the result in case of $C(R)=C_{\rmn{semi-analytical}}(R)=\tilde{C}(R)\rho_{\rmn{gas}}(R)/m_{\rmn{p}}$ where $\tilde{C}(R)$ is the mass-dependent universal normalization CR profile found in cosmological simulations of \cite{2010MNRAS.409..449P}. The \emph{simple} and \emph{semi-analytical} profiles are normalized at $C_{0}=C(0)$. The transport cases are normalized at $C_{0}=C(0,\gamma_{\rmn{tu}}=100)$, where we fix the CR populations to have a constant total CR number as in Equation~(36) of \cite{2011A&A...527A..99E} integrating up $R_{200}$. We adopt $\alpha=2.3$.}
+\caption{Comparison of different CR profiles. The left plot shows the \emph{simple} advective $C_{\rmn{adv}}$ (Equation~(\ref{eq:Csimple_1})) for the Coma and Perseus cases both neglecting the temperature dependence ($\rho$) and considering it ($P$). The temperature profile of Coma has been modified so that it follows the characteristic decline toward the cluster periphery \citep{2007MNRAS.378..385P,2010MNRAS.409..449P}. Perseus is a CCC and it is characterized by a central dip in the temperature profile which may importantly affect the final CR profile, so we adopt the temperature profile as given in \cite{2003ApJ...590..225C} ($P_{1}$). We also show the case where we only apply the characteristic decline toward the cluster periphery ($P_{2}$). The other two right plots show the \emph{transport} case (Equation~(\ref{eq:Ctransport})) of Coma and Perseus for different values of $\gamma_{\rmn{tu}}$ in comparison with the \emph{simple} case. Additionally shown is the result in case of $C(R)=C_{\rmn{semi-analytical}}(R)=\tilde{C}(R)\rho_{\rmn{gas}}(R)/m_{\rmn{p}}$ where $\tilde{C}(R)$ is the mass-dependent universal normalization CR profile found in cosmological simulations \citep{2010MNRAS.409..449P}. The \emph{simple} and \emph{semi-analytical} profiles are normalized at $C_{0}=C(0)$. The transport cases are normalized at $C_{0}=C(0,\gamma_{\rmn{tu}}=100)$, where we fix the CR populations to have a constant total CR number as in Equation~(36) of \cite{2011A&A...527A..99E} integrating up $R_{200}$. We adopt $\alpha=2.3$.}
 \label{fig:simpleVStransport}
 \end{figure*}
 
-In order to make some comparisons between $C_{\rmn{adv}}$ and $C_{\rmn{transport}}$ we take as reference cases the NCCC Coma and the CCC Perseus. While for Coma the $\beta$-profile of Equation~(\ref{eq:beta_profile}) is a good approximation, and we take the \cite{1992A&A...259L..31B} profile, for Perseus a double-$\beta$ profile is needed. We adopt both the approximation $P(R)/P_{0}=n_{\rmn{e}}(R)/n_{0}$, with $n_{\rmn{e}}(R)$ the double-$\beta$ profile of \cite{2003ApJ...590..225C}, and the proper Perseus pressure profile as in Section~\ref{sec:3} (for Perseus, we take $R_{\rmn{c}}$ to be equal to the outer double-$\beta$ profile core radius and we fix $\beta_{\rmn{cl}}=0.8$). Note that the \cite{2011A&A...527A..99E} formalism is exact only for the approximation $P(R)/P_{0}=n_{\rmn{e}}(R)/n_{0}$ and in the case of a $\beta$-profile. There is not an exact analytical solution for the case of a double-$\beta$ profile: one should use a numerical solution. In this work, we make different choices for $P(R)/P_{0}$ and we construct a model that has to be applied to all the halos of our sample. We therefore do not try to solve numerically each case. We just adopt the \cite{2011A&A...527A..99E} formalism as a good approximation. The relevant parameters are $\gamma_{\rmn{tu}}$, the exponential factor of Equation~(\ref{eq:Ctransport}), and the two radius $R_{\pm}$ that in general are very small/large so that the detail of $P(R)/P_{0}$ does not affect them critically. Indeed, we are dominated by other uncertainties, e.g. the assumption that the characteristic radius at which the turbulence is injected is the cluster core radius, and, despite the approximation, with this approach we capture the main CR transport effects.
+Before to proceed in constructing our final hybrid model, in Figure~\ref{fig:simpleVStransport}, 
+we show a comparisons between $C_{\rmn{adv}}$ of Equation~(\ref{eq:Csimple_1}) and 
+$C$ of Equation~(\ref{eq:Ctransport}) considering the NCCC Coma and CCC Perseus 
+cases. While for Coma we adopt the $\beta$-profile of \citet{1992A&A...259L..31B}, 
+Perseus needs a double-$\beta$ profile. In this last case, we adopt both the approximation 
+$P(R)/P_{0}=n_{\rmn{e}}(R)/n_{0}$, with $n_{\rmn{e}}(R)$ the double-$\beta$ profile of 
+\cite{2003ApJ...590..225C}, and the proper Perseus pressure profile as in 
+Section~\ref{sec:3}. Note that the \cite{2011A&A...527A..99E} formalism is exact only for 
+the approximation $P(R)/P_{0}=n_{\rmn{e}}(R)/n_{0}$ and in the case of a $\beta$-profile. 
+Nevertheless, we adopt the \cite{2011A&A...527A..99E} formulae as a good approximation, 
+i.e.~we adopt $C(R)=C_{0}(\rho_{\rmn{CR}}(R)/\rho_{\rmn{CR},0})^{\beta_{\rmn{CR}}}$
+within $R_{\pm}$ of Equation~(\ref{eq:Rpm}) and $C(R) = C(R_{\pm})$ for $R > R_{+}$ 
+and $R < R_{-}$, respectively, and we take $R_{\rmn{c}}$ to be equal to the Perseus 
+double-$\beta$ profile outer core radius and fix $\beta_{\rmn{cl}}=0.8$. The relevant 
+parameters are $\gamma_{\rmn{tu}}$ and the exponential factor of Equation~(\ref{eg:rhoCR_1}). 
+In fact, as we will se in the following, the two radius $R_{\pm}$ are not critically affected 
+by the detail of $\eta(R)$. Therefore, despite the approximation, this approach captures the 
+main CR transport effects for the Perseus case. 
 
-We show the comparison between $C_{\rmn{adv}}$ and $C_{\rmn{transport}}$ in Figure~\ref{fig:simpleVStransport}, where we also show the result in case $C(R)=C_{\rmn{semi-analytical}}(R)=\tilde{C}(R)\rho_{\rmn{\rmn{gas}}}(R)/m_{\rmn{p}}$ where $\tilde{C}(R)$ is the mass-dependent universal normalization CR profile found in cosmological simulations of \cite{2010MNRAS.409..449P}. As expected, the CR profile driven by simulations is characterized by a more centrally peaked profile with respect to the analytical case. Note also the much more centrally peaked profile of Perseus with respect to Coma, which reflects their CCC and NCCC classification respectively, and the impact that have neglecting the temperature dependence in the Perseus case. Finally, the anticipated effect of varying the turbulent cluster state by means of $\gamma_{\rmn{tu}}$ can be clearly appreciated.
+In Figure~\ref{fig:simpleVStransport}, we additionally show the result in case 
+$C(R)=C_{\rmn{semi-analytical}}(R)=\tilde{C}(R)\rho_{\rmn{\rmn{gas}}}(R)/m_{\rmn{p}}$ 
+where $\tilde{C}(R)$ is the mass-dependent universal normalization CR profile found in cosmological 
+simulations of \cite{2010MNRAS.409..449P}. As expected, the CR profile driven by simulations is characterized 
+by a more centrally peaked profile with respect to the analytical case. Note also the more centrally peaked 
+profile of Perseus with respect to Coma, which reflects their CCC and NCCC classification, respectively. 
+Finally, the effect of varying the turbulent cluster state by means of $\gamma_{\rmn{tu}}$ can be clearly appreciated.
 
 \begin{figure}[t]
 \centering
 \includegraphics[width=0.5\textwidth]{figures/CR_profiles_REXexactVSfake.eps}
-\caption{Comparison of $C_{\rmn{transport}}(R)$ for the GNFW exact solution and the approximated case where we use the \cite{2011A&A...527A..99E} formulae with $P(R)/P_{0}=n_{\rmn{e,GNFW}}(R)/n_{0}$. Both the NCCC and CCC case for the respective GNFW profiles derived in Section~\ref{sec:2.2} are shown. From top to bottom: $\gamma_{\rmn{tu}}=100$, $\gamma_{\rmn{tu}}=10$ and $\gamma_{\rmn{tu}}=1$. The normalization is done at $C_{0}=C(0,\gamma_{\rmn{tu}}=100)$ of the exact model where we fix the CR populations to have a constant total CR number as in Equation~(36) of \cite{2011A&A...527A..99E} integrating up $R_{200}$. Note that the $C(0,\gamma_{\rmn{tu}}=100)$ value for the CCC case is identical between the exact and approximated model, while there is a small difference of about 9\% in the NCCC case .We adopt $\alpha=2.3$.}
+\caption{Comparison of $C(R)$ for the GNFW exact solution and the approximated case where we use the \cite{2011A&A...527A..99E} formulae with $P(R)/P_{0}=n_{\rmn{e,GNFW}}(R)/n_{0}$. Both the NCCC and CCC case for the respective GNFW profiles derived in Section~\ref{sec:2.2} are shown. From top to bottom: $\gamma_{\rmn{tu}}=100$, $\gamma_{\rmn{tu}}=10$ and $\gamma_{\rmn{tu}}=1$. The normalization is done at $C_{0}=C(0,\gamma_{\rmn{tu}}=100)$ of the exact model where we fix the CR populations to have a constant total CR number as in Equation~(36) of \cite{2011A&A...527A..99E} integrating up $R_{200}$. Note that the $C(0,\gamma_{\rmn{tu}}=100)$ value for the CCC case is identical between the exact and approximated model, while there is a small difference of about 9\% in the NCCC case .We adopt $\alpha=2.3$.}
 \label{fig:REXexactVSfake}
 \end{figure}
 
-We want to generalize the En{\ss}lin approach to our GNFW gas profiles obtained in Section~\ref{sec:2.2} and merge the \cite{2011A&A...527A..99E} analytical approach with the $\tilde{C}$ universal CR normalization obtained from simulations. Also in this case there is not an exact solution for the \cite{2011A&A...527A..99E} treatment of the problem. In fact, when trying to solve it analytically, one ends up with a 5-order equation. It is not practical to solve numerically such equation, and at the same time to discharge the unphysical solution, for our more than $10^4$ halos. For simplicity, we proceed with the approximation of using the \cite{2011A&A...527A..99E} formalism, after some modifications in order to adapt it to our case. In the case of taking just $P(R)/P_{0}=n_{\rmn{e,GNFW}}(R)/n_{0}$, with $n_{\rmn{e,GNFW}}$ the profile of Equation~(\ref{eq:gnfw}), there exist an exact solution following the \cite{2011A&A...527A..99E} treatment. Therefore, in order to qualitatively have an idea of how much is the error that we are making with the above described approach, in Figure~\ref{fig:REXexactVSfake} we compare the $C_{\rmn{transport}}(R)$ of the GNFW exact solution and the approximate case where we use the \cite{2011A&A...527A..99E} formulae but just adopting $P(R)/P_{0}=n_{\rmn{e,GNFW}}(R)/n_{0}$. In the second case, we fix $R_{-}=10^{-3}R/R_{200}$ to mimic the typical $R_{-}$ value of the exact solution, otherwise a unphysical step feature would appear around $10^{-2}R/R_{200}$. This latter approximation is kept in the final model. Note however that this modification does not change at all the model surface brightness and total luminosity. As clear from the figure, there is almost no appreciable difference between the two cases. This comparison indeed show that the approximated approach strategy can be safely followed in order to derive a fully working model capturing the main CR transport effects.
+We want now to generalize the \cite{2011A&A...527A..99E} approach to our GNFW gas 
+profiles of Section~\ref{sec:2.2}, in addition to the universal temperature drop in
+the outskirts of clusters, and merge it with the $\tilde{C}$ universal CR normalization 
+obtained from simulations. When adopting the advective profile $\eta(R)$ of Equation~(\ref{eq:eta})
+with $C_{\rm{hybrid}}$, there is not an analytical solution for Equation~(\ref{eg:rhoCR_1}) as
+in \cite{2011A&A...527A..99E}. In fact, this results in a 5-order equation which numerical solution
+would not be of practical use for our large MultiDark sample. For simplicity, we proceed as above 
+with the approximation of using the \cite{2011A&A...527A..99E} formulae, after some modifications 
+in order to adapt it to our case. 
+
+In the case $P(R)/P_{0}=n_{\rmn{e,GNFW}}(R)/n_{0}$, with $n_{\rmn{e,GNFW}}$ given by Equation~(\ref{eq:gnfw}), 
+there exist an exact solution following the \cite{2011A&A...527A..99E} treatment. Therefore, in order 
+to qualitatively have an idea of the systematic error that we are doing with the above described approach, 
+Figure~\ref{fig:REXexactVSfake} compares $C(R)$ of the GNFW exact solution and the approximate 
+case where we use the \cite{2011A&A...527A..99E} formulae but just adopting $P(R)/P_{0}=n_{\rmn{e,GNFW}}(R)/n_{0}$. 
+In the second case, we fix $R_{-}=10^{-3}R/R_{200}$ to mimic the typical $R_{-}$ value of the exact solution, otherwise 
+an unphysical step feature would appear around $10^{-2}R/R_{200}$. This latter approximation is kept in the final hybrid 
+model; note however that this does not change at all the model surface brightness and total luminosity. 
+As clear from Figure~\ref{fig:REXexactVSfake}, there is almost no difference between the two cases. This comparison 
+indeed show that the approximated approach strategy can be safely followed in order to derive a fully working model 
+capturing the main CR transport effects. 
+Note that in our final hybrid model, $R_{\rmn{c}}$ of Equation~(\ref{eq:Rpm}) becomes the characteristic radius 
+of our GNFW gas profile of Section~\ref{sec:2.2}, i.e.~$R_{\rmn{c}} = 0.2 R_{500}$, and $\beta_{\rmn{cl}}=0.8$ 
+(we checked that varying the value of $\beta_{\rmn{cl}}$ between 0.4 and 1.2 has no impact at all).
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
