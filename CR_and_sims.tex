@@ -790,10 +790,9 @@ C_{\rmn{adv}}(R)=C_{0} \left( \frac{P_{\rmn{th}}(R)}{P_{\rmn{th},0}} \right)^{\f
 C_{0} \eta(R)^{\beta_{\rmn{CR}}},
 \label{eq:Csimple_1}
 \end{equation} 
-where $P(R)=n_{\rmn{e}}(R) k_{\rmn{B}} T(R)$ is the pressure, $\beta_{\rmn{CR}}=(\alpha+2)/3$, 
-$\gamma=5/3$, and we introduced the advective CR profile $\eta(R)=(P(R)/P_0)^{1/\gamma}$. 
-Solving the continuity
-equation for CRs, \citet{2011A&A...527A..99E} derive the CR density profile,
+where $\beta_{\rmn{CR}}=(\alpha+2)/3$, $\gamma=5/3$, and 
+we introduced the advective CR profile $\eta(R)=(P(R)/P_0)^{1/\gamma}$. 
+Solving the continuity equation for CRs, \citet{2011A&A...527A..99E} derive the CR density profile,
 \begin{equation}
 \rho_{\rmn{CR}}(R) = \rho_{\rmn{CR},0} \eta(R) \rmn{exp} \left( \frac{R}{R_{*}} \right) \, ,
 \label{eg:rhoCR_1}
@@ -1111,8 +1110,8 @@ $F_{\gamma,\rmn{UL}}(>1~\rmn{TeV},<0.15~\rmn{deg}) \approx 1.4 \times
 = 100$, we obtain a maximum CR acceleration efficiency multiplier of
 $g(\zeta_{\rmn{p,max}})=0.52$, about half of the value adopted by
 \cite{2010MNRAS.409..449P}. Note that we obtain slightly smaller gamma-ray
-luminosities in comparison to those predicted by \citealp{2010MNRAS.409..449P}
-and \citealp{2011arXiv1105.3240P} because we additionally account for the
+luminosities in comparison to those predicted by \cite{2010MNRAS.409..449P}
+and \cite{2011arXiv1105.3240P} because we additionally account for the
 central temperature dip and as well as the decrease towards larger radii.
 
 
@@ -1427,7 +1426,7 @@ mimic different CR transport cases varying the value of the transport parameter
 $\gamma_{\rmn{tu}}$. For a high $\gamma_{\rmn{tu}}$ value, we fall in the 
 advection-dominated case, while the CR profile is flat when $\gamma_{\rmn{tu}} \sim1$ \citep{2011A&A...527A..99E}. 
 
-In Figure~\ref{fig:simpleVStransport}, we show a comparisons between $C_{\rmn{adv}}$ of 
+In Figure~\ref{fig:simpleVStransport}, we show a comparison between $C_{\rmn{adv}}$ of 
 Equation~(\ref{eq:Csimple_1}) and $C$ of Equation~(\ref{eq:Ctransport}) considering the 
 NCCC Coma and CCC Perseus cases. While for Coma we adopt the $\beta$-profile of 
 \citet{1992A&A...259L..31B}, Perseus needs a double-$\beta$ profile. We adopt both the 
@@ -1440,7 +1439,7 @@ within $R_{\pm}$ of Equation~(\ref{eq:Rpm}), and $C(R) = C(R_{\pm})$ for $R > R_
 and $R < R_{-}$, respectively, and we take $R_{\rmn{c}}$ in Equation~(\ref{eq:Rpm}) to be equal to the Perseus 
 double-$\beta$ profile outer core radius and fix $\beta_{\rmn{cl}}=0.8$. The relevant 
 parameters are $\gamma_{\rmn{tu}}$ and the exponential factor of Equation~(\ref{eg:rhoCR_1}). 
-In fact, as we will se in the following, the two radius $R_{\pm}$ are not critically affected 
+In fact, as we will se in the following, the two radii $R_{\pm}$ are not critically affected 
 by the detail of $\eta(R)$. Therefore, despite the approximation, this approach captures the 
 main CR transport effects also for the Perseus case. 
 
@@ -1465,7 +1464,7 @@ gas profiles of Section~\ref{sec:2.2}, in addition to the universal temperature 
 the cluster outskirts, and merge it with the $\tilde{C}$ universal CR normalization 
 obtained from simulations. Adopting our profile 
 $C_{\rm{hybrid}} = \tilde{C}(R) \frac{\rho_{\rmn{gas}}(R)}{m_\rmn{p}} \frac{T(R)}{T_0} $
-in Equation~(\ref{eq:eta}), there is not an analytical solution for Equation~(\ref{eg:rhoCR_1}) 
+into Equation~(\ref{eq:eta}), there is not an analytical solution for Equation~(\ref{eg:rhoCR_1}) 
 as in \cite{2011A&A...527A..99E}. This results in a 5-order equation; a numerical 
 solution would not be of practical use for our large MultiDark sample. For simplicity, we 
 proceed as in the Perseus case, adopting the above formulae after some convenient 
@@ -1493,7 +1492,7 @@ Section~\ref{sec:2.2}, i.e.~$R_{\rmn{c}} = 0.2 R_{500}$, and $\beta_{\rmn{cl}}=0
 \begin{figure}[t!]
 \centering
 \includegraphics[width=0.5\textwidth]{figures/CR_profiles_REXexactVSfake.eps}
-\caption{Comparison of $C(R)$ for the GNFW exact solution and the approximated case where we use the \cite{2011A&A...527A..99E} formulae with $P(R)/P_{0}=n_{\rmn{e,GNFW}}(R)/n_{0}$. Both the NCCC and CCC cases for the respective GNFW profiles derived in Section~\ref{sec:2.2} are shown. From top to bottom: $\gamma_{\rmn{tu}}=100$, $\gamma_{\rmn{tu}}=10$ and $\gamma_{\rmn{tu}}=1$. The normalization is done at $C_{0}=C(0,\gamma_{\rmn{tu}}=100)$ of the exact model where we fix the CR populations to have a constant total CR number as in Equation~(36) of \cite{2011A&A...527A..99E} integrating up $R_{200}$. Note that the $C(0,\gamma_{\rmn{tu}}=100)$ value for the CCC case is identical between the exact and approximated model, while there is a small difference of about 9\% in the NCCC case .We adopt $\alpha=2.3$.}
+\caption{Comparison of $C(R)$ for the GNFW exact solution and the approximated case where we use the \cite{2011A&A...527A..99E} formulae with $P(R)/P_{0}=n_{\rmn{e,GNFW}}(R)/n_{0}$. Both the NCCC and CCC cases for the respective GNFW profiles derived in Section~\ref{sec:2.2} are shown. From top to bottom: $\gamma_{\rmn{tu}}=100$, $\gamma_{\rmn{tu}}=10$ and $\gamma_{\rmn{tu}}=1$. The normalization is done at $C_{0}=C(0,\gamma_{\rmn{tu}}=100)$ of the exact model where we fix the CR populations to have a constant total CR number as in Equation~(36) of \cite{2011A&A...527A..99E} integrating up $R_{200}$. Note that the $C(0,\gamma_{\rmn{tu}}=100)$ value for the CCC case is identical between the exact and approximated model, while there is a small difference of about 9\% in the NCCC case. We adopt $\alpha=2.3$.}
 \label{fig:REXexactVSfake}
 \end{figure}
 
@@ -1567,11 +1566,11 @@ where $x_{j}=\left[ 1 + \left( \frac{m_{\pi^{0}}c^2}{2E_{\gamma,j}} \right)^{2\s
 \section{Observational Radio-to-X-ray Scaling relation and Luminosity Function}
 \label{app:D}
 
-For comparison with the observed 1.4~GHz radio-to-X-ray scaling relation, we use almost all the RHs in the \cite{2011A&A...527A..99E} list. We exclude RXCJ1314.4-2515 and Z7160 because they lack X-ray bolometric measurements, and A2626 because its X-ray luminosity is significantly lower placing it as an extreme outlier. We add to our sample the Ophiuchus, A2029 and A1835 clusters \citep{2009A&A...499..371G}. The X-ray bolometric luminosity of radio halos is taken from \cite{2009A&A...507..661B}, while for mini-halos is taken from \cite{2002ApJ...567..716R}, \cite{Boehringer:1998vv} and \cite{2009ApJS..182...12C} (ACCEPT: Archive of Chandra Cluster Entropy Profile Tables; http://www.pa.msu.edu/astro/MC2/accept/).
+For comparison with the observed 1.4~GHz radio-to-X-ray scaling relation, we use almost all the RHs in the \cite{2011A&A...527A..99E} list. We exclude RXCJ1314.4-2515 and Z7160 because they lack X-ray bolometric measurements, and A2626 because its X-ray luminosity is significantly low placing it as an extreme outlier. We add to our sample the Ophiuchus, A2029 and A1835 clusters \citep{2009A&A...499..371G}. The X-ray bolometric luminosity of radio halos is taken from \cite{2009A&A...507..661B}, while for mini-halos is taken from \cite{2002ApJ...567..716R}, \cite{Boehringer:1998vv} and \cite{2009ApJS..182...12C} (ACCEPT: Archive of Chandra Cluster Entropy Profile Tables; http://www.pa.msu.edu/astro/MC2/accept/).
 %Regarding the mini-halos, we take X-ray bolometric luminosities form \cite{2002ApJ...567..716R} for Perseus, A2142, A2029,  PKS0745-191 and Ophiuchus, from \cite{Boehringer:1998vv} for A2390, and from \cite{2009ApJS..182...12C} (ACCEPT: Archive of Chandra Cluster Entropy Profile Tables; http://www.pa.msu.edu/astro/MC2/accept/) for A1835. 
 Mini-halo clusters do not have the errors on the X-ray bolometric luminosity and therefore we assume a $10\%$ error (this is true also for $L_{1.4~\rmn{GHz}}$ of all mini-halos apart A2390). Our final RH sample has a median redshift or $z\approx0.18$. In the left panel of Figure~\ref{fig:PLSZ}, we show the corresponding radio-to-X-ray scaling relation and its fit in the form of $\log_{10} (L_{1.4~\rmn{GHz}}/h_{70}^{-2}~\rmn{erg}~\rmn{s}^{-1}~\rmn{Hz}^{-1}) = A + B~\log_{10} (L_{ \rmn{X,bol}}/h_{70}^{-2}~\rmn{erg}~\rmn{s}^{-1})$ which results in $A=-50.433\pm2.226$ and $B=1.803\pm0.049$, with a scatter of $\sigma_{yx} \approx 0.44$. Regarding the non-detected clusters in the \cite{2011A&A...527A..99E} list, we select for visual purposes only the 8 clusters having ACCEPT measurements. 
 
-In Figure~\ref{fig:RLFobs}, we make an attempt to construct a RLF from existing X-ray flux-limited radio surveys. There exist two such studies: the \cite{1999NewA....4..141G} survey with NVSS at $1.4$~GHz and the \cite{VenturiGMRT_1,VenturiGMRT_2} survey with GMRT at $610$~MHz by. We only select RHs, i.e.~we do not consider radio relics or other diffuse radio emissions of unclear classification. The 1.4~GHz NVSS survey contains 13~RHs out of 205 analyzed clusters while the 610~MHz GMRT survey contains 6 RHs out of the 34 observed. The sample finally analyzed by \cite{VenturiGMRT_1,VenturiGMRT_2} is composed by 50 clusters and we can also build a corresponding RLF at 1.4~GHz using the 12 present RHs. The fraction of radio-loud clusters is about 6\%, 18\% and 24\% for the NVSS 1.4~GHz, GMRT 610~MHz and GMRT 1.4~GHz sample, respectively. The corresponding median redshift is 0.18, 0.26 and 0.25. We calculate the RLF using the classical $V_{max}$ estimator (see e.g.~\citealp{1976ApJ...207..700F}) correcting it for the incompleteness and sky coverage of the surveys. The most problematic aspect in obtaining these RLFs, apart the few available objects, is the calculation of a meaningful flux limit. We obtain this by fitting the upper envelope of the luminosity-distance distribution of a given sample, as shown in the insets of Figure~\ref{fig:RLFobs}, following the procedure adopted by \cite{2011arXiv1106.5494B}. Note that it is particularly hard to calculate a meaningful flux limit for the GMRT survey due to its poor luminosity-distance distribution. We decide therefore to take the 1.4~GHz NVSS RLF as reference in our comparisons with observation. However, we want to stress that several issues can affect this result as e.g.~the very reduced number of objects and therefore the flux limit determination, and the Malmquist-Eddington bias. Indeed, the very different fraction of radio loud clusters obtained from different samples is a clear indicator of the large uncertainty in the RLF.
+In Figure~\ref{fig:RLFobs}, we make an attempt to construct a RLF from existing X-ray flux-limited radio surveys. There exist two such studies: the \cite{1999NewA....4..141G} survey with NVSS at $1.4$~GHz and the \cite{VenturiGMRT_1,VenturiGMRT_2} survey with GMRT at $610$~MHz by. We only select RHs, i.e.~we do not consider radio relics or other diffuse radio emissions of unclear classification. The 1.4~GHz NVSS survey contains 13~RHs out of 205 analyzed clusters while the 610~MHz GMRT survey contains 6 RHs out of the 34 observed. The sample finally analyzed by \cite{VenturiGMRT_1,VenturiGMRT_2} is composed by 50 clusters and we can also build a corresponding RLF at 1.4~GHz using the 12 present RHs. The fraction of radio-loud clusters is about 6\%, 18\% and 24\% for the NVSS 1.4~GHz, GMRT 610~MHz and GMRT 1.4~GHz sample, respectively. The corresponding median redshift is 0.18, 0.26 and 0.25. We calculate the RLF using the classical $V_{max}$ estimator (see e.g.~\citealp{1976ApJ...207..700F}) correcting it for the incompleteness and sky coverage of the surveys. The most problematic aspect in obtaining these RLFs, apart the few available objects, is the calculation of a meaningful flux limit. We obtain it by fitting the upper envelope of the luminosity-distance distribution of a given sample, as shown in the insets of Figure~\ref{fig:RLFobs}, following the procedure adopted by \cite{2011arXiv1106.5494B}. Note that it is particularly hard to calculate a meaningful flux limit for the GMRT survey due to its poor luminosity-distance distribution. We decide therefore to take the 1.4~GHz NVSS RLF as reference in our comparisons with observation. However, we want to stress that several issues can affect this result as e.g.~the very reduced number of objects and therefore the flux limit determination, and the Malmquist-Eddington bias. Indeed, the very different fraction of radio loud clusters obtained from different samples is a clear indicator of the large uncertainty in the RLF.
 
 \begin{figure}[t]
 \centering
