@@ -1,4 +1,4 @@
-\begin{thebibliography}{104}
+\begin{thebibliography}{105}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Abdo} {et~al.}(2009){Abdo}, {Ackermann}, {Ajello}, {Asano},
@@ -484,6 +484,9 @@ B{\"o}hringer, H., Tanaka, Y., Mushotzky, R., Ikebe, Y., \& Hattori, M. 1998
 \bibitem[{{Kravtsov} {et~al.}(2006){Kravtsov}, {Vikhlinin}, \&
   {Nagai}}]{2006ApJ...650..128K}
 {Kravtsov}, A.~V., {Vikhlinin}, A., \& {Nagai}, D. 2006, \apj, 650, 128
+
+\bibitem[{{Kuchar} \& {En{\ss}lin}(2011)}]{2011A&A...529A..13K}
+{Kuchar}, P. \& {En{\ss}lin}, T.~A. 2011, \aap, 529, A13+
 
 \bibitem[{{Kushnir} {et~al.}(2009){Kushnir}, {Katz}, \&
   {Waxman}}]{2009JCAP...09..024K}
