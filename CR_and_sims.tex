@@ -439,6 +439,7 @@ as $\rho_{\rmn{gas}}(z) = E(z)^{2} \rho_{\rmn{gas}}(z=0)$, where $E(z)^{2} =
 
 
 \subsection{X-ray and SZ scaling relations}
+\label{sec:X-SZ-scaling}
 
 In order to check whether our phenomenologically derived gas profiles reproduce
 the observations, we calculate the bolometric X-ray thermal bremsstrahlung
@@ -486,7 +487,7 @@ the comparison to the mass range covered by the observations. Overall, there is
 reassuring agreement between our phenomenological model and the data, which
 probe our model most closely on scales around the cluster core radii (which is
 where the contribution to $L_{\rmn{X}}$ per logarithmic interval in radius, $\dd
-L_{\rmn{X}}/\dd\ln r \propto r^3 n^2(r) \sqrt{k_{\rmn{B}}T}$, attains its maximum).  In
+L_{\rmn{X}}/\dd\log r \propto r^3 n^2(r) \sqrt{k_{\rmn{B}}T}$, attains its maximum).  In
 Table~\ref{tab:LMfits}, we show our model $L_{\rmn{bol}}-M_{500}$ scaling
 relation and its scatter for different redshifts. We find that the scatter of
 our samples at all redshifts are Gaussian distributed with a standard deviation
@@ -548,7 +549,7 @@ underpredicts the observed scaling at low masses by about $20\%$ (at the
 case of $L_{\rmn{X}}$, which is more significant due to the smaller scatter in
 the $Y_{\rmn{X}}$ relation. The differential contribution to the thermal energy
 per logarithmic interval in radius (and hence to the integrated Compton-$y$
-parameter) is given by $\dd Y /\dd\ln r \propto r^3 P_{\rmn{th}}(r)$, with the
+parameter) is given by $\dd Y /\dd\log r \propto r^3 P_{\rmn{th}}(r)$, with the
 thermal gas pressure $P_{\rmn{th}}=n_{\rmn{gas}}k_{\rmn{B}}T$. It peaks at
 scales slightly smaller than $R_{500}$ with 1-$\sigma$ contributions extending
 out to $3\,R_{500}$ \citep{2010ApJ...725...91B}. Hence, the observational
@@ -571,16 +572,17 @@ significantly higher than the value of $\sigma_{yx} = 0.052$ found by
 
 In the right panel of Figure~\ref{fig:X_LM}, we compare the
 $Y_{\rmn{SZ}}-M_{500}$ relation in our model (calculated as in Equation~(3) of
-\citealp{2011arXiv1109.3709B}) with the observed scaling relation
-by \cite{2011A&A...536A..11P}. Their sample contains clusters up to $z \approx
+\citealp{2011arXiv1109.3709B}) with the observed scaling relation by
+\cite{2011A&A...536A..11P}. Their sample contains clusters up to $z \approx
 0.45$ and has a median of $z \approx 0.15$; hence, we compare the data to our
-relation at the MultiDark snapshot $z=0.16$ (containing 11419 clusters above our mass cut) 
-which however is not used throughout the rest of the work. Our model reproduces the data remarkably well, 
-except for  the high-mass end where our simulations have a weaker constraining power due to the comparably 
-small box size in comparison to the survey volume of {\em Planck}. In Table~\ref{tab:YSZfits},
-we report our SZ scaling relations for different redshifts. We find a scatter
-of $\sigma_{yx} \approx 0.11$ which compares well with the \emph{Planck} result
-of $\sigma_{yx} \approx 0.1$.
+relation at the MultiDark snapshot $z=0.16$ (containing 11419 clusters above our
+mass cut) which however is not used throughout the rest of the work. Our model
+reproduces the data remarkably well, except for the high-mass end where our
+simulations have a weaker constraining power due to the comparably small box
+size in comparison to the survey volume of {\em Planck}. In
+Table~\ref{tab:YSZfits}, we report our SZ scaling relations for different
+redshifts. We find a scatter of $\sigma_{yx} \approx 0.11$ which compares well
+with the \emph{Planck} result of $\sigma_{yx} \approx 0.1$.
  
 \begin{table}[t]
 \begin{center}
@@ -1201,19 +1203,19 @@ are now summarizing the main points:
   much lower would imply a level of the gamma-ray emission that challenges the
   most recent {\em Fermi} limit \citep{2012AAS...21920701Z}.
 \item Considering the case of advection-dominated CR transport
-  ($\gamma_{\rmn{tu}}\gtrsim100$), which is only plausible for Perseus and
-  Ophiuchus, the $g_{\rmn{CR}}$ parameter can be interpreted as the maximum CR
-  acceleration efficiency used in \cite{2010MNRAS.409..449P}. If the cluster CR
-  population is mainly accelerated in cosmological structure formation shocks,
-  then this value should be universal, i.e.~it should be the same in all
-  clusters. We find $g_{\rmn{CR, Perseus}} = 0.52$ and $g_{\rmn{CR, Ophiuchus}}
-  = 0.014$, because we fixed $B_{0}=10$~$\mu$G in both cases and used
-  $g_{\rmn{CR}}$ as normalization. This discrepancy can be easily solved by
+  ($\gamma_{\rmn{tu}}\gtrsim100$), which only allows a good description of the
+  data for Perseus and Ophiuchus, the $g_{\rmn{CR}}$ parameter can be
+  interpreted as the maximum CR acceleration efficiency used in
+  \cite{2010MNRAS.409..449P}. If the cluster CR population is mainly accelerated
+  in cosmological structure formation shocks, then this value should depend on
+  the mass accretion history and to be approximately universal, i.e.~similar for
+  all clusters. We find $g_{\rmn{CR, Perseus}} = 0.52$ and $g_{\rmn{CR,
+      Ophiuchus}} = 0.014$, because we fixed $B_{0}=10$~$\mu$G in both cases and
+  used $g_{\rmn{CR}}$ as normalization. This discrepancy can be resolved by
   increasing/lowering the central magnetic field in Perseus/Ophiuchus to
-  $B_{0,\rmn{Perseus}}=20$~$\mu$G and $B_{0,\rmn{Ophiuchus}}=1$~$\mu$G. We note
-  however that, at this stage, this is not conclusive as the data does not
-  constrain $\gamma_{\rmn{tu}}$ yet and there have not been any guidance from
-  cosmological simulations of galaxy clusters that include CR streaming.
+  $B_{0,\rmn{Perseus}}=20$~$\mu$G and $B_{0,\rmn{Ophiuchus}}=1$~$\mu$G. We note,
+  however, that without the guidance of cosmological cluster simulations that
+  include CR streaming, the data does not yet constrain $\gamma_{\rmn{tu}}$.
 \item The small cluster sample analysed here was only meant to serve as a proof
   of concept and to demonstrate the viability of matching observed RH data with
   our hybrid hadronic model. This is in especially true because of the
@@ -1222,9 +1224,9 @@ are now summarizing the main points:
   $\alpha_B$), $\gamma_{\rmn{tu}}$ and the CR acceleration efficiency
   function. Particularly, a large region of the ($\gamma_{\rmn{tu}}$,
   $\alpha_{\rmn{B}}$) parameter space is available for the analyzed radio
-  mini-halos (note also that the $\gamma_{\rmn{tu}}$ and $\alpha_{\rmn{B}}$ are
-  degenerate). Future work on all known RHs may provide better insight, but is
-  beyond the scope of this work.
+  mini-halos (note also that the parameters $\gamma_{\rmn{tu}}$ and
+  $\alpha_{\rmn{B}}$ are degenerate). Future work on all known RHs may provide
+  better insight, but is beyond the scope of this work.
 \end{enumerate}
 Summarizing, the hybrid hadronic model successfully reproduces the main
 morphological characteristics of both giant and mini-halos without violating
@@ -1233,50 +1235,220 @@ the radio-to-X-ray scaling relation, solving the previous problems of the
 \emph{classical} hadronic model, and the radio-to-SZ scaling relation. 
 
 
-%% CORRECTED UNTIL HERE
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{figure*}[t]
 \centering
 \includegraphics[width=0.49\textwidth]{figures/PL_relation_testing_gimp.eps}
 \includegraphics[width=0.49\textwidth]{figures/PSZ_relation_testing_gimp.eps}
-\caption{Radio-to-X-ray and radio-to-SZ scaling relations as predicted
-  by our final CR model. In the left panel, we show how the
-  $L_{1.4~\rmn{GHz}}-L_{\rmn{X,bol}}$ relation changes changing different
-  parameters. In the right panel, we show the same but for the
+\caption{Radio-to-X-ray and radio-to-SZ scaling relations as predicted by our
+  final CR model. In the left panel, we show how the
+  $L_{1.4~\rmn{GHz}}-L_{\rmn{X,bol}}$ relation varies upon changing different
+  parameters. In the right panel, we show the same, but for the
   $L_{1.4~\rmn{GHz}}-Y_{\rmn{SZ},500}$ relation. Note that in each plot there
-  are two separated populations for each model realization, the top one is the
-  CCC population while the bottom one is the NCCC population. The text in the
-  plots indicates the parameters which are kept fixed. We fix the
-  $g_{\rmn{CR}}$-normalization parameter to 0.5 for all cases. See main text for
-  details. {\bf change colors?}}
+  are two separated populations for each model realization. The upper sets of
+  points correspond to the CCC population while the lower sets correspond to
+  NCCCs. The plot labels indicate those parameters which are kept
+  fixed. We fix the $g_{\rmn{CR}}$-normalization parameter to 0.5 for all
+  cases. See main text for details. {\bf change colors?}}
 \label{fig:SR}
 \end{figure*}
 
 
 \section{Radio Scaling Relations}
 \label{sec:4}
-An anticipated in the Introduction, there exist an apparent bimodality between the radio and X-ray cluster emission. Clusters with the same X-ray luminosity both host RHs and do not show any diffuse radio emission (e.g.~\citealp{2009A&A...507..661B,2011A&A...527A..99E}). More recently, a study of the radio-to-SZ scaling relation showed the absence of any kind of strong bimodality dividing the cluster population into radio-loud and radio-quiet clusters \citep{2012MNRAS.421L.112B}. In this section, we investigate these two scaling relations.
+As introduced in Section~\ref{sec:1}, there exist an apparent bimodality between
+the radio and X-ray cluster emission. Clusters with a given X-ray luminosity can
+either host RHs or show an absence of diffuse radio emission
+(e.g.~\citealp{2009A&A...507..661B,2011A&A...527A..99E}). More recently, a study
+of the radio-to-SZ scaling relation revealed the absence of a strong bimodality
+dividing the cluster population into radio-loud and radio-quiet clusters
+\citep{2012MNRAS.421L.112B}. Since $Y_{\rmn{SZ}}$ correlates more tightly with
+cluster mass than $L_{1.4~\rmn{GHz}}$, this may indicate that the larger scatter
+of $L_{1.4~\rmn{GHz}}$ correlates with the radio luminosity in such a way that
+it produces a bimodality; but as a result of a second (hidden parameter) rather
+than the fundamental cluster parameter -- its mass. In this section, we
+investigate these two scaling relations in the framework of our extended
+hadronic scenario.
 
-In Figure~\ref{fig:SR}, we show the general scaling relations of our final CR model of Section~\ref{sec:2.3} applied to the MultiDark sample. We show both the radio-to-X-ray  and the radio-to-SZ scaling relations varying different parameters as $\gamma_{\rmn{tu}}$, $B_{0}$, $\alpha_{\rmn{B}}$ and the redshift. We fix the $g_{\rmn{CR}}$-normalization parameter to 0.5 for all cases, ensuring an average CR-to-thermal pressure at $2\%$-level ($0.05\%$-level) within $R_{500}$ ($R_{500}/2$). Here, the radio luminosity is calculated at $1.4$~GHz within $R_{500}.$\footnote{The mean (median) difference between calculating $L_{\nu}$ within $R_{200}$ or $R_{500}$ is 5.3\% (5.6\%).} In our CR model, we fix the CR number for $\gamma_{\rmn{tu}}=100$ using Equation~(36) of \cite{2011A&A...527A..99E}, integrating up $R_{500}$, and then we oblige the CR number to be the same at lower $\gamma_{\rmn{tu}}$ values; this will be the case also in the following. Note in particular how the different parameters affect in different ways the NCCC and CCC populations for the $L_{1.4~\rmn{GHz}}-L_{\rmn{X,bol}}$ and $L_{1.4~\rmn{GHz}}-Y_{\rmn{SZ}}$ relations. This is mainly the result of the different dependence on gas density of $L_{\rmn{X}}$ and $Y_{\rmn{SZ}}$.
 
-In order to compare our model prediction with observations, we select a particular realization of our model. We artificially, and randomly, divide our MultiDark $z=0.2$ sample (which well compares with the redshift of the observational samples, see below and Appendix~\ref{app:D}) in radio-quiet and radio-loud clusters, with the latter being $10\%$ of the total. We assign $\gamma_{\rmn{tu}}=1$ to all the radio-quiet cluster, and we assign randomly and uniformly distributed central magnetic fields $B_0$ in the intervals $[2.5,5.5]$~$\mu$G and $[5,10]$~$\mu$G for NCCCs and CCCs, respectively. For the radio-loud clusters, we assign randomly and uniformly $\gamma_{\rmn{tu}}$ values in the intervals $[40,80]$ and $[1,5]$ for NCCCs and CCCs, respectively, and central magnetic field values in the intervals $[4.5,7.5]$~$\mu$G and $[7.5,12.5]$~$\mu$G for NCCCs and CCCs, respectively. We fix $\alpha_{\rmn{B}}=0.5$ and $g_{\rmn{CR}}=0.5$ for all the clusters; the latter choice ensures a median average CR-to-thermal pressure of about $2\%$ ($0.05\%$) within $R_{500}$ ($R_{500}/2$). Note that these choices are not driven by any consideration apart the need to reproduce observations. Indeed, we have no robust clues of which values should take these parameters in clusters, with possibly the only exception of the magnetic field. It is clear the need of large population studies of radio observed clusters in order to be able to draw robust hypothesis on the interplay of the different parameters in the modeling. In Figure~\ref{fig:PLSZ}, we show how our model compares with the observed radio-to-X-ray and radio-to-SZ scaling relations. Let us first comment on the two observational relations.
- 
+\subsection{Exploring the parameter space of scaling relations}
+
+In Figure~\ref{fig:SR}, we show the general scaling relations of our final CR
+model of Section~\ref{sec:2.3} applied to the MultiDark sample. We show how both
+the radio-to-X-ray and the radio-to-SZ scaling relations differ upon varying the
+parameters $\gamma_{\rmn{tu}}$, $B_{0}$, $\alpha_{\rmn{B}}$ and redshift. We fix
+the CR-normalization parameter $g_{\rmn{CR}}$ to 0.5 in all cases, ensuring an
+average CR-to-thermal pressure of $2\%$ ($0.05\%$) within $R_{500}$
+($R_{500}/2$). Here, the radio luminosity is calculated at $1.4$~GHz within
+$R_{500}.$\footnote{The mean (median) difference between calculating $L_{\nu}$
+  within $R_{200}$ or $R_{500}$ is 5.3\% (5.6\%).}  In our CR model, we fix the
+CR number for $\gamma_{\rmn{tu}}=100$ using Equation~(36) of
+\cite{2011A&A...527A..99E}, integrating up $R_{500}$. To compute the radio
+luminosity for different values of $\gamma_{\rmn{tu}}$, we employ CR number
+conservation (for energies $E>$~GeV where Coulomb cooling is negligible for CR
+protons).
+
+In each panel in Figure~\ref{fig:SR} there are two separated populations for
+each model realization (i.e., for a given set of parameters). Each upper set of
+points corresponds to the CCC population while the lower set corresponds to
+NCCCs, respectively. In our model, the radio and X-ray emissivities scale with
+the square of the gas density so that $L_{1.4~\rmn{GHz}}$ and $L_{\rmn{X,bol}}$
+are significantly higher for CCCs in comparison to NCCCs. In contrast,
+$Y_{\rmn{SZ}}$ only depends weakly on the central gas density as explained in
+Sec.~\ref{sec:X-SZ-scaling}. This explains the relative location of the NCCC and
+CCC populations in the $L_{1.4~\rmn{GHz}}-L_{\rmn{X,bol}}$ and
+$L_{1.4~\rmn{GHz}}-Y_{\rmn{SZ}}$ planes. In reality, we expect an (ab initio
+unknown) distribution of these parameters which would substantially increase the
+scatter in the scaling relations and possibly lead to a bimodality, depending on
+correlations among the different parameters.
+
+
+\subsection{Comparison to observations}
+\label{sec:scaling-obs}
+
 \begin{figure*}[t]
 \centering
 \includegraphics[width=0.49\textwidth]{figures/PL_relation.eps}
 \includegraphics[width=0.49\textwidth]{figures/PSZ_relation.eps}
-\caption{Radio-to-X-ray and radio-to-SZ scaling relation predictions from our final CR model (see main text for the details of the chosen parameters) compared with observations.
-\emph{Left.} $L_{1.4~\rmn{GHz}}-L_{\rmn{X,bol}}$ prediction compared to the observational sample constructed in Appendix~\ref{app:D}. \emph{Right.} $L_{1.4~\rmn{GHz}}-Y_{\rmn{SZ}}$ prediction compared to the observational sample C07 from \cite{2012MNRAS.421L.112B}.}
+\caption{Radio-to-X-ray and radio-to-SZ scaling relations in our final CR model
+  (see main text for the details of the chosen parameters) compared with
+  observations.  \emph{Left.} $L_{1.4~\rmn{GHz}}-L_{\rmn{X,bol}}$ relation in
+  comparison to the observational sample taken from the literature and detailed
+  in Appendix~\ref{app:D}. \emph{Right.} $L_{1.4~\rmn{GHz}}-Y_{\rmn{SZ}}$
+  relation in comparison to the observational sample C07 from
+  \cite{2012MNRAS.421L.112B}.}
 \label{fig:PLSZ}
 \end{figure*} 
  
-For the comparison to the observed 1.4~GHz radio-to-X-ray scaling relation, in Appendix~\ref{app:D} we construct the sample shown as black (halos) and red (mini-halos) crosses (plus some upper limits) in the left panel of Figure~\ref{fig:PLSZ}. This sample is obtained from \cite{2009A&A...507..661B}, \cite{2011A&A...527A..99E},  and \cite{2009A&A...499..371G} and has a median redshift of $z\approx0.18$. The corresponding observational scaling relation in the form of $\log_{10} L_{1.4~\rmn{GHz}} = A + B~\log_{10} L_{\rmn{X,bol}}$ has $A=-50.433\pm2.226$ and $B=1.803\pm0.049$, and a scatter of $\sigma_{yx} \approx 0.44$ (we do not include upper limits in the fit and units are as in Figure~\ref{fig:PLSZ}). We refer the reader to \cite{2009A&A...507..661B} and \cite{2011A&A...527A..99E} for an extensive discussion on this topic. However, we would like to stress that, as interestingly noted also by \cite{2009A&A...499..679M}, in contrast with radio halos, mini-halos seem to span a wide range of radio luminosity. The Perseus mini-halo (Y-axis highest red cross in the left plot of Figure~\ref{fig:PLSZ}), for example, has a radio luminosity which is almost two order of magnitude higher than radio halos at the same X-ray luminosity. On the other hand, the Ophiuchus mini-halo (Y-axis lowest red cross in the left plot of Figure~\ref{fig:PLSZ}), which is a representative of other few such examples recently detected in CCCs (i.e.~A2029 and A1835), has a radio luminosity which is much lower, more typical of halos in merging clusters, and actually below the shown upper limits. Note also that the determination of the $L_{1.4}-L_{\rmn{X,bol}}$ relation slope is not very robust because of the few known RHs and the uncertainties in the measurements both in the radio and X-rays. The recently detected mini-halos with very low luminosities are a clear example of the uncertainty and the large scatter that this relation may have. On the other hand, X-ray luminosities for the same object from e.g.~ROSAT and \emph{Chandra} can easily differ by a factor of few. In the left panel of Figure~\ref{fig:PLSZ}, we additionally show the \cite{2009JCAP...09..024K} slope prediction of $\approx1.2$, arbitrarily normalized for visual purposes, from their simple analytical hadronic model.
+After collecting the X-ray luminosity and the SZ flux of known RHs, we compare
+the resulting scaling relations to a phenomenological model realization that was
+chosen to additionally obey other observational constraints (e.g., from Faraday
+rotation studies) as well as theoretical considerations of CR transport.
 
-For the comparison to the observed 1.4~GHz radio-to-SZ scaling relation, we take as reference the result obtained by \cite{2012MNRAS.421L.112B} with the sample of radio halos from \cite{2007MNRAS.378.1565C} (hereafter C07; median redshift of $z \approx 0.18$; note that no mini-halos are included). For this sample, \cite{2012MNRAS.421L.112B} quotes $Y_{\rmn{SZ}}$ within the halo radii given by \cite{2007MNRAS.378.1565C}. These radii have a median of about $0.5$~$h_{70}^{-1}$~Mpc which well compares with our MultiDark $z = 0.2$ snapshot median $R_{500} \approx 0.4$~$h_{70}^{-1}$~Mpc. For the C07 sample, \cite{2012MNRAS.421L.112B} obtains a scaling relation in the form of  $\log_{10} L_{1.4~\rmn{GHz}} = A + B~\log_{10} Y_{\rmn{SZ}}$ with $A=29.7\pm0.8$ and $B=1.17\pm0.18$, and a scatter of $\sigma_{yx} \approx 0.28$ (units are as in Figure~\ref{fig:PLSZ}). We want to stress however that we do not consider this definitive, as for the radio-to-X-ray case, and these scaling relation determinations are likely going to be improved in the near future. 
 
-We can now analyze Figure~\ref{fig:PLSZ}. The normalization of our model can be arbitrarily varied changing $g_{\rmn{CR}}$ as long as the resulting $X_{\rmn{CR}}$ respects the current observational constraints (e.g.~\citealp{2011arXiv1111.5544M}) and remains below few percents. As explained above, our choice of $g_{CR}=0.5$ ensures average CR-to-thermal pressures at $2\%$-level within $R_{500}$, and therefore the available parameter space is quite wide. Our model can both mimic a cluster radio bimodality or not depending on the parameters adopted for the two artificial radio-loud and radio-quiet populations. However, we note that, with the choices of Figure~\ref{fig:PLSZ}, the $L_{1.4~\rmn{GHz}}-L_{\rmn{X,bol}}$ radio-loud and quiet population difference is larger than the $L_{1.4~\rmn{GHz}}-Y_{\rmn{SZ}}$ one which exhibits more a sort of continuum going from the radio-loud CCCs to the radio-quiet NCCCs. This is because $L_{\rmn{X,bol}}$ scales as $\rho_{\rmn{gas}}^2$ while $Y_{\rmn{SZ}}$ as $\rho_{\rmn{gas}}$. As a consequence, the highly peaked gas profiles of CCCs have less impact on $Y_{\rmn{SZ}}$ than on  $L_{\rmn{X,bol}}$. This can mimic the observed discrepancy of the presence of a bimodality in $L_{1.4~\rmn{GHz}}-L_{\rmn{X,bol}}$ and the absence of it in $L_{1.4~\rmn{GHz}}-Y_{\rmn{SZ}}$. Regarding the slope of our model, it is difficult to give a definitive determination because, again, this depends on the adopted parameter values and, particularly, on the relative difference introduced between the NCCC/CCC and the radio-loud/quiet populations. However, we note that our $L_{1.4~\rmn{GHz}}-L_{\rmn{X,bol}}$ is slightly shallower than the observed relation, more similar to the \cite{2009JCAP...09..024K} prediction, and that our $L_{1.4~\rmn{GHz}}-Y_{\rmn{SZ}}$ slope compares quite well with the observed one. Due to the many uncertainties and lack of robustness both in the observations and modeling at this stage, we do not attempt to additionally fine-tune our model to observations. 
+\subsubsection{Observational sample}
+
+In Appendix~\ref{app:D} we construct a (literature-)complete sample of giant
+radio halos (black) and radio mini-halos (red), as well as upper limits on the
+radio emission \citep{2009A&A...507..661B, 2011A&A...527A..99E,
+  2009A&A...499..371G}, and show this in the left panel of
+Figure~\ref{fig:PLSZ}. The median redshift of this sample is $z\approx0.18$. The
+corresponding observational scaling relation is well fit by $\log_{10}
+L_{1.4~\rmn{GHz}} = A + B~\log_{10} L_{\rmn{X,bol}}$ with $A=-50.433\pm2.226$
+and $B=1.803\pm0.049$, and a scatter of $\sigma_{yx} \approx 0.44$ (we do not
+include upper limits in the fit; units are as in Figure~\ref{fig:PLSZ}). We
+refer the reader to \cite{2009A&A...507..661B} and \cite{2011A&A...527A..99E}
+for an extensive discussion on this topic. We emphasize that in contrast to
+giant radio halos, mini-halos span a wider range in radio luminosity (as also
+pointed out by \cite{2009A&A...499..679M}). The Perseus mini-halo (highest radio
+mini-halo luminosity in the left panel of Figure~\ref{fig:PLSZ}), e.g., has a
+radio luminosity that is almost an order of magnitude higher than in giant radio
+halos at the same X-ray luminosity. In contrast, the Ophiuchus mini-halo (lowest
+radio mini-halo luminosity in the left panel of Figure~\ref{fig:PLSZ}), which is
+representative of a few other similar examples recently detected in CCCs
+(i.e.~A2029 and A1835), has a radio luminosity which is much lower than giant
+radio halos in merging clusters and even below the upper limits. 
+
+We caution that the determination of the slope of the $L_{1.4}-L_{\rmn{X,bol}}$
+relation is not very robust because of the small sample size of RHs, selection
+biases of extended low-surface brightness objects, and systematic uncertainties
+in the measurements of $L_{1.4}$ and $L_{\rmn{X,bol}}$. The recently detected
+low-luminosity mini-halos exemplify those uncertainties and the large intrinsic
+scatter of this relation. On the other hand, X-ray luminosities for the same
+object as derived by, e.g.,~ROSAT and \emph{Chandra} can easily differ by a
+factor of a few. In the left panel of Figure~\ref{fig:PLSZ}, we additionally
+show the model of \citet{2009JCAP...09..024K} with a sloped of $\approx1.2$,
+arbitrarily normalized for visual purposes, from their simple analytical
+hadronic model.
+
+For the comparison to the observed 1.4~GHz radio-to-SZ scaling relation, we use
+the result by \cite{2012MNRAS.421L.112B} that is based on the radio halo sample
+from \cite{2007MNRAS.378.1565C} (hereafter C07; median redshift of $z \approx
+0.18$; note that no mini-halos are included). For this sample,
+\cite{2012MNRAS.421L.112B} computes $Y_{\rmn{SZ}}$ within the radio-halo radii
+given by \cite{2007MNRAS.378.1565C}. These radii have a median of about
+$0.5$~$h_{70}^{-1}$~Mpc which compares favourably with the median of $R_{500}
+\approx 0.4$~$h_{70}^{-1}$~Mpc in our MultiDark $z = 0.2$ snapshot. For the C07
+sample, \cite{2012MNRAS.421L.112B} obtains a scaling relation in the form of
+$\log_{10} L_{1.4~\rmn{GHz}} = A + B~\log_{10} Y_{\rmn{SZ}}$ with $A=29.7\pm0.8$
+and $B=1.17\pm0.18$, and a scatter of $\sigma_{yx} \approx 0.28$ (units are as
+in Figure~\ref{fig:PLSZ}). The same comments regarding the small sample size of
+RHs, selection biases, and systematic uncertainties in the luminosity
+measurements also apply here. Future studies are needed to improve the
+observational situation.
+
+
+\subsubsection{Model realization}
+
+In order to compare our model prediction with observations, we select a
+particular realization of our model. To this end, we use the MultiDark cluster
+sample at $z=0.2$, which compares well with the redshift of the observational
+samples; see below and Appendix~\ref{app:D}. We divide our cluster sample
+randomly into radio-quiet and radio-loud clusters, assuming a ratio of $10\%$ of
+the latter. We use the turbulent propagation parameter $\gamma_{\rmn{tu}}$ to
+separate both populations. In radio-quiet clusters, we assign
+$\gamma_{\rmn{tu}}=1$ and in radio-loud clusters, we adopt randomly and
+uniformly $\gamma_{\rmn{tu}}$ values in the intervals $[40,80]$ and $[1,5]$ for
+NCCCs and CCCs, respectively.
+
+Our modeling of magnetic fields is inspired by Faraday rotation studies that
+point to higher field values in the core region of CCCs compared to NCCCs
+\citep{2011A&A...529A..13K, 2010A&A...513A..30B}, presumably due to the higher
+adiabatic compression factor during the formation of the cooling core. Hence,
+for radio-quiet clusters, we adopt randomly and uniformly distributed values of
+the central magnetic field $B_0$ in the intervals $[2.5,5.5]$~$\mu$G and
+$[5,10]$~$\mu$G for NCCCs and CCCs, respectively. To account for the potential
+turbulent dynamo in radio-loud objects (characterized by a higher turbulent
+transport parameter in our model), we slightly increase $B_0$ in those objects
+and chose $B_0$ intervals of $[4.5,7.5]$~$\mu$G and $[7.5,12.5]$~$\mu$G for
+NCCCs and CCCs, respectively.
+
+We fix $\alpha_{\rmn{B}}=0.5$ and $g_{\rmn{CR}}=0.5$ for all clusters; the
+latter choice ensures a median average CR-to-thermal pressure of about $2\%$
+($0.05\%$) within $R_{500}$ ($R_{500}/2$). We note that these choices are
+phenomenologically driven with the aim to reproduce observations. The parameter
+study in Fig.~\ref{fig:SR} exemplifies considerable degeneracies so that
+different combinations of parameters can potentially result in very similar
+distributions of $L_{1.4~\rmn{GHz}}$ and $L_{\rmn{X,bol}}$. We emphasize the
+need of more detailed observations of radio halos and in particular of
+multi-frequency correlation studies to constrain the interplay of some of these
+parameters. 
+
+In Figure~\ref{fig:PLSZ}, we show our model in comparison to the observed
+radio-to-X-ray and radio-to-SZ scaling relations. The normalization of our model
+can be arbitrarily varied by changing $g_{\rmn{CR}}$ as long as the resulting
+$X_{\rmn{CR}}$ respects the current observational constraints
+(e.g.~\citealp{2011arXiv1111.5544M}) and remains below few percents. As
+explained above, our choice of $g_{CR}=0.5$ ensures an average CR-to-thermal
+pressure of $2\%$ within $R_{500}$, allowing thus plenty of available parameter
+space to match the observational constraints.  Our model is sufficiently
+flexible to either mimic a cluster radio bimodality or not, depending on the
+parameters adopted for the populations of radio-loud and radio-quiet
+objects. 
+
+However, with a given model realization as in Figure~\ref{fig:PLSZ}, the
+separation of the radio-loud and quiet populations is substantially larger in
+the $L_{1.4~\rmn{GHz}}-L_{\rmn{X,bol}}$ plane than in the
+$L_{1.4~\rmn{GHz}}-Y_{\rmn{SZ}}$ plane, which exhibits almost a continuum
+distribution from radio-loud CCCs to the radio-quiet NCCCs. This is mainly
+because the bolometric X-ray emissivity scales with $\rho_{\rmn{gas}}^2$ while
+$Y_{\rmn{SZ}}\propto\rho_{\rmn{gas}}$ (which is only strictly valid for an
+isothermal gas distribution). As a consequence, the highly peaked gas profiles
+of CCCs have less impact on $Y_{\rmn{SZ}}$ than on $L_{\rmn{X,bol}}$. This is
+one plausible explanation for the observed discrepancy of the presence of a
+bimodality in $L_{1.4~\rmn{GHz}}-L_{\rmn{X,bol}}$ and the apparent absence of it
+in $L_{1.4~\rmn{GHz}}-Y_{\rmn{SZ}}$. 
+
+The slope of our model depends on the different parameter choices and,
+particularly, on the relative differences introduced for the NCCC/CCC and the
+radio-loud/quiet populations. However, we note that our
+$L_{1.4~\rmn{GHz}}-L_{\rmn{X,bol}}$ is slightly shallower than the observed
+relation, more similar to the \cite{2009JCAP...09..024K} prediction, and that
+the slope of our $L_{1.4~\rmn{GHz}}-Y_{\rmn{SZ}}$ compares well with the
+observed slope. Owing to the many uncertainties and lack of robustness both in
+the observations and modeling at this stage, we do not attempt to fine-tune our
+model to observations.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -1287,14 +1459,70 @@ We can now analyze Figure~\ref{fig:PLSZ}. The normalization of our model can be 
 \begin{figure*}[t]
 \centering
 \includegraphics[width=0.85\textwidth]{figures/RLFs_1.4.eps}
-\caption{Radio Luminosity Function at 1.4~GHz. The top left panel shows the prediction of our final CR model (see main text for the details of the chosen parameters) for different percent of radio-loud clusters. Additionally shown is how the RLF builds up from the quiet and loud populations for the $25\%$ and $1\%$ cases. The top right panel shows the result obtained applying the observed $L_{1.4~\rmn{GHz}}-L_{\rmn{X,bol}}$ directly to the MultiDark mass function at  $z = 0.2$, using the $L_{\rmn{X,bol}}$ of each halo as obtained from our phenomenological model, for different percent of radio-loud clusters. The bottom left panel shows the result obtained applying the observed $L_{1.4~\rmn{GHz}}-Y_{\rmn{SZ}, 500}$ directly to the MultiDark mass function at  $z = 0.2$, using the $Y_{\rmn{SZ}, 500}$ of each halo as obtained from our phenomenological model, for different percent of radio-loud clusters. The bottom right panel shows the comparison between the three approaches for 10\% of radio-loud clusters. The NVSS survey RLF \citep{1999NewA....4..141G} is also shown in all panels. Horizontal error bars represent the mass bins while the vertical error bars are Poissonian uncertainties. The light gray line with arrow shows the value above which the the RLF can be considered not affected by the low-luminosity decrease tail produced by the adopted mass cut (see Section~\ref{sec:2}) and the scatter in the halo luminosities.}
+\caption{Radio luminosity function (RLF) at 1.4~GHz. The top left panel shows
+  the RLF of our final CR model (see main text for the details of the chosen
+  parameters) for different fractions of radio-loud clusters. Additionally shown
+  is the contribution of radio-quiet and loud populations to the total RLF
+  (assuming a fraction of $25\%$ and $1\%$ of radio-load objects). The top right
+  panel shows the RLF obtained by applying the observed
+  $L_{1.4~\rmn{GHz}}-L_{\rmn{X,bol}}$ relation to the MultiDark clusters at $z =
+  0.2$, using our phenomenological gas model for $L_{\rmn{X,bol}}$ of each
+  cluster; again for different percentages of radio-loud clusters.  The bottom
+  left panel shows the RLF obtained by applying the observed
+  $L_{1.4~\rmn{GHz}}-Y_{\rmn{SZ}, 500}$ relation to the MultiDark clusters at $z
+  = 0.2$, using the $Y_{\rmn{SZ}, 500}$ of our our phenomenological gas model
+  for each cluster. The bottom right panel shows the comparison between the
+  three approaches for 10\% of radio-loud clusters. The NVSS survey RLF
+  \citep{1999NewA....4..141G} is shown for comparison in all panels. Horizontal
+  error bars represent the mass bins while the vertical error bars are
+  Poissonian uncertainties. Apart from correcting for incomplete sky coverage,
+  no other incompleteness corrections have been applied.  The light gray line
+  marked by the arrow estimates the incompleteness limit owing to the adopted
+  low-mass cut (see Section~\ref{sec:2}) and the scatter in the halo
+  luminosities.}
 \label{fig:RLF_1.4}
 \end{figure*}
 
-In Figure~\ref{fig:RLF_1.4}, we show the RH luminosity function (RLF) at 1.4~GHz obtained from the representative realization of our final CR model, detailed in the previous section, and compare it with observational results. As for the X-ray emission, the RLF is completely determined by the cluster mass function and the radio luminosity-to-mass relation, through $L_{1.4~\rmn{GHz}}-L_{ \rmn{X,bol}}$ or $L_{1.4~\rmn{GHz}}-Y_{\rmn{SZ}}$ with the additional uncertainty of the fraction of radio-loud clusters. Therefore, in Figure~\ref{fig:RLF_1.4}, we also show the ``true'' RLFs obtained applying  the $L_{1.4~\rmn{GHz}}-L_{\rmn{X,bol}}$ and $L_{1.4~\rmn{GHz}}-Y_{\rmn{SZ}}$ relations to our MultiDark $z = 0.2$ snapshot using their $L_{\rmn{X,bol}}$ and $Y_{\rmn{SZ}, 500}$, as obtained from our phenomenological model, respectively. Pay attention that this is done using \emph{only} the halos defined as radio-loud clusters, not all of them, and we show the cases for 100\%, 25\%, 10\%, 5\% and 1\% radio-loud clusters. As clear from Figure~\ref{fig:RLF_1.4}, this is different from what is obtained with our model, where a fraction of radio-loud cluster is indeed defined, but the radio-quiet population is also contributing to the RLF, dominating at low luminosities. In fact, the top left plot of Figure~\ref{fig:RLF_1.4} also shows how our RLF builds up from the quiet and loud populations for the $25\%$ and $1\%$ radio-loud cases.
 
-In Appendix~\ref{app:D}, we make an attempt to construct a RLF from existing X-ray flux-limited radio surveys. There exist two such studies, the cluster radio survey done with the National Radio Astronomy Observatory (NRAO) Very Large Array (VLA) sky survey (NVSS) at $1.4$~GHz of \cite{1999NewA....4..141G} and the one done with the Giant Metrewave Radio Telescope (GMRT) at $610$~MHz by \cite{VenturiGMRT_1,VenturiGMRT_2}. For the latter, one can also construct a RLF at 1.4~GHz using the corresponding RH follow-up measurements. The fractions of radio-loud clusters are about 6\%, 18\% and 24\% for the NVSS 1.4~GHz, GMRT 610~MHz and GMRT 1.4~GHz samples, respectively. As explained in Appendix~\ref{app:D}, we use the 1.4~GHz NVSS RLF (with a median redshift of $z \approx 0.18$) as reference for our comparisons with observation. Note that the observational RLF determination is not very robust at this stage; the very different percent of radio-loud clusters found in different studies is indeed 
-an indicator of this.
+\subsection{Comparison with observations at 1.4~GHz}
+
+In Figure~\ref{fig:RLF_1.4}, we show the RH luminosity function (RLF) at 1.4~GHz
+for a representative realization of our final CR model (as in
+Sect.~\ref{sec:4}), and compare it with observational results. As for the X-ray
+emission, the RLF is completely determined by the cluster mass function and the
+radio luminosity-to-mass relation, through $L_{1.4~\rmn{GHz}}-L_{ \rmn{X,bol}}$
+or $L_{1.4~\rmn{GHz}}-Y_{\rmn{SZ}}$ in combination with our phenomenological gas
+model with the additional uncertainty of the fraction of radio-loud
+clusters. Thus, in Figure~\ref{fig:RLF_1.4}, we also show the ``true'' RLFs
+obtained by applying the $L_{1.4~\rmn{GHz}}-L_{\rmn{X,bol}}$ and
+$L_{1.4~\rmn{GHz}}-Y_{\rmn{SZ}}$ relations to simulated clusters of the
+MultiDark snapshot at $z = 0.2$, using our phenomenological gas model for
+$L_{\rmn{X,bol}}$ and $Y_{\rmn{SZ}, 500}$ of each cluster, respectively. Note
+that this procedure is {\em only} applied to halos defined as radio-loud
+clusters (which are by definition accounted for in the $L_{1.4~\rmn{GHz}}$
+scaling relations) and we assume a fraction of 100\%, 25\%, 10\%, 5\% and 1\% of
+radio-loud clusters. As evident from Figure~\ref{fig:RLF_1.4}, this is different
+from our model for the radio luminosity, where we also define a fraction of
+radio-loud cluster. However, the radio-quiet population also contributes to the
+RLF with an increasing fraction at low luminosities. This is exemplified in the
+top left plot of Figure~\ref{fig:RLF_1.4}, which shows the contribution of
+radio-quiet and loud populations to the total RLF, assuming a fraction of $25\%$
+and $1\%$ of radio-load objects.
+
+In Appendix~\ref{app:D}, we make an attempt to construct a RLF from existing
+X-ray flux-limited radio surveys. There exist two such studies, the cluster
+radio survey done with the National Radio Astronomy Observatory (NRAO) Very
+Large Array (VLA) sky survey (NVSS) at $1.4$~GHz of \cite{1999NewA....4..141G}
+and the survey with the Giant Metrewave Radio Telescope (GMRT) at $610$~MHz by
+\cite{VenturiGMRT_1,VenturiGMRT_2}. For the latter, one can also construct a RLF
+at 1.4~GHz using the corresponding RH follow-up measurements. The fractions of
+radio-loud clusters are about 6\%, 18\% and 24\% for the NVSS 1.4~GHz, GMRT
+610~MHz and GMRT 1.4~GHz samples, respectively. As explained in
+Appendix~\ref{app:D}, we use the 1.4~GHz NVSS RLF (with a median redshift of $z
+\approx 0.18$) as observational reference for our comparisons. We conclude that
+the observational determinations of the RLF is not very robust at this stage;
+the very different fractions of radio-loud clusters found in the different
+studies is one indicator of this.
  
 \begin{figure*}[t]
 \centering
@@ -1302,28 +1530,111 @@ an indicator of this.
 \includegraphics[width=0.47\textwidth,height=0.3\textheight]{figures/RLF_LOFAR_analytical_1.eps}
 \includegraphics[width=0.5\textwidth,height=0.305\textheight]{figures/CumDensityL_LOFAR.eps}
 \includegraphics[width=0.47\textwidth,height=0.3\textheight]{figures/CumDensityL_LOFAR_1.eps}
-\caption{Radio luminosity function (top left panel) and cumulative number density (bottom left panel) at the different MultiDark samples of Table~1 at 120~MHz for the model realization described in Section~\ref{sec:4} with 10\% fraction of radio-loud clusters. By fitting the RLF with a 2-order polynomial function and modeling the 3 free parameters with respect to the redshift evolution, we obtain an analytical model for $n(L,z)$ (see main text for details). The right panels show the comparison of the RLF fits (top) and the cumulative number density of the MultiDark samples (bottom) to the result obtained with the analytical model. The bottom panels of these two plots show the relative differences as $\Delta n / n = (n_{\rmn{analytical}} - n_{\rmn{fit}})/n_{\rmn{fit}}$. Additionally shown is the LOFAR Tier~1 \emph{point-source} flux limit of $F_{5\sigma}^{\rmn{PS}}=0.5$~mJy \citep{2012JApA..tmp...34R} converted to a luminosity limit at a given redshift. Horizontal error bars represent the mass bins while the vertical error bars are Poissonian uncertainties. The light gray line with arrow in the top left panel shows the value above which the the RLF can be considered not affected by the low-luminosity decrease tail produced by the adopted mass cut (see Section~\ref{sec:2}) and the scatter in the halo luminosities.}
+\caption{Radio luminosity function at 120~MHz (top left panel) and cumulative
+  number density of RHs (bottom left panel) at different redshifts $z$ (color
+  coded) for the model realization described in Section~\ref{sec:4} with a 10\%
+  fraction of radio-loud clusters. To obtain an analytical model for $n(L,z)$,
+  we fit the RLF at each $z$ with a second-order polynomial and constrain the
+  evolution of the three free parameters to follow a power-law function with $z$
+  (see main text for details). The right panels show the comparison of the RLF
+  fits (top) and the cumulative number density of the MultiDark samples (bottom)
+  to the analytical model. The bottom panels of these two panels show the
+  relative differences as $\Delta n / n = (n_{\rmn{analytical}} -
+  n_{\rmn{fit}})/n_{\rmn{fit}}$. Additionally shown is the LOFAR Tier~1
+  \emph{point-source} flux limit of $F_{5\sigma}^{\rmn{PS}}=0.5$~mJy
+  \citep{2012JApA..tmp...34R} converted to a luminosity limit at a given
+  redshift. Horizontal error bars represent the mass bins while the vertical
+  error bars are Poissonian uncertainties.  The light gray line marked by the
+  arrow estimates the incompleteness limit owing to the adopted low-mass cut
+  (see Section~\ref{sec:2}) and the scatter in the halo luminosities.}
 \label{fig:RLF_120}
 \end{figure*} 
  
-There is a general good agreement between the NVSS survey result and both our RLF and the ``true'' RLFs, particularly for fraction of radio-loud clusters between 10\% and 1\%. The larger discrepancy seems to be present in the RLF obtained from the $L_{1.4~\rmn{GHz}}-L_{\rmn{X,bol}}$ where the  observed relation scatter is producing a high luminosity tail of objects contradicting the NVSS result. On the other side, the RLF obtained from the $L_{1.4~\rmn{GHz}}-Y_{\rmn{SZ}}$ seems the one better matching the NVSS result. 
-Note however that both facts may be artifacts due to the interplay of the two relation scatter and the still small statistic of our MultiDark $z = 0.2$ snapshot at very high masses. Figure~\ref{fig:RLF_1.4} shows that it will be difficult to discriminate between different scenarios at high radio luminosities (or masses). Indeed, the bottom right plot of Figure~\ref{fig:RLF_1.4}, where we compare our RLF and the ``true'' RLFs at 10\% radio-loud cluster fraction, suggests that the lower luminosity (mass) clusters will be the most useful in disentangling between different models. It is clear the key role of the upcoming LOFAR cluster survey for which we present predictions in the following. Note also the clear low-luminosity decrease in the RLFs that is an artifact due to the adopted mass cut (see Section~\ref{sec:2}) and the scatter in the halo luminosities.
+Generally, there is fair agreement between the NVSS RLF and both our modeled RLF
+and the RLFs based on observational scaling relations, particularly for
+radio-loud fractions between 10\% and 1\%. The RLF obtained from the
+$L_{1.4~\rmn{GHz}}-L_{\rmn{X,bol}}$ relation differs from the NVSS RLF at high
+luminosities, presumably caused by the large observed scatter. On the other
+side, the RLF obtained from the $L_{1.4~\rmn{GHz}}-Y_{\rmn{SZ}}$ relation
+matches the NVSS result better. These results need to be consolidated by RLFs
+corrected for flux-incompleteness and simulations of larger cosmological volumes
+that are more complete at the high-mass end. Figure~\ref{fig:RLF_1.4} shows that
+it will be difficult to discriminate between different scenarios at high radio
+luminosities (or equivalently masses). Indeed, in the bottom right panel of
+Figure~\ref{fig:RLF_1.4} we compare our RLF and the RLFs based on observational
+scaling relations for a 10\% fraction of radio-loud clusters to the NVSS
+RLF. This suggests that the low-luminosity (low-mass) clusters will be the most
+useful in disentangling between different models. This emphasizes the importance
+of conducting homogeneous, well controlled surveys of radio halos with the
+extended VLA at 1.4 GHz and LOFAR at lower frequencies. Since the latter has
+already started to take data, it is extremely timely to present RLF predictions
+for this wave length regime of our model.
 
-In Figure~\ref{fig:RLF_120}, we show the predictions at 120~MHz obtained with the representative realization of our model, detailed in the previous section, with 10\% of radio-loud clusters. We show both the RLF (top left panel) and the cumulative number density (bottom left panel) at the different MultiDark snapshots of Table~1. Additionally shown is the expected LOFAR Tier~1 \emph{point-source} flux limit of $F_{5\sigma}^{\rmn{PS}}=0.5$~mJy \citep{2012JApA..tmp...34R} converted to a luminosity limit at a given redshift. This flux limit is clearly underestimated for nearby RHs which extension in the sky can be as high as e.g.~1~deg in the Coma cluster case. In order to make more reliable predictions, in the following, we will calculate the RH flux limit with the Equation~(10) of \cite{2010A&A...509A..68C} taking $R_{500}$ as halo extension and requiring the mean flux within the RH half-radius to be higher than $F_{5\sigma}^{\rmn{PS}}$. This may result in an overestimation of the flux limit for CCCs, which radio emission is more centrally concentrated than NCCCs. The median $R_{500}$ of our sample is about $0.4$~$h_{70}^{-1}$~Mpc at all redshifts. This translates to a flux limit of about $30$~mJy at $z = 0.1$, $7$~mJy at $z = 0.2$ and $0.5$~mJy, as the point-source value, at $z \approx 0.6$.   
+
+\subsection{Low-frequency predictions at 120~MHz}
+
+In Figure~\ref{fig:RLF_120}, we show our model predictions at 120~MHz obtained
+with the representative realization of our model (as in Sect.~\ref{sec:4}), with
+10\% of radio-loud clusters. We show both the differential RLF (top left panel)
+and the cumulative number density (bottom left panel) at different redshifts
+(corresponding to different MultiDark snapshots of Table~1). Additionally shown
+is the expected LOFAR Tier~1 \emph{point-source} flux limit of
+$F_{5\sigma}^{\rmn{PS}}=0.5$~mJy \citep{2012JApA..tmp...34R} converted to a
+luminosity limit at a given redshift. This flux limit is clearly an
+underestimate for nearby RHs, which extend over angular scales of $\sim1$~deg,
+as e.g., in the case of the Coma radio halo. In order to make more reliable
+predictions, in the following, we will calculate the RH flux limit with
+Equation~(10) of \cite{2010A&A...509A..68C}, approximating the halo extension by
+$R_{500}$ and requiring the mean flux within the RH half-radius to be higher
+than $F_{5\sigma}^{\rmn{PS}}$. This may result in an overestimation of the flux
+limit for CCCs, whose radio emission is more centrally concentrated than in
+NCCCs. The median $R_{500}$ of our sample is about $0.4$~$h_{70}^{-1}$~Mpc at
+all redshifts. This translates to a flux limit of about $30$~mJy at $z = 0.1$,
+$7$~mJy at $z = 0.2$ and $0.5$~mJy (equal to the point-source value) at $z
+\approx 0.6$.
 
 \begin{figure*}[t]
 \centering
 \includegraphics[width=0.48\textwidth]{figures/RLF_LOFAR_flux.eps}
 \includegraphics[width=0.48\textwidth]{figures/RLF_LOFAR_flux_detectable.eps}
-\caption{Cumulative number of RHs above a certain flux limit in all the sky at 120~MHz. We show the result of the model realization described in Section~\ref{sec:4} with 10\% fraction of radio-loud clusters (black solid thick line) and the result obtained using \emph{only} the 10\% radio-loud clusters (black dashed thick line). We also show how our model total RLF (black solid thick line) builds up in different redshift bins. Note that the total number of (detectable) RHs would be dramatically reduced in the presence of a break in the model at some low mass-scale, or some sort of mass-dependence in the model parameters causing a lowering of the RH luminosities at low masses.
-\emph{Left.} Total number of RHs in the sky. 
-\emph{Right.} Number of detectable RHs by LOFAR Tier~1 survey considering its sky coverage (half sky) and flux limit at different redshifts, due to corresponding different source angular extensions, calculated with Equation~(10) of \cite{2010A&A...509A..68C}. The lower flux limit is taken to be $F_{5\sigma}^{\rmn{PS}}=0.5$~mJy.
-See main text for details.
-}
+\caption{Cumulative number of RHs above a certain flux limit in an all-sky
+  survey at 120~MHz. We show the result of the model realization described in
+  Section~\ref{sec:4} using all cluster and adopting a 10\% fraction of
+  radio-loud clusters (black solid thick line) and the result obtained using
+  \emph{only} the 10\% radio-loud clusters (black dashed thick line). We also
+  show the differential contribution to the total RLF in redshift slices. Note
+  that the total number of (detectable) RHs would be dramatically reduced by the
+  presence of a break in the model at some low luminosity-scale, or a
+  mass-dependence of the model parameters causing the RH luminosities to
+  decrease at low masses.  \emph{Left.} Total number of RHs in the sky.
+  \emph{Right.} Number of detectable RHs by LOFAR Tier~1 survey considering its
+  sky coverage (half sky) and adopting a realistic flux limit corresponding to
+  different angular source extensions at different redshifts. The lower flux
+  limit is taken to be $F_{5\sigma}^{\rmn{PS}}=0.5$~mJy (see main text for
+  details).  }
 \label{fig:RLF_120_flux}
 \end{figure*}
 
-In order to make a more quantitative prediction, we build an analytical model to describe the evolving RLF. We fit the 120~MHz RLF at different redshifts as a 2-order polynomial function in the form of $\log_{10} \rmn{d}n/\rmn{d}L_{120~\rmn{MHz}} = A_{1} + A_{2}~\log_{10} L_{120~\rmn{MHz}} + A_{3}~(\log_{10} L_{120~\rmn{MHz}})^{2}$ (only luminosities higher then $\log_{10} L_{120~\rmn{120MHz}} \geq 29.25$ are used in order to exclude the artificial low-luminosity decrease). We then obtain an analytical form for the dependence of the three parameters $A_{i}$ with respect to the redshift as $A_{i} = A_{i,0} + A_{i,1}~(1+z)$.\footnote{The values of these parameters are $A_{1,0} = -436.79$, $A_{1,1} = 109.75$, $B_{1,0} = 29.68$, $B_{1,1} = -7.17$, $C_{1,0} = -0.51$ and $C_{1,1}$ = 0.12, and units are as the top left plot of Figure~\ref{fig:RLF_120}.} In the right panels of Figure~\ref{fig:RLF_120}, we compare the RLF fits (top) and the cumulative number density (bottom) to the result obtained with the derived analytical model. The results obtained with the latter well compare with the prediction at a given redshift showing a significant deviation only at very high luminosities, and at very low luminosities for the highest considered redshifts, where however the very small statistic significantly affects the result. 
+%% corrected until here
+
+In order to make a more quantitative prediction, we build an analytical model to
+describe the evolving RLF. We fit the 120~MHz RLF at different redshifts as a
+2-order polynomial function in the form of $\log_{10}
+\rmn{d}n/\rmn{d}L_{120~\rmn{MHz}} = A_{1} + A_{2}~\log_{10} L_{120~\rmn{MHz}} +
+A_{3}~(\log_{10} L_{120~\rmn{MHz}})^{2}$ (only luminosities higher then
+$\log_{10} L_{120~\rmn{120MHz}} \geq 29.25$ are used in order to exclude the
+artificial low-luminosity decrease). We then obtain an analytical form for the
+dependence of the three parameters $A_{i}$ with respect to the redshift as
+$A_{i} = A_{i,0} + A_{i,1}~(1+z)$.\footnote{The values of these parameters are
+  $A_{1,0} = -436.79$, $A_{1,1} = 109.75$, $B_{1,0} = 29.68$, $B_{1,1} = -7.17$,
+  $C_{1,0} = -0.51$ and $C_{1,1}$ = 0.12, and units are as the top left plot of
+  Figure~\ref{fig:RLF_120}.} In the right panels of Figure~\ref{fig:RLF_120}, we
+compare the RLF fits (top) and the cumulative number density (bottom) to the
+result obtained with the derived analytical model. The results obtained with the
+latter well compare with the prediction at a given redshift showing a
+significant deviation only at very high luminosities, and at very low
+luminosities for the highest considered redshifts, where however the very small
+statistic significantly affects the result.
 
 This analytical model describing $\rmn{d}N^2(L,z)/\rmn{d}V_{\rmn{C}}\rmn{d}L$, where $V_{\rmn{C}}$ is the comoving volume, is then used to calculate the total cumulative number of RHs in the sky above a given flux value $F$ as
 %
@@ -1371,7 +1682,7 @@ Concluding, we want to underline that thanks to our gas profile \emph{phenomenol
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{acknowledgements}
-We would like to thank Anders Pinzke for his invaluable help with the formulae and for many useful discussions. We also thanks Gustavo Yepes, Jos\'e Alberto Rubi\~no, Frazer Pearce, Andrey Kravtsov, Stefan Gottl\"{o}ber, Harald Ebeling, Miguel-Angel Perez Torres and Adam Mantz for the useful discussions and advices. We would also like to thank Matteo Murgia for kindly providing the radio surface brightness profiles of Ophiuchucs and Abell~2163, and Wolfgang Reich for providing the radio map of Coma. Thanks MultiDark database guys, etcetera ...
+We would like to thank Anders Pinzke for his invaluable help with the formulae and for many useful discussions. We also thanks Gustavo Yepes, Jos\'e Alberto Rubi\~no, Frazer Pearce, Andrey Kravtsov, Harald Ebeling, Miguel-Angel Perez Torres and Adam Mantz for the useful discussions and advices. We would also like to thank Matteo Murgia for kindly providing the radio surface brightness profiles of Ophiuchucs and Abell~2163, and Wolfgang Reich for providing the radio map of Coma. {\bf Thanks MultiDark database guys, etc.}.
 BLA BLA BLA\\ 
 F.~Z.~acknowledges the CSIC financial support as a JAE-Predoc grant of the program ``Junta para la Ampliaci\'on de Estudios'' co-financed by the FSE.
 \end{acknowledgements}
