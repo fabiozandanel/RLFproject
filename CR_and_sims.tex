@@ -1534,19 +1534,20 @@ studies is one indicator of this.
   number density of RHs (bottom left panel) at different redshifts $z$ (color
   coded) for the model realization described in Section~\ref{sec:4} with a 10\%
   fraction of radio-loud clusters. To obtain an analytical model for $n(L,z)$,
-  we fit the RLF at each $z$ with a second-order polynomial and constrain the
-  evolution of the three free parameters to follow a power-law function with $z$
-  (see main text for details). The right panels show the comparison of the RLF
-  fits (top) and the cumulative number density of the MultiDark samples (bottom)
-  to the analytical model. The bottom panels of these two panels show the
-  relative differences as $\Delta n / n = (n_{\rmn{analytical}} -
-  n_{\rmn{fit}})/n_{\rmn{fit}}$. Additionally shown is the LOFAR Tier~1
-  \emph{point-source} flux limit of $F_{5\sigma}^{\rmn{PS}}=0.5$~mJy
-  \citep{2012JApA..tmp...34R} converted to a luminosity limit at a given
-  redshift. Horizontal error bars represent the mass bins while the vertical
-  error bars are Poissonian uncertainties.  The light gray line marked by the
-  arrow estimates the incompleteness limit owing to the adopted low-mass cut
-  (see Section~\ref{sec:2}) and the scatter in the halo luminosities.}
+  we fit the logarithm of the RLF at each $z$ with a second-order polynomial and
+  constrain the evolution of the three free parameters to follow a linear
+  function in $1+z$ (see main text for details). The right panels show the
+  comparison of the RLF fits (top) and the cumulative number density of the
+  MultiDark samples (bottom) to the analytical model. The bottom panels of these
+  two panels show the relative differences as $\Delta n / n =
+  (n_{\rmn{analytical}} - n_{\rmn{fit}})/n_{\rmn{fit}}$. Additionally shown is
+  the LOFAR Tier~1 \emph{point-source} flux limit of
+  $F_{5\sigma}^{\rmn{PS}}=0.5$~mJy \citep{2012JApA..tmp...34R} converted to a
+  luminosity limit at a given redshift. Horizontal error bars represent the mass
+  bins while the vertical error bars are Poissonian uncertainties.  The light
+  gray line marked by the arrow estimates the incompleteness limit owing to the
+  adopted low-mass cut (see Section~\ref{sec:2}) and the scatter in the halo
+  luminosities.}
 \label{fig:RLF_120}
 \end{figure*} 
  
@@ -1574,24 +1575,35 @@ for this wave length regime of our model.
 \subsection{Low-frequency predictions at 120~MHz}
 
 In Figure~\ref{fig:RLF_120}, we show our model predictions at 120~MHz obtained
-with the representative realization of our model (as in Sect.~\ref{sec:4}), with
-10\% of radio-loud clusters. We show both the differential RLF (top left panel)
-and the cumulative number density (bottom left panel) at different redshifts
-(corresponding to different MultiDark snapshots of Table~1). Additionally shown
-is the expected LOFAR Tier~1 \emph{point-source} flux limit of
-$F_{5\sigma}^{\rmn{PS}}=0.5$~mJy \citep{2012JApA..tmp...34R} converted to a
-luminosity limit at a given redshift. This flux limit is clearly an
-underestimate for nearby RHs, which extend over angular scales of $\sim1$~deg,
-as e.g., in the case of the Coma radio halo. In order to make more reliable
-predictions, in the following, we will calculate the RH flux limit with
-Equation~(10) of \cite{2010A&A...509A..68C}, approximating the halo extension by
-$R_{500}$ and requiring the mean flux within the RH half-radius to be higher
-than $F_{5\sigma}^{\rmn{PS}}$. This may result in an overestimation of the flux
-limit for CCCs, whose radio emission is more centrally concentrated than in
-NCCCs. The median $R_{500}$ of our sample is about $0.4$~$h_{70}^{-1}$~Mpc at
-all redshifts. This translates to a flux limit of about $30$~mJy at $z = 0.1$,
-$7$~mJy at $z = 0.2$ and $0.5$~mJy (equal to the point-source value) at $z
-\approx 0.6$.
+with the same representative realization of our model as in Sect.~\ref{sec:4},
+with 10\% radio-loud clusters. We show both the differential RLF (top left
+panel) and the cumulative number density (bottom left panel) at different
+redshifts (corresponding to different MultiDark snapshots of Table~1). We note
+that our imposed mass cutoff of $M_{500}=10^{14}\,M_\odot$ ({\bf ?}), which has
+been adopted to reliably model the cluster gas distribution, translates into a
+luminosity cutoff. This causes the differential luminosity function to turn over
+at the low-luminosity end and may artificially flatten the slope already at
+sightly higher luminosities than the luminosity maximum that indicates our formal
+incompleteness limit. While this does not interfere with previous
+(high-frequency) measurements at high luminosities, this may of critical
+importance for future, more sensitive (low-frequency) measurements of
+low-redshift clusters with $z\lesssim 0.6$ that probe the uncertain regime of
+diffuse radio emission in low-mass clusters.
+
+Additionally shown in Figure~\ref{fig:RLF_120} is the expected LOFAR Tier~1
+\emph{point-source} flux limit of $F_{5\sigma}^{\rmn{PS}}=0.5$~mJy
+\citep{2012JApA..tmp...34R} converted to a luminosity limit at a few representative
+redshifts. This flux limit is clearly an underestimate for nearby RHs, which
+extend over angular scales $\sim1$~deg, as e.g., in the case of the Coma radio
+halo. In order to make more reliable predictions, in the following, we will
+calculate the RH flux limit with Equation~(10) of \cite{2010A&A...509A..68C},
+approximating the halo extension by $R_{500}$ and requiring the mean flux within
+the RH half-radius to be higher than $F_{5\sigma}^{\rmn{PS}}$. This may result
+in an overestimation of the flux limit for CCCs, whose radio emission is more
+centrally concentrated than in NCCCs. The median $R_{500}$ of our sample is
+about $0.4$~$h_{70}^{-1}$~Mpc at all redshifts. This translates to a flux limit
+of about $30$~mJy at $z = 0.1$, $7$~mJy at $z = 0.2$ and $0.5$~mJy (equal to the
+point-source value) at $z \approx 0.6$.
 
 \begin{figure*}[t]
 \centering
@@ -1599,47 +1611,45 @@ $7$~mJy at $z = 0.2$ and $0.5$~mJy (equal to the point-source value) at $z
 \includegraphics[width=0.48\textwidth]{figures/RLF_LOFAR_flux_detectable.eps}
 \caption{Cumulative number of RHs above a certain flux limit in an all-sky
   survey at 120~MHz. We show the result of the model realization described in
-  Section~\ref{sec:4} using all cluster and adopting a 10\% fraction of
-  radio-loud clusters (black solid thick line) and the result obtained using
-  \emph{only} the 10\% radio-loud clusters (black dashed thick line). We also
-  show the differential contribution to the total RLF in redshift slices. Note
-  that the total number of (detectable) RHs would be dramatically reduced by the
-  presence of a break in the model at some low luminosity-scale, or a
+  Section~\ref{sec:4} using all clusters and adopting a fraction of 10\% of
+  radio-loud clusters (black solid line). Additionally, we show the result
+  obtained by using the 10\% radio-loud clusters \emph{only} (black dashed
+  line). We also show the differential contribution to the RLF in redshift
+  slices. Note that the number of (detectable) RHs would be dramatically reduced
+  by the presence of a break in the model at some low luminosity-scale, or a
   mass-dependence of the model parameters causing the RH luminosities to
   decrease at low masses.  \emph{Left.} Total number of RHs in the sky.
-  \emph{Right.} Number of detectable RHs by LOFAR Tier~1 survey considering its
-  sky coverage (half sky) and adopting a realistic flux limit corresponding to
-  different angular source extensions at different redshifts. The lower flux
-  limit is taken to be $F_{5\sigma}^{\rmn{PS}}=0.5$~mJy (see main text for
-  details).  }
+  \emph{Right.} Number of detectable RHs by the LOFAR Tier~1 survey considering
+  its sky coverage (half sky) and adopting a realistic flux limit corresponding
+  to different angular source extensions at different redshifts. The
+  point-source flux limit that applies to distant clusters is taken to be
+  $F_{5\sigma}^{\rmn{PS}}=0.5$~mJy (see main text for details).  }
 \label{fig:RLF_120_flux}
 \end{figure*}
 
-%% corrected until here
+To derive low-frequency flux functions, we construct an analytical model for the
+evolving RLF. We fit the 120~MHz RLF at different redshifts with a second-order
+polynomial of the form $\log_{10} \rmn{d}n/\rmn{d}L_{120~\rmn{MHz}} = A_{0} +
+A_{1}~\log_{10} L_{120~\rmn{MHz}} + A_{2}~(\log_{10} L_{120~\rmn{MHz}})^{2}$
+(all luminosities are measured in units of $h_{70}^{-2}
+\rmn{erg~s}^{-1}\,\rmn{Hz}^{-1}$ and number densities in units of
+$h_{70}^{3}\,\rmn{Mpc}^{-3}$). We consider only luminosities $\log_{10}
+L_{120~\rmn{120MHz}} \geq 29.25$ to exclude the turn-over at low luminosities
+caused by incompleteness. To obtain an analytical model for $n(L,z)$, we
+constrain the evolution of the three free parameters $A_i$ to follow a linear
+function in $1+z$, i.e., $A_{i} = A_{i,0} + A_{i,1}~(1+z)$.\footnote{The values
+  of these parameters are $A_{0,0} = -436.79$, $A_{0,1} = 109.75$, $A_{1,0} =
+  29.68$, $A_{1,1} = -7.17$, $A_{2,0} = -0.51$ and $A_{2,1}$ = 0.12.} In the
+right panels of Figure~\ref{fig:RLF_120}, we compare the RLF fits (top) and the
+cumulative number density in the simulation (bottom) to the analytical model. In
+particular the analytics matches the simulation well except for high luminosities
+and high redshifts where the small number statistics explains the deviations.
 
-In order to make a more quantitative prediction, we build an analytical model to
-describe the evolving RLF. We fit the 120~MHz RLF at different redshifts as a
-2-order polynomial function in the form of $\log_{10}
-\rmn{d}n/\rmn{d}L_{120~\rmn{MHz}} = A_{1} + A_{2}~\log_{10} L_{120~\rmn{MHz}} +
-A_{3}~(\log_{10} L_{120~\rmn{MHz}})^{2}$ (only luminosities higher then
-$\log_{10} L_{120~\rmn{120MHz}} \geq 29.25$ are used in order to exclude the
-artificial low-luminosity decrease). We then obtain an analytical form for the
-dependence of the three parameters $A_{i}$ with respect to the redshift as
-$A_{i} = A_{i,0} + A_{i,1}~(1+z)$.\footnote{The values of these parameters are
-  $A_{1,0} = -436.79$, $A_{1,1} = 109.75$, $B_{1,0} = 29.68$, $B_{1,1} = -7.17$,
-  $C_{1,0} = -0.51$ and $C_{1,1}$ = 0.12, and units are as the top left plot of
-  Figure~\ref{fig:RLF_120}.} In the right panels of Figure~\ref{fig:RLF_120}, we
-compare the RLF fits (top) and the cumulative number density (bottom) to the
-result obtained with the derived analytical model. The results obtained with the
-latter well compare with the prediction at a given redshift showing a
-significant deviation only at very high luminosities, and at very low
-luminosities for the highest considered redshifts, where however the very small
-statistic significantly affects the result.
-
-This analytical model describing $\rmn{d}N^2(L,z)/\rmn{d}V_{\rmn{C}}\rmn{d}L$, where $V_{\rmn{C}}$ is the comoving volume, is then used to calculate the total cumulative number of RHs in the sky above a given flux value $F$ as
+This analytical model describing $\rmn{d}^2N(L,z)/\rmn{d}V_{\rmn{c}}\rmn{d}L$, where $V_{\rmn{c}}$ is the comoving volume, is then used to calculate the total cumulative number of RHs in the sky above a given flux value $F$ as
 %
 \begin{equation}
-N(>F)  =  \int_{z_1}^{z_2} \rmn{d}z \frac{\rmn{d}V_{\rmn{C}}}{\rmn{d}z} \int_{L(F)}^{\infty} \frac{\rmn{d}N^2(L,z)}{\rmn{d}V_{\rmn{C}}\rmn{d}L} \rmn{d}L \, ,
+N(>F)  =  \int_{z_1}^{z_2} \int_{L(F)}^{\infty} \frac{\rmn{d}^2N(L,z)}{\rmn{d}V_{\rmn{c}}\rmn{d}L}\,
+\frac{\rmn{d}V_{\rmn{c}}}{\rmn{d}z}\, \rmn{d}z\, \rmn{d}L ,
 \label{eq:NtotRH}
 \end{equation}
 %
