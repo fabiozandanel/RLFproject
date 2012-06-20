@@ -15,7 +15,12 @@
 \documentclass[traditabstract]{aa}                                   
 %
 %\def\del#1{{\bf  [deleted text] }} \def\new#1{{\bf #1}} \def\remark#1{{\bf  [remark: #1]}}
-\def\del#1{} \def\new#1{#1} \def\remark#1{}
+%\def\del#1{} \def\new#1{#1} \def\remark#1{}
+
+\def\del#1{{}}
+%\def\del#1{{\bf (DELETED TEXT)}}
+\def\C#1{{\bf #1}}
+%\def\C#1{#1}
 
 \newcommand{\rmn}{\mathrm}
 \newcommand{\CR}{\mathrm{CR}}
@@ -1630,10 +1635,10 @@ point-source value) at $z \approx 0.6$.
 To derive low-frequency flux functions, we construct an analytical model for the
 evolving RLF. We fit the 120~MHz RLF at different redshifts with a second-order
 polynomial of the form $\log_{10} \rmn{d}n/\rmn{d}L_{120~\rmn{MHz}} = A_{0} +
-A_{1}~\log_{10} L_{120~\rmn{MHz}} + A_{2}~(\log_{10} L_{120~\rmn{MHz}})^{2}$
-(all luminosities are measured in units of $h_{70}^{-2}
-\rmn{erg~s}^{-1}\,\rmn{Hz}^{-1}$ and number densities in units of
-$h_{70}^{3}\,\rmn{Mpc}^{-3}$). We consider only luminosities $\log_{10}
+A_{1}~\log_{10} L_{120~\rmn{MHz}} + A_{2}~(\log_{10} L_{120~\rmn{MHz}})^{2}$.
+All luminosities are measured in units of $h_{70}^{-2}
+\rmn{erg~s}^{-1}\,\rmn{Hz}^{-1}$ and (comoving) number densities in units of
+$h_{70}^{3}\,\rmn{Mpc}^{-3}$. We consider only luminosities $\log_{10}
 L_{120~\rmn{120MHz}} \geq 29.25$ to exclude the turn-over at low luminosities
 caused by incompleteness. To obtain an analytical model for $n(L,z)$, we
 constrain the evolution of the three free parameters $A_i$ to follow a linear
@@ -1642,19 +1647,34 @@ function in $1+z$, i.e., $A_{i} = A_{i,0} + A_{i,1}~(1+z)$.\footnote{The values
   29.68$, $A_{1,1} = -7.17$, $A_{2,0} = -0.51$ and $A_{2,1}$ = 0.12.} In the
 right panels of Figure~\ref{fig:RLF_120}, we compare the RLF fits (top) and the
 cumulative number density in the simulation (bottom) to the analytical model. In
-particular the analytics matches the simulation well except for high luminosities
-and high redshifts where the small number statistics explains the deviations.
+particular the analytics matches the simulation well except for high
+luminosities and high redshifts where small number statistics explains the
+deviations.
 
-This analytical model describing $\rmn{d}^2N(L,z)/\rmn{d}V_{\rmn{c}}\rmn{d}L$, where $V_{\rmn{c}}$ is the comoving volume, is then used to calculate the total cumulative number of RHs in the sky above a given flux value $F$ as
-%
+This analytical model describes the number of RHs expected in our model per unit
+luminosity and per comoving volume $V_{\rmn{c}}$, i.e., $\rmn{d}^2N(L,z)
+/\rmn{d}V_{\rmn{c}}\rmn{d}L$. Hence cumulative number of RHs above a given flux
+limit $F$ is given by the integral
 \begin{equation}
-N(>F)  =  \int_{z_1}^{z_2} \int_{L(F)}^{\infty} \frac{\rmn{d}^2N(L,z)}{\rmn{d}V_{\rmn{c}}\rmn{d}L}\,
+N(>F)  =  \int_{z_1}^{z_2} \int_{L(F)}^{\infty} 
+\frac{\rmn{d}^2N(L,z)}{\rmn{d}V_{\rmn{c}}\rmn{d}L}\,
 \frac{\rmn{d}V_{\rmn{c}}}{\rmn{d}z}\, \rmn{d}z\, \rmn{d}L ,
 \label{eq:NtotRH}
 \end{equation}
-%
-where $L(F) = 4 \pi D(z)^2 F$ and $D(z)$ is the luminosity distance computed from the corresponding redshift $z$.
-The result is shown in the left panel of Figure~\ref{fig:RLF_120_flux}. We show the particular realization of our model described in the previous section with 10\% fraction of radio-loud clusters (black solid thick line; only luminosities above $\log_{10} L_{120~\rmn{120MHz}} \geq 29.25$ are integrated). The total is obtained integrating up to $z_{2} = 2$ as above this value only few clusters survive our mass cut and none would be detectable. The lower redshift limit (indicated as 0 in Figure~\ref{fig:RLF_120_flux}) is $z_{1} = 0.018$ as the closer known RH, i.e.~Perseus. We also show how the total result builds up in different redshift bins. We contrast this with the RH total cumulative number obtained using \emph{only} the 10\% radio-loud clusters (black dashed thick line; this is done constructing the corresponding RLF and repeating the above steps to build an analytical model, where only luminosities above $\log_{10} L_{120~\rmn{120MHz}} \geq 30.75$ are integrated). 
+where $L(F) = 4 \pi D(z)^2 F$ and $D(z)$ is the luminosity distance to redshift
+$z$.  The result is shown in the left panel of Figure~\ref{fig:RLF_120_flux} for
+the model realization described in Section~\ref{sec:4} with a 10\% fraction of
+radio-loud clusters (black solid line). We limit the integral to luminosities
+$\log_{10} L_{120~\rmn{120MHz}} \geq 29.25$.
+%The total is obtained integrating up to $z_{2} = 2$ as above this value only few
+%clusters survive our mass cut and none would be detectable.
+The lower redshift limit (indicated as 0 in Figure~\ref{fig:RLF_120_flux}) is
+$z_{1} = 0.018$ as the closer known RH, i.e.~Perseus. We also show how the total
+result builds up in different redshift bins. We contrast this with the RH total
+cumulative number obtained using \emph{only} the 10\% radio-loud clusters (black
+dashed thick line; this is done constructing the corresponding RLF and repeating
+the above steps to build an analytical model, where only luminosities above
+$\log_{10} L_{120~\rmn{120MHz}} \geq 30.75$ are integrated).
 %We additionally shown the two total results scaled down by a $50\%$ to roughly mimic an eventual RH redshift evolution as a consequence of a higher inverse Compton energy loss on the CMB for higher redshift (\citealp{2002A&A...396...83E}; this is somehow conservative as most of our cluster magnetic fields are comparable or higher than the CMB magnetic field). 
 
 In the right panel of Figure~\ref{fig:RLF_120_flux}, we show the total number of RHs that would be \emph{detectable} by the LOFAR Tier~1 survey, where its sky coverage (about half sky) is taken into account. This is calculated with Equation~(\ref{eq:NtotRH}) taking $F = F_{\rmn{min}}$ where $F_{\rmn{min}}$ is calculated with the Equation~(10) of \cite{2010A&A...509A..68C} as explained above. The lower flux limit is taken to be $F_{5\sigma}^{\rmn{PS}}$, meaning that when $F_{\rmn{min}} < 0.5$~mJy, i.e.~at redshift above approximately $z = 0.6$, it is fixed at 0.5~mJy.  
