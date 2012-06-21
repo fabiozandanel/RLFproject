@@ -1,4 +1,4 @@
-\begin{thebibliography}{105}
+\begin{thebibliography}{107}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Abdo} {et~al.}(2009){Abdo}, {Ackermann}, {Ajello}, {Asano},
@@ -399,6 +399,11 @@ B{\"o}hringer, H., Tanaka, Y., Mushotzky, R., Ikebe, Y., \& Hattori, M. 1998
 {Feretti}, L., {Fusco-Femiano}, R., {Giovannini}, G., \& {Govoni}, F. 2001,
   \aap, 373, 106
 
+\bibitem[{{Feretti} {et~al.}(2012){Feretti}, {Giovannini}, {Govoni}, \&
+  {Murgia}}]{2012A&ARv..20...54F}
+{Feretti}, L., {Giovannini}, G., {Govoni}, F., \& {Murgia}, M. 2012, \aapr, 20,
+  54
+
 \bibitem[{{Ferrari} {et~al.}(2008){Ferrari}, {Govoni}, {Schindler}, {Bykov}, \&
   {Rephaeli}}]{2008SSRv..134...93F}
 {Ferrari}, C., {Govoni}, F., {Schindler}, S., {Bykov}, A.~M., \& {Rephaeli}, Y.
@@ -492,10 +497,15 @@ B{\"o}hringer, H., Tanaka, Y., Mushotzky, R., Ikebe, Y., \& Hattori, M. 1998
   {Waxman}}]{2009JCAP...09..024K}
 {Kushnir}, D., {Katz}, B., \& {Waxman}, E. 2009, \jcap, 9, 24
 
-\bibitem[{{Mantz} {et~al.}(2010){Mantz}, {Allen}, {Ebeling}, {Rapetti}, \&
-  {Drlica-Wagner}}]{2010MNRAS.406.1773M}
+\bibitem[{{Mantz} {et~al.}(2010{\natexlab{a}}){Mantz}, {Allen}, {Ebeling},
+  {Rapetti}, \& {Drlica-Wagner}}]{2010MNRAS.406.1773M}
 {Mantz}, A., {Allen}, S.~W., {Ebeling}, H., {Rapetti}, D., \& {Drlica-Wagner},
-  A. 2010, \mnras, 406, 1773
+  A. 2010{\natexlab{a}}, \mnras, 406, 1773
+
+\bibitem[{{Mantz} {et~al.}(2010{\natexlab{b}}){Mantz}, {Allen}, {Rapetti}, \&
+  {Ebeling}}]{2010MNRAS.406.1759M}
+{Mantz}, A., {Allen}, S.~W., {Rapetti}, D., \& {Ebeling}, H.
+  2010{\natexlab{b}}, \mnras, 406, 1759
 
 \bibitem[{{Million} {et~al.}(2010){Million}, {Allen}, {Werner}, \&
   {Taylor}}]{2010MNRAS.405.1624M}
