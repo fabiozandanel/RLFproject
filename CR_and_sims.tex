@@ -1665,17 +1665,25 @@ where $L(F) = 4 \pi D(z)^2 F$ and $D(z)$ is the luminosity distance to redshift
 $z$.  The result is shown in the left panel of Figure~\ref{fig:RLF_120_flux} for
 the model realization described in Section~\ref{sec:4} with a 10\% fraction of
 radio-loud clusters (black solid line). We limit the integral to luminosities
-$\log_{10} L_{120~\rmn{120MHz}} \geq 29.25$.
-%The total is obtained integrating up to $z_{2} = 2$ as above this value only few
-%clusters survive our mass cut and none would be detectable.
-The lower redshift limit (indicated as 0 in Figure~\ref{fig:RLF_120_flux}) is
-$z_{1} = 0.018$ as the closer known RH, i.e.~Perseus. We also show how the total
-result builds up in different redshift bins. We contrast this with the RH total
-cumulative number obtained using \emph{only} the 10\% radio-loud clusters (black
-dashed thick line; this is done constructing the corresponding RLF and repeating
-the above steps to build an analytical model, where only luminosities above
-$\log_{10} L_{120~\rmn{120MHz}} \geq 30.75$ are integrated).
+$\log_{10} L_{120~\rmn{120MHz}} \geq 29.25$. Our redshift integration extends
+from $z_{1} = 0.018$, the redshift of the closest known RH in Perseus, to $z_{2}
+= 2$. As shown in Figure~\ref{fig:RLF_120_flux}, already redshifts $z\gtrsim1$
+do not significantly contribute to the flux function. Additionally there are
+large theoretical uncertainties since our gas model is not calibrated for this
+redshift (and implied low-mass range) and very little is observationally known
+about diffuse radio emission on group scales in particularly at these redshifts,
+which motivates our upper redshift limit.
+
+Figure~\ref{fig:RLF_120_flux} shows the contribution of different redshift
+slices to the total flux function. We contrast this to the flux function using
+\emph{only} the subsample of 10\% radio-loud clusters (black dashed line). This
+was obtained by constructing the corresponding RLF and repeating the steps above
+in building an analytical model, however, discarding luminosities $\log_{10}
+L_{120~\rmn{120MHz}} \leq 30.75$ in the integration.
+
 %We additionally shown the two total results scaled down by a $50\%$ to roughly mimic an eventual RH redshift evolution as a consequence of a higher inverse Compton energy loss on the CMB for higher redshift (\citealp{2002A&A...396...83E}; this is somehow conservative as most of our cluster magnetic fields are comparable or higher than the CMB magnetic field). 
+
+% corrected until HERE
 
 In the right panel of Figure~\ref{fig:RLF_120_flux}, we show the total number of RHs that would be \emph{detectable} by the LOFAR Tier~1 survey, where its sky coverage (about half sky) is taken into account. This is calculated with Equation~(\ref{eq:NtotRH}) taking $F = F_{\rmn{min}}$ where $F_{\rmn{min}}$ is calculated with the Equation~(10) of \cite{2010A&A...509A..68C} as explained above. The lower flux limit is taken to be $F_{5\sigma}^{\rmn{PS}}$, meaning that when $F_{\rmn{min}} < 0.5$~mJy, i.e.~at redshift above approximately $z = 0.6$, it is fixed at 0.5~mJy.  
 
@@ -1686,6 +1694,7 @@ The total number of (detectable) RHs is expected to be quite high. This is mainl
 Another relevant issue in such surveys is the identification of RHs and their hosting clusters (see also \citealp{2010A&A...509A..68C}). RHs constitute a small part of the entire radio source population and therefore need to be distinguished from the emission produced by other sources. A good approach in this sense is to use X-ray samples of galaxy clusters. This underlines the importance of the future eROSITA mission also for the cluster non-thermal emission study as it is expected to detect around $10^{5}$ clusters up to redshift $z \approx 1.3$ (see e.g.~\citealp{2011MSAIS..17..159C}).
 
 Our results show the potentiality of the LOFAR survey, and other future radio instruments, in determining the (120~MHz) RLF properties in a very broad range of luminosities. In particular, it should permit a robust determination of the number of clusters hosting RHs at a given luminosity (mass). This will be extremely helpful in determining the parameter values for our hadronic model and eventually in elucidating the RH generation mechanism.
+
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
