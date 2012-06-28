@@ -47,12 +47,12 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \author{
- Fabio Zandanel\inst{1,*} \and
- Christoph Pfrommer\inst{2 *} \and
+ Fabio Zandanel\inst{1} \and
+ Christoph Pfrommer\inst{2} \and
  Francisco Prada\inst{3,4,1}
 }
-\institute {Instituto de Astrof\'{\i}sica de Andaluc\'{\i}a (CSIC), Glorieta de la Astronom\'{\i}a, E-18080 Granada, Spain
- \and Heidelberg Institute for Theoretical Studies, Schloss-Wolfsbrunnenweg 35, D-69118 Heidelberg, Germany
+\institute {Instituto de Astrof\'{\i}sica de Andaluc\'{\i}a (CSIC), Glorieta de la Astronom\'{\i}a, E-18080 Granada, Spain, fabio@iaa.es
+ \and Heidelberg Institute for Theoretical Studies, Schloss-Wolfsbrunnenweg 35, D-69118 Heidelberg, Germany, christoph.pfrommer@h-its.org
  \and Campus of International Excellence UAM+CSIC, Cantoblanco, E-28049 Madrid, Spain
  \and Instituto de F\'{\i}sica Te\'orica, (UAM/CSIC), Universidad Aut\'onoma de Madrid, Cantoblanco, E-28049 Madrid, Spain
 }
@@ -62,24 +62,23 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % \abstract{}{}{}{}{} 
 % 5 {} token are mandatory
-\abstract{
-The underlying physics of giant radio halos and mini halos is still an open
+\abstract{The underlying physics of giant radio halos and mini halos is still an open
 question despite the growing number of detections. In this paper, we explore the
 possibility that the radio-emitting electrons are generated in hadronic cosmic
 ray (CR) proton interactions with ambient thermal protons of the intra-cluster
 medium. Our CR model derives from cosmological cluster simulations and
 additionally accounts for CR transport in the form of CR streaming and diffusion
-that opens the possibility of changing the radio halo luminosity by an order of
-magnitude on a dynamical time scale. We draw our cluster sample from the large
-cosmological ``MultiDark'' simulation and construct a phenomenological gas
-density model based on X-ray measurements that matches Sunyaev-Zel'dovich and
-X-ray scaling relations and luminosity functions. Our model successfully
+that opens the possibility of changing the radio halo luminosity by more than an
+order of magnitude on a dynamical time scale. We draw our cluster sample from
+the large cosmological ``MultiDark'' simulation and construct a phenomenological
+gas density model based on X-ray measurements that matches Sunyaev-Zel'dovich
+and X-ray scaling relations and luminosity function. Our model successfully
 reproduces the observed surface brightness profiles of giant radio halos (Coma,
 A2163) as well as radio mini-halos (Perseus, Ophiuchus) while obeying upper
 limits on the gamma-ray emission in these clusters. Because of CR streaming
-transport and the different scalings of the X-ray luminosity $L_{\rmn{X}}$ and
+transport and the different scalings of the X-ray luminosity, $L_{\rmn{X}}$, and
 the Sunyaev-Zel'dovich flux, $Y$, with gas density, our model is also able to
-simultaneously reproduce the observed bimodality of radio-loud and radio-quite
+simultaneously reproduce the observed bimodality of radio-loud and radio-quiet
 clusters at the same $L_{\rmn{X}}$ as well as the unimodal distribution of
 radio-halo luminosity versus $Y$; thereby suggesting a physical solution to this
 apparent contradiction. For a plausible fraction of 10\% radio-loud clusters,
@@ -87,8 +86,7 @@ our model matches the NVSS radio halo luminosity function. Constructing an
 analytical radio-halo luminosity function, we demonstrate the unique prospects
 for low-frequency radio surveys (such as the LOFAR Tier 1 survey) to detect
 $\sim3500$ radio halos back to redshift two and to probe the underlying physics
-of radio halos.
-}
+of radio halos. }
 
 \keywords{galaxy cluster}
 
@@ -106,13 +104,10 @@ of radio halos.
 The presence of large-scale diffuse radio synchrotron emission in clusters of
 galaxies proves the existence of relativistic electrons and magnetic fields
 permeating the intra-cluster medium (ICM) (see,
-e.g.~\citealp{2004NewAR..48.1137F}).
-\begingroup
-\let\thefootnote\relax\footnotetext{ * fabio@iaa.es, christoph.pfrommer@h-its.org}
-\endgroup
-Diffuse cluster radio emission can be separated in two classes: radio halos and
-radio relics (see, e.g.~\citealp{2004rcfg.procE..25K,2008SSRv..134...93F}).
-Radio \mbox{(mini-)}halos (RHs) are centered on clusters and characterized by a
+e.g.~\citealp{2004NewAR..48.1137F}).  Diffuse cluster radio emission can be
+separated in two classes: radio halos and radio relics (see,
+e.g.~\citealp{2004rcfg.procE..25K,2008SSRv..134...93F}).  Radio
+\mbox{(mini-)}halos (RHs) are centered on clusters and characterized by a
 regular and unpolarized morphology, resembling the morphology of the thermal
 X-ray emission. On the contrary, radio relics typically lie at the cluster
 outskirts, have an irregular morphology, and often show a high degree of
@@ -173,7 +168,7 @@ fraction of clusters does not exhibit significant diffuse synchrotron
 emission. Galaxy clusters with the same thermal X-ray luminosity show an
 apparent bimodality with respect to their radio luminosity. Either they harbor a
 RH or they do not have any detectable diffuse radio emission
-\citealp{2009A&A...507..661B,2011A&A...527A..99E}.  This suggests the existence
+\citep{2009A&A...507..661B,2011A&A...527A..99E}.  This suggests the existence
 of a switch-on/switch-off mechanism that is able to change the radio luminosity
 by more than one order of magnitude.  While such a mechanism could be easily
 realized in the framework of the re-acceleration model
@@ -330,7 +325,7 @@ Section~\ref{sec:2.3}.
 The MultiDark simulation used in this work is
 described in detail in \cite{2011arXiv1104.5130P} and
 \cite{2011arXiv1109.0003R}.  It is an $N$-body cosmological simulation done with
-the the Adaptive-Refinement-Tree (ART) code \citep{1997ApJS..111...73K} of
+the Adaptive-Refinement-Tree (ART) code \citep{1997ApJS..111...73K} of
 $2048^3$ particles within a ($1000$~Mpc~$h^{-1}$)$^3$ cube. The latest WMAP5 and
 WMAP7 cosmological parameters were used. This simulation is particularly well
 suited for our purpose because of its large number of clusters.
@@ -346,7 +341,7 @@ are not sub-halos of any other halo, which by definition are not galaxy clusters
 Additionally, we assume that the main emission mechanism in the ICM is thermal
 bremsstrahlung, which is true only above a particle energy of approximately
 $2.6$~keV \citep{1988xrec.book.....S}. Below this
-temperature, there could be other important contributions to the emission,
+energy, there could be other important contributions to the emission,
 e.g. from atomic lines. Therefore, we impose a mass cut of
 $M_{200}\geq1\times10^{14}$~$h^{-1}$~M$_{\odot}\approx1.4\times10^{14}$~$h_{70}^{-1}$~M$_{\odot}$
 which ensures $k_{\rmn{B}}T \gtrsim 2.6$~keV, assuming the $M_{500} - T_{\rmn{ci}}$ relation
@@ -682,26 +677,26 @@ use the \emph{ROSAT} brightest cluster sample (BCS) XLF
 ROSAT ESO Flux-Limited X-ray (REFLEX; \citealp{2002ApJ...566...93B}) and
 HIFLUGCS \citep{2002ApJ...567..716R}.  Note that the XLF is fully determined by
 the mass function and the $L_{\rmn{X}}-M_{500}$ relation after taking into
-account the observational biases. This means that applying the Malmquist bias
-corrected $L_{\rmn{X}}-M_{500}$ relation by \cite{2010MNRAS.406.1773M} directly
-to the MultiDark mass function and accounting for the observational scatter in
-$L_{\rmn{X}}-M_{500}$ should yield an unbiased XLF. We show the resulting
-bolometric and soft-band ($0.1-2.4$~keV) XLF in Figure~\ref{fig:XLF} and compare
-those to the corresponding BCS XLFs and to our model predictions. Note that
-there is only the Schechter fit available for the BCS bolometric XLF.  While the
-soft-band XLF by \cite{2010MNRAS.406.1773M} agrees well with the BCS data
-points, it deviates from the corresponding Schechter fit at low
-luminosities. This is also true in the bolometric band, where the XLFs of
-\cite{2010MNRAS.406.1773M} and our model agree well, but deviate from the BCS
-Schechter fit at low luminosities. This may be an artifact due to the use of
-Schechter fit instead of the data points or may point to incompleteness of the
-BCS sample. Note that the Poissonian errors of the XLF obtained from the
-MultiDark simulation are a lower limit as we are neglecting the uncertainty due
-to cosmic variance.  Studies of the XLF will become again an important topic
-with the upcoming launch of the eROSITA satellite (see
-e.g.~\citealp{2011MSAIS..17..159C}) and further studies in this direction are
-desirable. For these reasons, we do not show XLF predictions at other redshifts,
-leaving this for a future study (Zandanel et al., in prep.).
+account the observational biases. This means that applying the Malmquist and
+Eddington bias corrected $L_{\rmn{X}}-M_{500}$ relation by
+\cite{2010MNRAS.406.1773M} directly to the MultiDark mass function and
+accounting for the observational scatter in $L_{\rmn{X}}-M_{500}$ should yield
+an unbiased XLF. We show the resulting bolometric and soft-band ($0.1-2.4$~keV)
+XLF in Figure~\ref{fig:XLF} and compare those to the corresponding BCS XLFs and
+to our model predictions. Note that there is only the Schechter fit available
+for the BCS bolometric XLF.  While the soft-band XLF by
+\cite{2010MNRAS.406.1773M} agrees well with the BCS data points, it deviates
+from the corresponding Schechter fit at low luminosities. This is also true in
+the bolometric band, where the XLFs of \cite{2010MNRAS.406.1773M} and our model
+agree well, but deviate from the BCS Schechter fit at low luminosities. This may
+be an artifact due to the use of Schechter fit instead of the data points or may
+point to incompleteness of the BCS sample. Note that the Poissonian errors of
+the XLF obtained from the MultiDark simulation are a lower limit as we are
+neglecting the uncertainty due to cosmic variance.  Studies of the XLF will
+become again an important topic with the upcoming launch of the eROSITA
+satellite (see e.g.~\citealp{2011MSAIS..17..159C}) and further studies in this
+direction are desirable. For these reasons, we do not show XLF predictions at
+other redshifts, leaving this for a future study (Zandanel et al., in prep.).
 
 \begin{figure}[t]
 \centering
@@ -904,7 +899,7 @@ hybrid CR normalization for the NCCC and CCC cases and for different values of
 $\gamma_{\rmn{tu}}$.  As expected, when CR streaming is the dominant CR
 transport mechanism, i.e. for negligible advective turbulent transport or
 equivalently, $\gamma_{\rmn{tu}}\sim1$, the spatial CR profiles are flattened
-irrespective of the the cluster state. While turbulence in NCCCs could be
+irrespective of the cluster state. While turbulence in NCCCs could be
 injected by a merging (sub-)cluster, in the case of CCCs, the interaction of the
 AGN jet or radio lobe with the ambient ICM could be the source of turbulence.
 
@@ -966,7 +961,7 @@ Appendix~\ref{app:A}]{2010MNRAS.409..449P}.
 For our study, we choose the giant radio halos of Coma
 \citep{1997A&A...321...55D} and Abell~2163
 \citep{2001A&A...373..106F,2009A&A...499..679M}, both in merging NCCCs, and the
-radio-mini halos of Perseus \citep{1990MNRAS.246..477P} and Ophiuchus
+radio mini-halos of Perseus \citep{1990MNRAS.246..477P} and Ophiuchus
 \citep{2009A&A...499..371G,2009A&A...499..679M}, both in relaxed CCCs. The radio
 emission of these clusters is representative of a wide class of RHs.
 Additionally, Perseus, Ophiuchus and Coma are among the most promising clusters
@@ -1125,9 +1120,9 @@ limit obtained by \emph{Fermi}-LAT \citep{2010ApJ...717L..71A}.
 
 \subsubsection{The Perseus radio mini-halo}
 
-The diffuse radio emission in Perseus is the best known example of a radio-mini
-halo \citep{1990MNRAS.246..477P} and Perseus itself is among the best studied
-clusters in X-rays
+The diffuse radio emission in Perseus is the best known example of a radio
+mini-halo \citep{1990MNRAS.246..477P} and Perseus itself is among the best
+studied clusters in X-rays
 (e.g.,~\citealp{2003ApJ...590..225C,2006MNRAS.366..417F,2011arXiv1105.5025F}). Also
 the Perseus radio morphology resembles that in the X-rays. We proceed as before,
 but now adopt a higher central magnetic field strength of
@@ -1135,7 +1130,7 @@ $B_{0}=10$~$\mu$G. Such a larger $B_0$ is expected in a CCC with its higher
 central gas density, implying a larger adiabatic compression factor of the
 magnetic field during the condensation of the cool core (see
 \citealp{2010ApJ...710..634A,2011arXiv1111.5544M} for a discussion on the
-Perseus magnetic field). 
+Perseus magnetic field).
 
 The best fit to the data is obtained for $\gamma_{\rmn{tu}}=3$ and
 $\alpha_{\rmn{B}}=0.4$, however, values as high as $\gamma_{\rmn{tu}} \approx
@@ -1216,10 +1211,10 @@ are now summarizing the main points:
   values of $\gamma_{\rmn{tu}}\lesssim4$ in order to get acceptable model
   fits. However, we would expect higher values for $\gamma_{\rmn{tu}}$ in
   merging NCCCs that are highly turbulent \citep{2011A&A...527A..99E}.  There
-  are three possibilities that explain this apparent contradiction.  (i) Primary
-  electrons accelerated in outer shocks, which we do not consider here, could
-  have an important contribution to the RH emission, particularly in the cluster
-  outskirts \citep{2008MNRAS.385.1211P}. While this does not have to
+  are four possibilities that can explain this apparent contradiction.  (i)
+  Primary electrons accelerated in outer shocks, which we do not consider here,
+  could have an important contribution to the RH emission, particularly in the
+  cluster outskirts \citep{2008MNRAS.385.1211P}. While this does not have to
   significantly enhance the total luminosity, it could account for the larger
   radial extent of the radio surface brightness in comparison to the thermal
   X-ray emission. (ii) Merging clusters are not spherically symmetric as can be
@@ -1237,23 +1232,26 @@ are now summarizing the main points:
   \end{eqnarray}
   This appears to be the case since the radio surface brightness emission is
   more elongated than its counterpart in thermal X-rays and needs to be
-  carefully quantified in future work.  (iii) Adopting the simulation-derived
-  $\tilde{C}$ profile \citep{2010MNRAS.409..449P} for our hybrid model may have
-  biased the inner slope of the CR density profile to become too steep due to
-  the overcooling problem of purely radiative simulations. This produces cluster
-  cores that are too dense (in comparison to observations), which also should
-  overestimate the rate of adiabatic compression that is experienced by the CR
-  population during the formation of the cooling core. Hence, the resulting 
-  values of $\gamma_{\rmn{tu}}$ are then biased low in comparison to a
-  potentially shallower slope of the inner CR profile. To quantify the last
-  point, we fit the Coma surface brightness using a model without
-  $\tilde{C}$. We find that values as high as $\gamma_{\rmn{tu}} \approx 8$ can
-  be accommodated. However, $\gamma_{\rmn{tu}}=1$ still represents the best fit
-  model, demonstrating that the problem can be weakened but not circumvented
-  even in this case of a cored CR profile. Nevertheless, we can successfully
-  reproduce the morphology of Coma and Abell~2163 RHs fairly well, solving the
-  previous problems of the \emph{classical} hadronic model (see
-  e.g.~\citealp{2010MNRAS.401...47D}).
+  carefully quantified in future work. (iii) CR streaming and diffusive
+  transport may cause a possible spectral steepening in the cluster core region
+  that would imply spatial variations of the CR spectral index throughout the
+  cluster and hence a spatially varying radio emission, in particular in the
+  cluster outskirts.  (iv) Adopting the simulation-derived $\tilde{C}$ profile
+  \citep{2010MNRAS.409..449P} for our hybrid model may have biased the inner
+  slope of the CR density profile to become too steep due to the overcooling
+  problem of purely radiative simulations. This produces cluster cores that are
+  too dense (in comparison to observations), which also should overestimate the
+  rate of adiabatic compression that is experienced by the CR population during
+  the formation of the cooling core. Hence, the resulting values of
+  $\gamma_{\rmn{tu}}$ are then biased low in comparison to a potentially
+  shallower slope of the inner CR profile. To quantify the last point, we fit
+  the Coma surface brightness using a model without $\tilde{C}$. We find that
+  values as high as $\gamma_{\rmn{tu}} \approx 8$ can be accommodated. However,
+  $\gamma_{\rmn{tu}}=1$ still represents the best fit model, demonstrating that
+  the problem can be weakened but not circumvented even in this case of a cored
+  CR profile. Nevertheless, we can successfully reproduce the morphology of Coma
+  and Abell~2163 RHs, solving the previous problems of the \emph{classical}
+  hadronic model (see e.g.~\citealp{2010MNRAS.401...47D}).
 \item Gamma-ray and radio emission are complementary tools in constraining the
   CR population. While gamma-ray emission is a direct way to constrain the CR
   pressure, it is also critical in disentangling between the hadronic and
@@ -1355,7 +1353,7 @@ average CR-to-thermal pressure of $2\%$ ($0.05\%$) within $R_{500}$
 $R_{500}.$\footnote{The mean (median) difference between calculating $L_{\nu}$
   within $R_{200}$ or $R_{500}$ is 5.3\% (5.6\%).}  In our CR model, we fix the
 CR number for $\gamma_{\rmn{tu}}=100$ using Equation~(36) of
-\cite{2011A&A...527A..99E}, integrating up $R_{500}$. To compute the radio
+\cite{2011A&A...527A..99E}, integrating up to $R_{500}$. To compute the radio
 luminosity for different values of $\gamma_{\rmn{tu}}$, we employ CR number
 conservation (for CR energies $E>$~GeV where Coulomb cooling is negligible for CR
 protons).
@@ -1732,7 +1730,7 @@ deviations.
 
 This analytical model describes the number of RHs expected in our model per unit
 luminosity and per unit comoving volume $V_{\rmn{c}}$, i.e., $\rmn{d}^2N(L,z)
-/\rmn{d}V_{\rmn{c}}\rmn{d}L$. Hence cumulative number of RHs above a given flux
+/\rmn{d}V_{\rmn{c}}\rmn{d}L$. Hence the cumulative number of RHs above a given flux
 limit $F$ is given by the integral
 \begin{equation}
 N(>F)  =  \int_{z_1}^{z_2} \int_{L(F)}^{\infty} 
@@ -1852,53 +1850,56 @@ luminosity functions. We confirm theoretical ideas suggested by
 \cite{2011A&A...527A..99E} and explicitly demonstrate that the inclusion of CR
 streaming is necessary to solve the problems of the ``classical'' scenario of
 radio halos, namely the large extents of giant radio halos in comparison to the
-thermal X-ray emission and the bimodality of radio-loud and radio-quite clusters
+thermal X-ray emission and the bimodality of radio-loud and radio-quiet clusters
 at a fixed X-ray luminosity.
 
 To this end, we use a complete cosmological sample of galaxy clusters from the
-MultiDark, DM-only $N$-body simulation \citep[MultiDark][]{2011arXiv1104.5130P}
-and employ seven snapshots from $z = 0$ up to $z = 1$. We select all DM halos
-with a mass above $M_{200}\approx1.4\times10^{14}$~$h_{70}^{-1}$~M$_{\odot}$. In
-a next step, we construct a \emph{phenomenological} model for the cluster-gas
-distribution. This is characterized by X-ray-inferred (CCC and NCCC) gas
-profiles \citep[of the REXCESS sample][]{2008A&A...487..431C}, a
-cluster-mass-dependent gas fraction \citep{2009ApJ...693.1142S}, and we adopt
-the universal temperature drop in the outskirts of clusters seen in simulations
-and deep X-ray observations. We assign such a (cluster mass-dependent) gas
-density profile to a DM halo and sort it into the NCCC/CCC populations according
-to a dynamical disturbance parameter that is calculated for the DM distribution.
-In this way, we obtain a cosmologically complete mock catalog of galaxy clusters
-that matches the observed $L_{\rmn{X, bol}}$-to-mass, $Y_{\rmn{X}}$-to mass and
-$Y_{\rmn{SZ}}$-to-mass relations, and the X-ray luminosity function.
+MultiDark DM-only simulation \citep{2011arXiv1104.5130P} with redshifts ranging
+from $z = 0$ to 1. In a next step, we construct a \emph{phenomenological} model
+for the cluster-gas distribution. This is characterized by X-ray-inferred (CCC
+and NCCC) gas profiles \citep[of the REXCESS sample][]{2008A&A...487..431C}, a
+cluster-mass-dependent gas fraction \citep{2009ApJ...693.1142S}, and the
+universal temperature drop in the outskirts of clusters seen in simulations and
+deep X-ray observations. We assign such a (cluster mass-dependent) gas density
+profile to a DM halo and sort it into the NCCC/CCC populations according to a
+dynamical disturbance parameter that is calculated for the DM distribution.
+With that model, we obtain a cosmologically complete mock catalog of galaxy
+clusters that matches the observed $L_{\rmn{X, bol}}$-to-$M_{500}$,
+$Y_{\rmn{X}}$-to-$M_{500}$, and $Y_{\rmn{SZ}}$-to-$M_{500}$ relations, as well
+as the X-ray luminosity function.
+
+%and employ seven
+%snapshots from $z = 0$ up to $z = 1$. We select all DM halos with a mass above
+%$M_{200}\approx1.4\times10^{14}$~$h_{70}^{-1}$~M$_{\odot}$.
 
 We then construct a new \emph{hybrid} model for the CR distribution in clusters
 and combine previous results from cosmological simulations and analytical works.
 We adopt the universal spatial and spectral CR distribution found in
 hydrodynamic cosmological simulations of cluster formation
 \citep{2010MNRAS.409..449P}, which only account for macroscopic, advective CR
-transport. This model is supplemented with an analytical model
+transport. Hence, we supplement this model with an analytical model
 \citep{2011A&A...527A..99E} that includes the treatment of microscopic CR
-transport processes. While turbulently-driven CR advection leads to centrally
+transport processes. While turbulently-driven CR advection can lead to centrally
 enhanced CR profiles, CR propagation in form of CR streaming and diffusion
-produces flatter CR profiles, which dominates for decaying cluster
+produces flatter CR profiles, which should be realized for decaying cluster
 turbulence. In our model, we introduce a CR propagation parameter
-$\gamma_{\rmn{tu}}$ which is the ratio of the CR streaming-to-advection time
-scale and allows us to effectively switch the regimes where either process
-dominates the CR transport and to explore different turbulent states of the
-clusters.
+$\gamma_{\rmn{tu}}$ that is the ratio of the CR streaming-to-advection time
+scale. This parameter allows us to effectively switch the regimes where either
+process dominates the CR transport and to explore different turbulent states of
+the clusters.
 
 This enables us to model the radio surface brightness profiles of giant radio
-halos (as exemplified in Coma and Abell~2163) as well as of radio-mini halos (in
+halos (as exemplified in Coma and Abell~2163) as well as of radio mini-halos (in
 Perseus and Ophiuchus) at 1.4~GHz. We demonstrate, that our hybrid CR model can
 successfully reproduce the radio profiles over the entire extents of giant and
 mini radio-halos, solving problems of the \emph{classical} hadronic model. We
 recover the total radio luminosity within 20\% for magnetic field configurations
-favored by Faraday rotation measurements. We demonstrate that within the
+favored by Faraday rotation measurements. Our modeling shows that within the
 parameter ranges that provide acceptable fits to the radio profiles, the
 resulting gamma-ray emission from the decay of neutral pions---an inevitable
 byproduct in hadronic CR interactions---is well below observational gamma-ray
 upper limits from {\em Fermi}, and imaging air Cherenkov telescopes, MAGIC,
-VERITAS, and H.E.S.S. Future more sensitive gamma-ray observations may in
+VERITAS, and H.E.S.S. Future and more sensitive gamma-ray observations may in
 principle be able to disentangle the two competing models for RHs, the hadronic
 and re-acceleration scenarios.
 
@@ -1913,19 +1914,19 @@ values of $\gamma_{\rmn{tu}}$: (i) additional radio emission of primary,
 shock-accelerated electrons in the cluster periphery of these mergers, (ii) an
 enhanced non-thermal clumping factor in comparison to the thermal clumping
 factor as suggested by the larger anisotropy of the radio emission (relative to
-the X-ray emission maps), (iii) our choice of simulation-derived CR profiles
-that may be too concentrated as a result of the overcooling in radiative
-simulations without AGN feedback, and (iv) a possible spectral steepening in the
-cluster core region due to CR streaming and diffusive transport that could cause
-spatial variations of the CR spectral index throughout the cluster and hence a
-spatially varying radio emission, in particular in the cluster outskirts. 
+the X-ray emission maps), (iii) a possible spectral steepening in the cluster
+core region due to CR streaming and diffusive transport that could cause spatial
+variations of the CR spectral index throughout the cluster and hence a spatially
+varying radio emission, in particular in the cluster outskirts, and (iv) our
+choice of simulation-derived CR profiles that may be too concentrated as a
+result of the overcooling in radiative simulations without AGN feedback.
 
 We select a representative realization of our CR model and compare it with
 existing radio scaling relations.  Because of CR streaming transport and the
-different gas-density scalings of the X-ray luminosity $L_{\rmn{X}}\propto\int
-\rho_\rmn{gas}^2 \dd V$ and the Sunyaev-Zel'dovich flux, $Y\propto\int
+different gas-density scalings of the X-ray luminosity, $L_{\rmn{X}}\propto\int
+\rho_\rmn{gas}^2 \dd V$, and the Sunyaev-Zel'dovich flux, $Y\propto\int
 \rho_{\rmn{gas}} k_{\rmn{B}} T \dd V$, our model is able to simultaneously
-reproduce the observed bimodality of radio-loud and radio-quite clusters at the
+reproduce the observed bimodality of radio-loud and radio-quiet clusters at the
 same $L_{\rmn{X}}$ \citep{2009A&A...507..661B,2011A&A...527A..99E} as well as
 the unimodal distribution of radio-halo luminosity versus $Y$
 \citep{2012MNRAS.421L.112B}; thereby suggesting a physical solution to this
@@ -1937,48 +1938,47 @@ needed to better constrain these parameters and to break these degeneracies.
 
 Assuming a fraction of 10\% radio-loud clusters, we demonstrate that our model
 matches the NVSS radio halo luminosity function
-\citep[RLF][]{1999NewA....4..141G}. However, the high-luminosity tail of our
-model RLF subject is subject to cosmic variance because of the comparably small
-simulation volume of $1 h^{-3}\,\rmn{Gpc}^3$. Interestingly, the RLFs derived
-from the $L_{1.4~\rmn{GHz}}-L_{\rmn{X,bol}}$ and $L_{1.4~\rmn{GHz}}-Y_{\rmn{SZ},
-  500}$ relations differ at high radio luminosities from the NVSS RLF; possibly
-because of selection and incompleteness effects that are not fully taken into
-account. The comparison between different RLFs illustrates that the
-low-luminosity (low-mass) regime is the most promising place to differentiate
-between different models.
+\citep[RLF,][]{1999NewA....4..141G}. However, the high-luminosity tail of our
+model RLF is subject to cosmic variance because of the comparably small
+simulation volume of $1 h^{-3}\,\rmn{Gpc}^3$. Interestingly, the RLF derived
+from the $L_{1.4~\rmn{GHz}}-L_{\rmn{X,bol}}$ relation differs at high radio
+luminosities from the NVSS RLF; possibly because of selection and incompleteness
+effects that are not fully taken into account. The comparison between different
+RLFs suggests that the low-luminosity (low-mass) regime is the most promising
+place to differentiate between various models.
 
 It is expected that the next-generation of low-frequency surveys probe this
-regime; hence, we present the 120~MHz RLF and cumulative number density, and
+regime. Hence, we present the 120~MHz RLF and cumulative RH number density, and
 make predictions for the LOFAR cluster survey. Given our assumption, we would
 expect the LOFAR Tier~1 survey at 120~MHz to detect about $\sim$3500 RHs above
-the flux limit of 0.5~mJy. The precise number depends strongly on the underling
-assumptions and, in particular, that the model parameters can be extrapolated
-down to cluster masses of about
-$M_{200}\approx1.4\times10^{14}$~$h_{70}^{-1}$~M$_{\odot}$ without any break in
-the radio scaling relation that would indicate additional scales in the physics.
-Most of the RHs in our sample lie at low masses and thus at low luminosities
-unconstrained by current observations. If, e.g., the magnetic field distribution
-in clusters is not statistically self-similar and would exhibit much reduced
-strength on group scales, our predictions for the detectable RHs would be
-dramatically reduced. 
+the flux limit of 0.5~mJy. Since the detectable number of RHs is approximately
+proportional to the (uncertain) radio-loud fraction, we caution that the precise
+number depends strongly on the underling assumptions and. In particular, we
+assume that the model parameters can be extrapolated down to cluster masses of
+about $M_{200}\approx1.4\times10^{14}$~$h_{70}^{-1}$~M$_{\odot}$ without any
+break in the radio scaling relation that would indicate additional scales in the
+physics.  Most of the RHs in our sample lie at low masses and thus at low
+luminosities that are unconstrained by current observations. If, e.g., the
+magnetic field distribution in clusters is not statistically self-similar and
+would exhibit much reduced strength on group scales, our predictions for the
+detectable number of RHs would be dramatically reduced.
 
 This demonstrates the potential of LOFAR and other next-generation
-low-sensitivity radio instruments, in determining the RLF properties over a
-broad range of luminosities. In combination with future X-ray missions like
-eROSITA, this should yield a robust determination of the number of clusters
-hosting RHs at a given luminosity (mass) and thus elucidate the relation of the
-radio emission with cluster dynamical state. This will be crucial in
-determining the parameter values for the hadronic model and eventually in
-elucidating the RH generation mechanism.
+low-sensitivity radio instruments, in determining the RLF properties. In
+combination with future X-ray missions like eROSITA, this should yield a robust
+determination of the number of clusters hosting RHs at a given luminosity (mass)
+and thus elucidate the relation of the radio emission with cluster dynamical
+state. This will be crucial in determining the parameter values for the hadronic
+model and eventually in elucidating the RH generation mechanism.
 
-Concluding, in this work we constructed a \emph{phenomenological} model for the
-ICM and CR distribution that enabled us to provide cosmologically complete
-multi-frequency mock catalog for the (non-)thermal cluster emission at different
-redshifts. We will make these catalogs publicly and freely available
-on-line. Those contain the quantities $\rho_{\rmn{gas}}$, $L_{\rmn{X, bol}}$,
-$Y_{\rmn{X}}$, $Y_{\rmn{SZ}}$, $L_{120~\rmn{GHz}}$, $L_{1.4~\rmn{GHz}}$ and
-$L_{\gamma}$ (among many others). We hope that the community can make valuable
-use of this catalogue.
+In this work we constructed a \emph{phenomenological} model for the ICM and CR
+distribution that enabled us to provide cosmologically complete multi-frequency
+mock catalog for the (non-)thermal cluster emission at different redshifts. We
+will make these catalogs publicly and freely available on-line. Those contain
+the quantities $\rho_{\rmn{gas}}$, $L_{\rmn{X, bol}}$, $Y_{\rmn{X}}$,
+$Y_{\rmn{SZ}}$, $L_{120~\rmn{GHz}}$, $L_{1.4~\rmn{GHz}}$ and $L_{\gamma}$ (among
+many others). We hope that the community can make valuable use of these
+catalogues.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
