@@ -1204,6 +1204,7 @@ $g(\zeta_{\rmn{p,max}})=0.014$.
 %not very significant.
 
 \subsection{Discussion and conclusions on the hybrid hadronic model}
+\label{sec:discussion_hadronic}
 
 After these detailed considerations on four individual RHs, we
 are now summarizing the main points:
@@ -1214,25 +1215,45 @@ are now summarizing the main points:
   in Coma and Abell~2164 in comparison to the X-ray emission requires lower
   values of $\gamma_{\rmn{tu}}\lesssim4$ in order to get acceptable model
   fits. However, we would expect higher values for $\gamma_{\rmn{tu}}$ in
-  merging NCCCs \citep{2011A&A...527A..99E}.  There are three main factors that
-  render the merging NCCC fits not conclusive and may alleviate this problem.
-  (i) Primary electrons accelerated in outer shocks, which we do not consider here,
-  could have an important contribution to the RH emission, particularly in the
-  cluster outskirts \citep{2008MNRAS.385.1211P}.  (ii) Merging clusters are not
-  spherically symmetric as can be seen in Coma and Abell~2164, requiring
-  non-spherical modelling in the future. (iii) Adopting the simulation-derived
+  merging NCCCs that are highly turbulent \citep{2011A&A...527A..99E}.  There
+  are three possibilities that explain this apparent contradiction.  (i) Primary
+  electrons accelerated in outer shocks, which we do not consider here, could
+  have an important contribution to the RH emission, particularly in the cluster
+  outskirts \citep{2008MNRAS.385.1211P}. While this does not have to
+  significantly enhance the total luminosity, it could account for the larger
+  radial extent of the radio surface brightness in comparison to the thermal
+  X-ray emission. (ii) Merging clusters are not spherically symmetric as can be
+  seen in Coma and Abell~2164, requiring inherently non-spherical modelling. In
+  order to reproduce the more extended radio emission relative to the thermal
+  X-ray emission, the non-thermal clumping factor, $C_{\rmn{non-th}}$, needs to
+  be larger than its thermal analogue, $C_{\rmn{th}}$, in concentric spherical
+  shells, where we defined those statistics by
+  \begin{eqnarray}
+    \label{eq:clumping}
+    C_{\rmn{non-th}} &=&
+    \expval{\rho_\rmn{gas} C}/\expval{\sqrt{\rho_\rmn{gas} C}}^2,\\
+    C_{\rmn{th}} &=& 
+    \expval{\rho_\rmn{gas}^2}/\expval{\rho_\rmn{gas}}^2.
+  \end{eqnarray}
+  This appears to be the case since the radio surface brightness emission is
+  more elongated than its counterpart in thermal X-rays and needs to be
+  carefully quantified in future work.  (iii) Adopting the simulation-derived
   $\tilde{C}$ profile \citep{2010MNRAS.409..449P} for our hybrid model may have
   biased the inner slope of the CR density profile to become too steep due to
-  the overcooling problem of purely radiative simulations resulting in values of
-  $\gamma_{\rmn{tu}}$ that are biased low in comparison to a potentially
-  shallower slope of the inner CR profile. To quantify the last point, we fit
-  the Coma surface brightness using a model without $\tilde{C}$. We find that
-  values as high as $\gamma_{\rmn{tu}} \approx 8$ can be accommodated. However,
-  $\gamma_{\rmn{tu}}=1$ still represents the best fit model, demonstrating that
-  the problem can be weakened but not circumvented even in this case of a cored
-  CR profile. Nevertheless, we can successfully reproduce the morphology of Coma
-  and Abell~2163 RHs fairly well, solving the previous problems of the
-  \emph{classical} hadronic model (see e.g.~\citealp{2010MNRAS.401...47D}).
+  the overcooling problem of purely radiative simulations. This produces cluster
+  cores that are too dense (in comparison to observations), which also should
+  overestimate the rate of adiabatic compression that is experienced by the CR
+  population during the formation of the cooling core. Hence, the resulting 
+  values of $\gamma_{\rmn{tu}}$ are then biased low in comparison to a
+  potentially shallower slope of the inner CR profile. To quantify the last
+  point, we fit the Coma surface brightness using a model without
+  $\tilde{C}$. We find that values as high as $\gamma_{\rmn{tu}} \approx 8$ can
+  be accommodated. However, $\gamma_{\rmn{tu}}=1$ still represents the best fit
+  model, demonstrating that the problem can be weakened but not circumvented
+  even in this case of a cored CR profile. Nevertheless, we can successfully
+  reproduce the morphology of Coma and Abell~2163 RHs fairly well, solving the
+  previous problems of the \emph{classical} hadronic model (see
+  e.g.~\citealp{2010MNRAS.401...47D}).
 \item Gamma-ray and radio emission are complementary tools in constraining the
   CR population. While gamma-ray emission is a direct way to constrain the CR
   pressure, it is also critical in disentangling between the hadronic and
@@ -1454,7 +1475,17 @@ the latter. We use the turbulent propagation parameter $\gamma_{\rmn{tu}}$ to
 separate both populations. In radio-quiet clusters, we assign
 $\gamma_{\rmn{tu}}=1$ and in radio-loud clusters, we adopt randomly and
 uniformly $\gamma_{\rmn{tu}}$ values in the intervals $[40,80]$ and $[1,5]$ for
-NCCCs and CCCs, respectively.
+NCCCs and CCCs, respectively. We note that those values for $\gamma_{\rmn{tu}}$
+would produce slightly too concentrated surface brightness profiles of giant
+radio halos. As laid out in detail in Sect.~\ref{sec:discussion_hadronic}, this
+may be an artifact caused by a combination of three factors, namely additional
+primary radio emission in the cluster periphery, an enhanced non-thermal
+clumping factor, and our choice of simulation-derived CR profiles that may be
+too concentrated as a result of the overcooling in radiative simulations without
+AGN feedback. Moreover, we demonstated in Figure~\ref{fig:SR} that the
+normalization of the RH luminosity is highly degenerate with our other
+parameters so that a different combination of those could mimic a similar
+normalization for smaller values of $\gamma_{\rmn{tu}}$.
 
 Our modeling of magnetic fields is inspired by Faraday rotation studies that
 point to higher field values in the core region of CCCs compared to NCCCs
