@@ -1,4 +1,4 @@
-\begin{thebibliography}{107}
+\begin{thebibliography}{109}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Abdo} {et~al.}(2009){Abdo}, {Ackermann}, {Ajello}, {Asano},
@@ -169,23 +169,23 @@
 {Aharonian}, F., {Akhperjanian}, A.~G., {Anton}, G., {et~al.}
   2009{\natexlab{b}}, \aap, 502, 437
 
-\bibitem[{{Aleksi{\'c}} {et~al.}(2011){Aleksi{\'c}}, {Alvarez}, {Antonelli},
+\bibitem[{{Aleksi{\'c}} {et~al.}(2012){Aleksi{\'c}}, {Alvarez}, {Antonelli},
   {Antoranz}, {Asensio}, {Backes}, {Barres de Almeida}, {Barrio}, {Bastieri},
   {Becerra Gonz{\'a}lez}, {Bednarek}, {Berdyugin}, {Berger}, {Bernardini},
   {Biland}, {Blanch}, {Bock}, {Boller}, {Bonnoli}, {Borla Tridon}, {Braun},
   {Bretz}, {Ca{\~n}ellas}, {Carmona}, {Carosi}, {Colin}, {Colombo},
-  {Contreras}, {Cortina}, {Cossio}, {Covino}, {Dazzi}, {De Angelis}, {De
-  Caneva}, {De Cea del Pozo}, {De Lotto}, {Delgado Mendez}, {Diago Ortega},
+  {Contreras}, {Cortina}, {Cossio}, {Covino}, {Dazzi}, {de Angelis}, {de
+  Caneva}, {de Cea Del Pozo}, {de Lotto}, {Delgado Mendez}, {Diago Ortega},
   {Doert}, {Dom{\'{\i}}nguez}, {Dominis Prester}, {Dorner}, {Doro},
   {Eisenacher}, {Elsaesser}, {Ferenc}, {Fonseca}, {Font}, {Fruck},
   {Garc{\'{\i}}a L{\'o}pez}, {Garczarczyk}, {Garrido}, {Giavitto},
   {Godinovi{\'c}}, {Gozzini}, {Hadasch}, {H{\"a}fner}, {Herrero}, {Hildebrand},
   {H{\"o}hne-M{\"o}nch}, {Hose}, {Hrupec}, {Jogler}, {Kellermann}, {Klepser},
   {Kr{\"a}henb{\"u}hl}, {Krause}, {Kushida}, {La Barbera}, {Lelas}, {Leonardo},
-  {Lewandowska}, {Lindfors}, {Lombardi}, {L{\'o}pez}, {L{\'o}pez-Coto},
+  {Lewandowska}, {Lindfors}, {Lombardi}, {L{\'o}pez}, {L{\'o}pez},
   {L{\'o}pez-Oramas}, {Lorenz}, {Makariev}, {Maneva}, {Mankuzhiyil},
-  {Mannheim}, {Maraschi}, {Marcote}, {Mariotti}, {Mart{\'{\i}}nez}, {Mazin},
-  {Meucci}, {Miranda}, {Mirzoyan}, {Mold{\'o}n}, {Moralejo}, {Munar-Adrover},
+  {Mannheim}, {Maraschi}, {Mariotti}, {Mart{\'{\i}}nez}, {Mazin}, {Meucci},
+  {Miranda}, {Mirzoyan}, {Mold{\'o}n}, {Moralejo}, {Munar-Adrover},
   {Niedzwiecki}, {Nieto}, {Nilsson}, {Nowak}, {Orito}, {Paiano}, {Paneque},
   {Paoletti}, {Pardo}, {Paredes}, {Partini}, {Perez-Torres}, {Persic},
   {Peruzzo}, {Pilia}, {Pochon}, {Prada}, {Prada Moroni}, {Prandini}, {Puerto
@@ -196,10 +196,10 @@
   {Stamatescu}, {Stamerra}, {Steinke}, {Storz}, {Strah}, {Sun}, {Suri{\'c}},
   {Takalo}, {Takami}, {Tavecchio}, {Temnikov}, {Terzi{\'c}}, {Tescaro},
   {Teshima}, {Tibolla}, {Torres}, {Treves}, {Uellenbeck}, {Vankov}, {Vogler},
-  {Wagner}, {Weitzel}, {Zabalza}, {Zandanel}, {Zanin}, {Pfrommer}, \&
-  {Pinzke}}]{2011arXiv1111.5544M}
-{Aleksi{\'c}}, J., {Alvarez}, E.~A., {Antonelli}, L.~A., {et~al.} 2011,
-  ArXiv:1111.5544
+  {Wagner}, {Weitzel}, {Zabalza}, {Zandanel}, {Zanin}, {MAGIC Collaboration},
+  {Pfrommer}, \& {Pinzke}}]{2011arXiv1111.5544M}
+{Aleksi{\'c}}, J., {Alvarez}, E.~A., {Antonelli}, L.~A., {et~al.} 2012, \aap,
+  541, A99
 
 \bibitem[{{Aleksi{\'c}} {et~al.}(2010){Aleksi{\'c}}, {Antonelli}, {Antoranz},
   {Backes}, {Baixeras}, {Balestra}, {Barrio}, {Bastieri}, {Becerra
@@ -270,9 +270,9 @@ B{\"o}hringer, H., Tanaka, Y., Mushotzky, R., Ikebe, Y., \& Hattori, M. 1998
   {Boehringer}}]{1992A&A...259L..31B}
 {Briel}, U.~G., {Henry}, J.~P., \& {Boehringer}, H. 1992, \aap, 259, L31
 
-\bibitem[{{Broderick} {et~al.}(2011){Broderick}, {Chang}, \&
+\bibitem[{{Broderick} {et~al.}(2012){Broderick}, {Chang}, \&
   {Pfrommer}}]{2011arXiv1106.5494B}
-{Broderick}, A.~E., {Chang}, P., \& {Pfrommer}, C. 2011, ArXiv:1106.5494
+{Broderick}, A.~E., {Chang}, P., \& {Pfrommer}, C. 2012, \apj, 752, 22
 
 \bibitem[{{Brunetti} \& {Blasi}(2005)}]{2005MNRAS.363.1173B}
 {Brunetti}, G. \& {Blasi}, P. 2005, \mnras, 363, 1173
@@ -281,6 +281,10 @@ B{\"o}hringer, H., Tanaka, Y., Mushotzky, R., Ikebe, Y., \& Hattori, M. 1998
   {Gabici}}]{2004MNRAS.350.1174B}
 {Brunetti}, G., {Blasi}, P., {Cassano}, R., \& {Gabici}, S. 2004, \mnras, 350,
   1174
+
+\bibitem[{{Brunetti} {et~al.}(2012){Brunetti}, {Blasi}, {Reimer}, {Rudnick},
+  {Bonafede}, \& {Brown}}]{2012arXiv1207.3025B}
+{Brunetti}, G., {Blasi}, P., {Reimer}, O., {et~al.} 2012, ArXiv:1207.3025
 
 \bibitem[{{Brunetti} {et~al.}(2009){Brunetti}, {Cassano}, {Dolag}, \&
   {Setti}}]{2009A&A...507..661B}
@@ -357,6 +361,9 @@ B{\"o}hringer, H., Tanaka, Y., Mushotzky, R., Ikebe, Y., \& Hattori, M. 1998
   \& {Brunetti}}]{2010arXiv1003.0336D}
 {Donnert}, J., {Dolag}, K., {Cassano}, R., \& {Brunetti}, G.
   2010{\natexlab{b}}, \mnras, 407, 1565
+
+\bibitem[{{Dubois} \& {Teyssier}(2008)}]{2008A&A...482L..13D}
+{Dubois}, Y. \& {Teyssier}, R. 2008, \aap, 482, L13
 
 \bibitem[{{Ebeling} {et~al.}(1997){Ebeling}, {Edge}, {Fabian}, {Allen},
   {Crawford}, \& {Boehringer}}]{1997ApJ...479L.101E}
@@ -595,10 +602,10 @@ B{\"o}hringer, H., Tanaka, Y., Mushotzky, R., Ikebe, Y., \& Hattori, M. 1998
 {Planck Collaboration}, {Ade}, P.~A.~R., {Aghanim}, N., {et~al.} 2011, \aap,
   536, A11
 
-\bibitem[{{Prada} {et~al.}(2011){Prada}, {Klypin}, {Cuesta}, {Betancort-Rijo},
+\bibitem[{{Prada} {et~al.}(2012){Prada}, {Klypin}, {Cuesta}, {Betancort-Rijo},
   \& {Primack}}]{2011arXiv1104.5130P}
 {Prada}, F., {Klypin}, A.~A., {Cuesta}, A.~J., {Betancort-Rijo}, J.~E., \&
-  {Primack}, J. 2011, ArXiv:1104.5130
+  {Primack}, J. 2012, \mnras, 423, 3018
 
 \bibitem[{{Pratt} {et~al.}(2009){Pratt}, {Croston}, {Arnaud}, \&
   {B{\"o}hringer}}]{2009A&A...498..361P}
@@ -650,7 +657,7 @@ B{\"o}hringer, H., Tanaka, Y., Mushotzky, R., Ikebe, Y., \& Hattori, M. 1998
 {Sun}, M., {Voit}, G.~M., {Donahue}, M., {et~al.} 2009, \apj, 693, 1142
 
 \bibitem[{{Sutter} \& {Ricker}(2011)}]{2011arXiv1110.2786S}
-{Sutter}, P.~M. \& {Ricker}, P.~M. 2011, ArXiv e-prints
+{Sutter}, P.~M. \& {Ricker}, P.~M. 2011, ArXiv:1110.2786
 
 \bibitem[{{van Weeren} {et~al.}(2010){van Weeren}, {R{\"o}ttgering},
   {Br{\"u}ggen}, \& {Hoeft}}]{2011A&A...533A..35V}
