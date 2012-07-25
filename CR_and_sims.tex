@@ -63,32 +63,34 @@
 % \abstract{}{}{}{}{} 
 % 5 {} token are mandatory
 \abstract{The underlying physics of giant radio halos and mini halos in galaxy
-  clusters is still an open question despite the growing number of
-  detections. In this paper, we explore the possibility that radio-emitting
-  electrons are generated in hadronic cosmic ray (CR) proton interactions with
-  ambient thermal protons of the intra-cluster medium. Our CR model derives from
-  cosmological hydrodynamical simulations of cluster formation and additionally
-  accounts for CR transport in the form of CR streaming and diffusion.  This
-  opens the possibility of changing the radio halo luminosity by more than an
-  order of magnitude on a dynamical time scale. We build a mock galaxy cluster
-  catalog from the large MultiDark $N$-body $\Lambda$CDM simulation by adopting
-  a phenomenological gas density model for each cluster based on X-ray
-  measurements that matches Sunyaev-Zel'dovich and X-ray scaling relations and
-  luminosity function. Our model successfully reproduces the observed surface
-  brightness profiles of giant radio halos (Coma, A2163) as well as radio
-  mini-halos (Perseus, Ophiuchus), while obeying upper limits on the gamma-ray
-  emission in these clusters. Because of CR streaming transport and the
-  different scalings of the X-ray luminosity, $L_{\rmn{X}}$, and the
-  Sunyaev-Zel'dovich flux, $Y$, with respect to gas density, our model is
-  also able to simultaneously reproduce the observed bimodality of radio-loud
-  and radio-quiet clusters at the same $L_{\rmn{X}}$ as well as the unimodal
-  distribution of radio-halo luminosity versus $Y$; thereby suggesting a
-  physical solution to this apparent contradiction. For a plausible fraction of
-  10\% radio-loud clusters, our model matches the NVSS radio-halo luminosity
-  function. Constructing an analytical radio-halo luminosity function, we
-  demonstrate the unique prospects for low-frequency radio surveys (such as the
-  LOFAR Tier 1 survey) to detect $\sim3500$ radio halos back to redshift two and
-  to probe the underlying physics of radio halos.}
+  clusters is still an open question, which becomes more pressing with the
+  growing number of radio halo detections. In this paper, we explore the
+  possibility that radio-emitting electrons are generated in hadronic cosmic ray
+  (CR) proton interactions with ambient thermal protons of the intra-cluster
+  medium. Our CR model derives from cosmological hydrodynamical simulations of
+  cluster formation and additionally accounts for CR transport in the form of CR
+  streaming and diffusion.  This opens the possibility of changing the radio
+  halo luminosity by more than an order of magnitude on a dynamical time
+  scale. We build a mock galaxy cluster catalog from the large MultiDark
+  $N$-body $\Lambda$CDM simulation by adopting a phenomenological gas density
+  model for each cluster based on X-ray measurements that matches
+  Sunyaev-Zel'dovich and X-ray scaling relations and luminosity function.  Using
+  magnetic field strength estimates from Faraday rotation measure studies, our
+  model successfully reproduces the observed surface brightness profiles of
+  giant radio halos (Coma, A2163) as well as radio mini-halos (Perseus,
+  Ophiuchus), while obeying upper limits on the gamma-ray emission in these
+  clusters. Because of CR streaming transport and the different scalings of the
+  X-ray luminosity, $L_{\rmn{X}}$, and the Sunyaev-Zel'dovich flux, $Y$, with
+  respect to gas density, our model is also able to simultaneously reproduce the
+  observed bimodality of radio-loud and radio-quiet clusters at the same
+  $L_{\rmn{X}}$ as well as the unimodal distribution of radio-halo luminosity
+  versus $Y$; thereby suggesting a physical solution to this apparent
+  contradiction. For a plausible fraction of 10\% radio-loud clusters, our model
+  matches the NVSS radio-halo luminosity function. Constructing an analytical
+  radio-halo luminosity function, we demonstrate the unique prospects for
+  low-frequency radio surveys (such as the LOFAR Tier 1 survey) to detect
+  $\sim3500$ radio halos back to redshift two and to probe the underlying
+  physics of radio halos.}
 
 \keywords{Galaxies: clusters: intracluster medium - Radio continuum: galaxies 
 - Gamma rays: galaxies: clusters - Astroparticle physics - Catalogs}
@@ -2052,18 +2054,19 @@ catalogues in synergy with the future radio, X-ray and gamma-ray data.
 \section{Cosmic Ray Modeling Details}
 \label{app:B}
 
-In this appendix we describe in detail how our \emph{hybrid} model for the CR
-distribution in galaxy clusters of Section~\ref{sec:2.3} is built from the
+Here, we describe in detail how our \emph{hybrid} model for the CR distribution
+in galaxy clusters of Section~\ref{sec:2.3} is constructed by generalizing the
 analytical results by \cite{2011A&A...527A..99E}.
 
 As anticipated in Section~\ref{sec:2.3}, when advection dominates the CR
 transport, the CR normalization can be expressed as in
 Equation~(\ref{eq:Csimple_1}). However, when CR streaming and diffusion
-dominates, the CR distribution is modified. This can be shown analytically by
-solving the continuity equation for CRs and obtaining the CR density profile,
-$\rho_{\rmn{CR}}$, of Equation~(\ref{eg:rhoCR_1}). Assuming
-$P(R)/P_{0}=n_{\rmn{e}}(R)/n_{0}$, i.e., neglecting the temperature dependence,
-and adopting a standard $\beta$-profile for the electron density,
+dominates, the CR distribution is modified and flattens considerably. This can
+be shown analytically by solving the continuity equation for CRs and obtaining
+the CR density profile, $\rho_{\rmn{CR}}$, of
+Equation~(\ref{eg:rhoCR_1}). Assuming $P(R)/P_{0}=n_{\rmn{e}}(R)/n_{0}$, i.e.,
+neglecting the temperature dependence, and adopting a standard $\beta$-profile
+for the electron density,
 %
 \begin{equation}
 n_{\rmn{e}} = n_{0} \left( 1+\frac{R^{2}}{R_{\rmn{c}}^{2}} \right)^{-\frac{3\beta_{\rmn{cl}}}{2}} \, ,
@@ -2071,7 +2074,7 @@ n_{\rmn{e}} = n_{0} \left( 1+\frac{R^{2}}{R_{\rmn{c}}^{2}} \right)^{-\frac{3\bet
 \end{equation}
 % 
 \cite{2011A&A...527A..99E} find that the solution of Equation~(\ref{eg:rhoCR_1}) is physical only 
-for $\rho_{\rmn{CR}}$ within 
+for $\rho_{\rmn{CR}}$ within the radial range $R_{-} < R < R_{+}$ with
 %
 \begin{equation}
 R_{\pm} = \frac{3\beta_{\rmn{cl}}}{2\gamma}R_{*}\left(1\pm\sqrt{1-\left(\frac{2R_{\rmn{c}}\gamma}{3\beta_{\rmn{cl}}R_{*}}\right)^{2}}\right) \, ;
@@ -2080,8 +2083,8 @@ R_{\pm} = \frac{3\beta_{\rmn{cl}}}{2\gamma}R_{*}\left(1\pm\sqrt{1-\left(\frac{2R
 %
 while it is non-stationary outside these radii. In these regions, the authors
 suggest to set $\rho_{\rmn{CR}}(R) = \rho_{\rm{CR}}(R_{\pm})$ for $R > R_{+}$
-and $R < R_{-}$, respectively. \cite{2011A&A...527A..99E} obtain the CR
-normalization profile,
+and $R < R_{-}$, respectively. \cite{2011A&A...527A..99E} obtain the profile for
+the CR normalization,
 $C(R)=C_{0}(\rho_{\rmn{CR}}(R)/\rho_{\rmn{CR},0})^{\beta_{\rmn{CR}}}$, as
 %
 \begin{equation}
@@ -2104,7 +2107,7 @@ normalization, $\tilde{C}$, obtained from hydrodynamical simulations
 \citep{2010MNRAS.409..449P}.  Therefore, we adopt the hybrid profile,
 $C_{\rm{hybrid}} = \tilde{C}(R) (\rho_{\rmn{gas}}(R)/m_\rmn{p}) (T(R)/T_0)$, of
 Equation~(\ref{eq:Cf}). We note that for such a choice, there does not any more
-exist an analytical solution for Equation~(\ref{eg:rhoCR_1}) as in
+exist an analytical solution to Equation~(\ref{eg:rhoCR_1}) as in
 \cite{2011A&A...527A..99E}. This results in a 5-order equation and a numerical
 solution would not be of practical use for every cluster in our large MultiDark
 sample. For simplicity, we adopt the formulae above also for our hybrid
@@ -2112,7 +2115,7 @@ model. I.e., we adopt
 $C(R)=C_{0}(\rho_{\rmn{CR}}(R)/\rho_{\rmn{CR},0})^{\beta_{\rmn{CR}}}$ within
 $R_{\pm}$ of Equation~(\ref{eq:Rpm}), with $\rho_{\rmn{CR}}$ defined by
 Equation~(\ref{eg:rhoCR_1}) where $C_{\rmn{hybrid}}$ enters through the
-advective CR profile, $\eta(R)$, of Equation~\ref{eq:eta}, and $C(R) =
+advective CR profile, $\eta(R)$, of Equation~(\ref{eq:eta}), and $C(R) =
 C(R_{\pm})$ for $R > R_{+}$ and $R < R_{-}$, respectively.  Note that, in our
 formalism, $R_{\rmn{c}}$ of Equation~(\ref{eq:Rpm}) becomes the characteristic
 radius of our GNFW gas profile of Section~\ref{sec:2.2}, i.e., $R_{\rmn{c}} =
@@ -2125,7 +2128,7 @@ despite the approximation, this approach captures the main CR transport effects.
 
 Assuming our GNFW gas profile instead of a standard $\beta$-profile for the
 electron density, so adopting $P(R)/P_{0}=n_{\rmn{e,GNFW}}(R)/n_{0}$, there
-exist an exact analytical solution for Equation~(\ref{eg:rhoCR_1}) as in
+exist an exact analytical solution to Equation~(\ref{eg:rhoCR_1}) as in
 \cite{2011A&A...527A..99E}. In order to evaluate the systematic error that we
 are introducing with the approach described above, in
 Figure~\ref{fig:REXexactVSfake}, we compare the \emph{exact} solution for $C(R)$
@@ -2147,14 +2150,14 @@ effects.
 \includegraphics[width=0.5\textwidth]{figures/CR_profiles_REXexactVSfake.eps}
 \caption{Comparison of the exact and approximate solutions for $C(R)$ in the
   case of our GNFW profile. In the latter case, we use the formulae by
-  \cite{2011A&A...527A..99E} but adopt
-  $P(R)/P_{0}=n_{\rmn{e,GNFW}}(R)/n_{0}$. We show the GNFW profiles for NCCCs
+  \cite{2011A&A...527A..99E} but adopt $P(R)/P_{0}=n_{\rmn{e,GNFW}}(R)/n_{0}$,
+  i.e., we assume an isothermal ICM. We show the GNFW profiles for NCCCs
   and CCCs, as derived in Section~\ref{sec:2.2}. For each of these profile
-  class, we show three different cases of $\gamma_{\rmn{tu}}=100$, 10, and 1
+  classes, we show three different cases of $\gamma_{\rmn{tu}}=100$, 10, and 1
   (top to bottom). We normalize $C(R)$ for the advection dominated case
   ($\gamma_{\rmn{tu}}=100$) at $R=10^{-3}R_{200}$ and and require CR number
-  conservation during CR streaming. Note that the
-  $C(10^{-3}R_{200},\gamma_{\rmn{tu}}=100)$ value in the CCC case is identical
+  conservation during CR streaming. Note that the value for 
+  $C(10^{-3}R_{200},\gamma_{\rmn{tu}}=100)$ in the CCC case is identical
   for the exact solution and its approximation, while there is a small
   difference of about 9\% in the NCCC case. We adopt $\alpha=2.3$.}
 \label{fig:REXexactVSfake}
@@ -2202,7 +2205,7 @@ effects.
 \label{app:A}
 
 The factor $A_{\nu}$ in the equation for the radio synchrotron emissivity,
-Equation~(\ref{eq:jnu}), is (see also \citealp{2008MNRAS.385.1211P} and
+Equation~(\ref{eq:jnu}), is given by (see also \citealp{2008MNRAS.385.1211P} and
 \citealp{2011A&A...527A..99E})
 %
 \begin{equation}
@@ -2217,7 +2220,7 @@ A_{\rmn{E_{synch}}} = \frac{\sqrt{3\pi}}{32\pi}\frac{B_{\rmn{c}}e^{3}}{m_{\rmn{e
 \end{equation}
 %
 where $\alpha_{\rmn{e}}=\alpha+1$, the effective inelastic cross-section for
-proton-proton interactions $\sigma_{\rmn{pp}} =
+proton-proton interactions is $\sigma_{\rmn{pp}} =
 32~(0.96+\rmn{e}^{4.42-2.4\alpha})$, $B_{\rmn{c}} = \sqrt{ 8 \pi
   \epsilon_{B_{\rmn{c}}}} \simeq 31 \left( \nu/\rmn{GHz} \right)~\mu$G, and
 $\Gamma$ is the Gamma-function
@@ -2261,8 +2264,7 @@ A_{\gamma} = g_{\rmn{CR}} D_{\gamma,\rmn{break}} \frac{4 m_{\pi^{0}} c}{3 m_{\rm
 \times \left[ \beta_{x} \left( \frac{\alpha_{i}+1}{2\delta_{i}}, \frac{\alpha_{i}-1}{2\delta_{i}} \right) \right]_{x_{1}}^{x_{2}} \, ,
 \end{eqnarray}
 %
-where $x_{j}=\left[ 1 + \left( \frac{m_{\pi^{0}}c^2}{2E_{\gamma,j}}
-  \right)^{2\sigma_{i}} \right]$, $\left[ \beta_{x}(a,b) \right]_{x_1}^{x_2} =
+where $x_{j}=\{ 1 + [ m_{\pi^{0}}c^2/(2E_{\gamma,j})]^{2\sigma_{i}} \}$, $\left[ \beta_{x}(a,b) \right]_{x_1}^{x_2} =
 \beta_{x_2}(a,b)-\beta_{x_1}(a,b)$ where $\beta$ denotes the incomplete
 Beta-function \citep{1965hmfw.book.....A}, and
 $\delta_{i}=0.14\alpha_{i}^{-1.6}+0.44$. The term $D_{\gamma,
@@ -2324,7 +2326,7 @@ Figure~\ref{fig:RLFobs}, following the procedure adopted by
 a meaningful flux limit for the GMRT survey due to its poor luminosity-distance
 distribution. We decide therefore to take the 1.4~GHz NVSS RLF as reference in
 our comparisons with observation. However, we want to stress that several issues
-can affect this result, such as the small sample size that impact the resulting
+can affect this result, such as the small sample size that impacts the resulting
 flux limit, and the Malmquist and Eddington biases. Indeed, the very different
 fraction of radio loud clusters obtained from different samples is one clear
 indicator of the large uncertainty in the RLF.
