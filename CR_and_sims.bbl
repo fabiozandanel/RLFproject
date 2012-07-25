@@ -1,4 +1,4 @@
-\begin{thebibliography}{109}
+\begin{thebibliography}{110}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Abdo} {et~al.}(2009){Abdo}, {Ackermann}, {Ajello}, {Asano},
@@ -663,6 +663,24 @@ B{\"o}hringer, H., Tanaka, Y., Mushotzky, R., Ikebe, Y., \& Hattori, M. 1998
   {Br{\"u}ggen}, \& {Hoeft}}]{2011A&A...533A..35V}
 {van Weeren}, R.~J., {R{\"o}ttgering}, H.~J.~A., {Br{\"u}ggen}, M., \& {Hoeft},
   M. 2010, Science, 330, 347
+
+\bibitem[{{van Weeren} {et~al.}(2012){van Weeren}, {R{\"o}ttgering},
+  {Rafferty}, {Pizzo}, {Bonafede}, {Br{\"u}ggen}, {Brunetti}, {Ferrari},
+  {Orr{\`u}}, {Heald}, {McKean}, {Tasse}, {de Gasperin}, {B{\^i}rzan}, {van
+  Zwieten}, {van der Tol}, {Shulevski}, {Jackson}, {Offringa}, {Conway},
+  {Intema}, {Clarke}, {van Bemmel}, {Miley}, {White}, {Hoeft}, {Cassano},
+  {Macario}, {Morganti}, {Wise}, {Horellou}, {Valentijn}, {Wucknitz},
+  {Kuijken}, {En{\ss}lin}, {Anderson}, {Asgekar}, {Avruch}, {Beck}, {Bell},
+  {Bell}, {Bentum}, {Bernardi}, {Best}, {Boonstra}, {Brentjens}, {van de
+  Brink}, {Broderick}, {Brouw}, {Butcher}, {van Cappellen}, {Ciardi},
+  {Eisl{\"o}ffel}, {Falcke}, {Fender}, {Garrett}, {Gerbers}, {Gunst}, {van
+  Haarlem}, {Hamaker}, {Hassall}, {Hessels}, {Koopmans}, {Kuper}, {van
+  Leeuwen}, {Maat}, {Millenaar}, {Munk}, {Nijboer}, {Noordam}, {Pandey},
+  {Pandey-Pommier}, {Polatidis}, {Reich}, {Scaife}, {Schoenmakers}, {Sluman},
+  {Stappers}, {Steinmetz}, {Swinbank}, {Tagger}, {Tang}, {Vermeulen}, {de Vos},
+  \& {van Haarlem}}]{2012A&A...543A..43V}
+{van Weeren}, R.~J., {R{\"o}ttgering}, H.~J.~A., {Rafferty}, D.~A., {et~al.}
+  2012, \aap, 543, A43
 
 \bibitem[{{Venturi} {et~al.}(2007){Venturi}, {Giacintucci}, {Brunetti},
   {Cassano}, {Bardelli}, {Dallacasa}, \& {Setti}}]{VenturiGMRT_1}
