@@ -1,4 +1,4 @@
-\begin{thebibliography}{112}
+\begin{thebibliography}{111}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Abdo} {et~al.}(2009){Abdo}, {Ackermann}, {Ajello}, {Asano},
@@ -627,11 +627,6 @@ B{\"o}hringer, H., Tanaka, Y., Mushotzky, R., Ikebe, Y., \& Hattori, M. 1998
 
 \bibitem[{{Reiprich} \& {B{\"o}hringer}(2002)}]{2002ApJ...567..716R}
 {Reiprich}, T.~H. \& {B{\"o}hringer}, H. 2002, \apj, 567, 716
-
-\bibitem[{{Riebe} {et~al.}(2011){Riebe}, {Partl}, {Enke}, {Forero-Romero},
-  {Gottloeber}, {Klypin}, {Lemson}, {Prada}, {Primack}, {Steinmetz}, \&
-  {Turchaninov}}]{2011arXiv1109.0003R}
-{Riebe}, K., {Partl}, A.~M., {Enke}, H., {et~al.} 2011, ArXiv:1109.0003
 
 \bibitem[{{R{\"o}ttgering} {et~al.}(2012){R{\"o}ttgering}, {Afonso}, {Barthel},
   {Batejat}, {Best}, {Bonafede}, {Br{\"u}ggen}, {Brunetti}, {Chy{\.z}y},
