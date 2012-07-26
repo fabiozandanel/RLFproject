@@ -1,4 +1,4 @@
-\begin{thebibliography}{110}
+\begin{thebibliography}{112}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Abdo} {et~al.}(2009){Abdo}, {Ackermann}, {Ajello}, {Asano},
@@ -231,6 +231,11 @@
 {Aleksi{\'c}}, J., {Antonelli}, L.~A., {Antoranz}, P., {et~al.} 2010, \apj,
   710, 634
 
+\bibitem[{{Arlen} {et~al.}(2012){Arlen}, {et al. (for the VERITAS
+  collaboration)}, {Pfrommer}, \& {Pinzke}}]{2012...VERITAS}
+{Arlen}, T., {et al. (for the VERITAS collaboration)}, {Pfrommer}, C., \&
+  {Pinzke}, A. 2012, \apj, accepted
+
 \bibitem[{{Basu}(2012)}]{2012MNRAS.421L.112B}
 {Basu}, K. 2012, \mnras, 421, L112
 
@@ -273,6 +278,9 @@ B{\"o}hringer, H., Tanaka, Y., Mushotzky, R., Ikebe, Y., \& Hattori, M. 1998
 \bibitem[{{Broderick} {et~al.}(2012){Broderick}, {Chang}, \&
   {Pfrommer}}]{2011arXiv1106.5494B}
 {Broderick}, A.~E., {Chang}, P., \& {Pfrommer}, C. 2012, \apj, 752, 22
+
+\bibitem[{{Brown} \& {Rudnick}(2011)}]{2011MNRAS.412....2B}
+{Brown}, S. \& {Rudnick}, L. 2011, \mnras, 412, 2
 
 \bibitem[{{Brunetti} \& {Blasi}(2005)}]{2005MNRAS.363.1173B}
 {Brunetti}, G. \& {Blasi}, P. 2005, \mnras, 363, 1173

@@ -90,7 +90,10 @@
   radio-halo luminosity function, we demonstrate the unique prospects for
   low-frequency radio surveys (such as the LOFAR Tier 1 survey) to detect
   $\sim3500$ radio halos back to redshift two and to probe the underlying
-  physics of radio halos.}
+  physics of radio halos.  We will make our cosmologically complete
+  multi-frequency mock catalogs for the (non-)thermal cluster emission at
+  different redshifts publicly and freely available on-line through the
+  MultiDark database. }
 
 \keywords{Galaxies: clusters: intracluster medium - Radio continuum: galaxies 
 - Gamma rays: galaxies: clusters - Astroparticle physics - Catalogs}
@@ -910,7 +913,8 @@ shape and normalization of the semi-analytical model of
 
 Summarizing, our \emph{hybrid} model for the CR distribution function, has the
 following properties: it accounts for (i) the X-ray-inferred (CCC and NCCC) gas
-profiles and cluster-mass scaling of the gas fraction, (ii) a cluster-mass
+profiles and cluster-mass scaling of the gas fraction, in addition to the
+universal temperature drop in the outskirts of clusters, (ii) a cluster-mass
 dependent CR normalization and universal CR spectrum as derived from
 cosmological hydrodynamical simulations, (iii) an effective parametrization of
 active CR transport processes, including CR streaming and diffusion, which
@@ -1115,6 +1119,24 @@ in this picture in comparison to the lower-energy protons that the radio
 emission is sensitive to \citep[see][for an extended discussion of this
 point]{2011arXiv1111.5544M}.
 
+Note that this analysis confirms the result by \citet{2012...VERITAS} who also
+conclude that the hadronic model for the Coma radio halo is an attractive
+explanation for magnetic field estimates inferred by Faraday rotation measure
+studies \citep{2010A&A...513A..30B} and is not challenged by {\em Fermi} upper
+limits on the gamma-ray emission if the full range of CR spectral indices is
+considered, i.e., for $2.1\lesssim \alpha\lesssim2.5$ \citep[see Fig.~8
+in][which demonstrates that those spectral indices provide a fair description of
+the radio emission after taking into account the negative flux bowl due to the
+Sunyaev-Zel'dovich effect that causes the measured radio halo spectrum to
+experience a sharp cutoff towards high frequencies]{2004A&A...413...17P}. This
+is not necessarily in conflict with results by \citet{2012arXiv1207.3025B} who
+point out problems of the hadronic model for the {\em limited} parameter space
+$\alpha\gtrsim2.6$, while adopting a slightly shallower azimuthally averaged
+radio halo profile \citep{2011MNRAS.412....2B} than the one used in this
+analysis \citep{1997A&A...321...55D}. Careful work is needed to understand the
+origin of the observational discrepancy and to cleanly separate the radio halo
+emission from that of the Coma radio relic and other sources in the field.
+
 
 \subsubsection{The radio halo in Abell~2163}
 
@@ -1276,7 +1298,7 @@ are now summarizing the main points:
   the problem can be weakened but not circumvented even in this case of a cored
   CR profile. Nevertheless, we can successfully reproduce the morphology of Coma
   and Abell~2163 RHs, solving the previous problems of the \emph{classical}
-  hadronic model (see, e.g., \citealp{2010MNRAS.401...47D,2012arXiv1207.3025B}).
+  hadronic model (see, e.g., \citealp{2010MNRAS.401...47D}).
 \item Gamma-ray and radio emission are complementary tools in constraining the
   CR population. While gamma-ray emission is a direct way to constrain the CR
   pressure, it is also critical in disentangling between the hadronic and
@@ -1286,15 +1308,15 @@ are now summarizing the main points:
   on the CR pressure (except for the case of Coma). 
 \item The magnetic field values adopted here are perfectly in agreement with
   other observational constraints, solving previous tensions of the
-  \emph{classical} hadronic model (see,
-  e.g., \citealp{2011ApJ...728...53J,2012arXiv1207.3025B}). Indeed, different values 
-  of $B_{0}$ could be adopted without violating other observational constraints. The exception 
-  to this is again Coma, for which a higher $B_{0}$ value would be in contradiction
+  \emph{classical} hadronic model (see, e.g.,
+  \citealp{2011ApJ...728...53J}). Indeed, different values of $B_{0}$ could be
+  adopted without violating other observational constraints. The exception to
+  this is again Coma, for which a higher $B_{0}$ value would be in contradiction
   with Faraday rotation measure data \citep{2010A&A...513A..30B}, leaving room
   for central magnetic field strengths around 1--5~$\mu$G that are in agreement
-  with the data. Only a value much lower would imply a level of the gamma-ray
-  emission that challenges the most recent {\em Fermi} limit
-  \citep{2012AAS...21920701Z}.
+  with the data \citep{2012...VERITAS}. Only a value much lower would imply a
+  level of the gamma-ray emission that challenges the most recent {\em Fermi}
+  limit \citep{2012AAS...21920701Z}.
 \item Considering the case of advection-dominated CR transport
   ($\gamma_{\rmn{tu}}\gtrsim100$), which only allows for a good match to the
   data of Perseus and Ophiuchus, the $g_{\rmn{CR}}$ parameter can be
@@ -2150,15 +2172,15 @@ effects.
 \includegraphics[width=0.5\textwidth]{figures/CR_profiles_REXexactVSfake.eps}
 \caption{Comparison of the exact and approximate solutions for $C(R)$ in the
   case of our GNFW profile. In the latter case, we use the formulae by
-  \cite{2011A&A...527A..99E} but adopt $P(R)/P_{0}=n_{\rmn{e,GNFW}}(R)/n_{0}$,
-  i.e., we assume an isothermal ICM. We show the GNFW profiles for NCCCs
-  and CCCs, as derived in Section~\ref{sec:2.2}. For each of these profile
-  classes, we show three different cases of $\gamma_{\rmn{tu}}=100$, 10, and 1
-  (top to bottom). We normalize $C(R)$ for the advection dominated case
-  ($\gamma_{\rmn{tu}}=100$) at $R=10^{-3}R_{200}$ and and require CR number
-  conservation during CR streaming. Note that the value for 
-  $C(10^{-3}R_{200},\gamma_{\rmn{tu}}=100)$ in the CCC case is identical
-  for the exact solution and its approximation, while there is a small
+  \cite{2011A&A...527A..99E} but adopt $P(R)/P_{0}=n_{\rmn{e,GNFW}}(R)/n_{0}$
+  for this comparison only, i.e., we assume here an isothermal ICM. We show the GNFW
+  profiles for NCCCs and CCCs, as derived in Section~\ref{sec:2.2}. For each of
+  these profile classes, we show three different cases of
+  $\gamma_{\rmn{tu}}=100$, 10, and 1 (top to bottom). We normalize $C(R)$ for
+  the advection dominated case ($\gamma_{\rmn{tu}}=100$) at $R=10^{-3}R_{200}$
+  and and require CR number conservation during CR streaming. Note that the
+  value for $C(10^{-3}R_{200},\gamma_{\rmn{tu}}=100)$ in the CCC case is
+  identical for the exact solution and its approximation, while there is a small
   difference of about 9\% in the NCCC case. We adopt $\alpha=2.3$.}
 \label{fig:REXexactVSfake}
 \end{figure}
