@@ -1,4 +1,4 @@
-\begin{thebibliography}{117}
+\begin{thebibliography}{133}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Abramowitz} \& {Stegun}(1965)}]{1965hmfw.book.....A}
@@ -8,10 +8,15 @@
 \bibitem[{{Basu}(2012)}]{2012MNRAS.421L.112B}
 {Basu} K., 2012, MNRAS, 421, L112
 
-\bibitem[{{Battaglia} {et~al}\mbox{.}(2012){Battaglia}, {Bond}, {Pfrommer}, \&
-  {Sievers}}]{2011arXiv1109.3709B}
-{Battaglia} N., {Bond} J.~R., {Pfrommer} C., {Sievers} J.~L., 2012, ApJ, 758,
-  74
+\bibitem[{{Battaglia} {et~al}\mbox{.}(2012{\natexlab{a}}){Battaglia}, {Bond},
+  {Pfrommer}, \& {Sievers}}]{2011arXiv1109.3709B}
+{Battaglia} N., {Bond} J.~R., {Pfrommer} C., {Sievers} J.~L.,
+  2012{\natexlab{a}}, ApJ, 758, 74
+
+\bibitem[{{Battaglia} {et~al}\mbox{.}(2012{\natexlab{b}}){Battaglia}, {Bond},
+  {Pfrommer}, \& {Sievers}}]{2012ApJ...758...74B}
+{Battaglia} N., {Bond} J.~R., {Pfrommer} C., {Sievers} J.~L.,
+  2012{\natexlab{b}}, ApJ, 758, 74
 
 \bibitem[{{Battaglia} {et~al}\mbox{.}(2010){Battaglia}, {Bond}, {Pfrommer},
   {Sievers}, \& {Sijacki}}]{2010ApJ...725...91B}
@@ -68,6 +73,11 @@
 \bibitem[{{Brunetti} {et~al}\mbox{.}(2009){Brunetti}, {Cassano}, {Dolag}, \&
   {Setti}}]{2009A&A...507..661B}
 {Brunetti} G., {Cassano} R., {Dolag} K., {Setti} G., 2009, A\&A, 507, 661
+
+\bibitem[{{Brunetti} {et~al}\mbox{.}(2008){Brunetti}, {Giacintucci}, {Cassano},
+  {Lane}, {Dallacasa}, {Venturi}, {Kassim}, {Setti}, {Cotton}, \&
+  {Markevitch}}]{2008Natur.455..944B}
+{Brunetti} G. {et~al.}, 2008, Nature, 455, 944
 
 \bibitem[{{Brunetti} \& {Lazarian}(2007)}]{2007MNRAS.378..245B}
 {Brunetti} G., {Lazarian} A., 2007, MNRAS, 378, 245
@@ -128,6 +138,10 @@
 \bibitem[{{Dolag} \& {En{\ss}lin}(2000)}]{2000A&A...362..151D}
 {Dolag} K., {En{\ss}lin} T.~A., 2000, A\&A, 362, 151
 
+\bibitem[{{Dolag} {et~al}\mbox{.}(2005){Dolag}, {Vazza}, {Brunetti}, \&
+  {Tormen}}]{2005MNRAS.364..753D}
+{Dolag} K., {Vazza} F., {Brunetti} G., {Tormen} G., 2005, MNRAS, 364, 753
+
 \bibitem[{{Domainko} {et~al}\mbox{.}(2009){Domainko}, {Nedbal}, {Hinton}, \&
   {Martineau-Huynh}}]{2009arXiv0907.3001D}
 {Domainko} W., {Nedbal} D., {Hinton} J.~A., {Martineau-Huynh} O., 2009,
@@ -174,6 +188,9 @@
   {Crawford}, {Johnstone}, \& {Iwasawa}}]{2006MNRAS.366..417F}
 {Fabian} A.~C., {Sanders} J.~S., {Taylor} G.~B., {Allen} S.~W., {Crawford}
   C.~S., {Johnstone} R.~M., {Iwasawa} K., 2006, MNRAS, 366, 417
+
+\bibitem[{{Felice} \& {Kulsrud}(2001)}]{2001ApJ...553..198F}
+{Felice} G.~M., {Kulsrud} R.~M., 2001, ApJ, 553, 198
 
 \bibitem[{{Felten}(1976)}]{1976ApJ...207..700F}
 {Felten} J.~E., 1976, ApJ, 207, 700
@@ -260,8 +277,11 @@
 \bibitem[{{Hu} \& {Kravtsov}(2003)}]{2003ApJ...584..702H}
 {Hu} W., {Kravtsov} A.~V., 2003, ApJ, 584, 702
 
-\bibitem[{{Jeltema} \& {Profumo}(2011)}]{2011ApJ...728...53J}
-{Jeltema} T.~E., {Profumo} S., 2011, ApJ, 728, 53
+\bibitem[{{Kang} \& {Ryu}(2011)}]{kang11}
+{Kang} H., {Ryu} D., 2011, ApJ, 734, 18
+
+\bibitem[{{Kang} {et~al}\mbox{.}(2012){Kang}, {Ryu}, \& {Jones}}]{kang12}
+{Kang} H., {Ryu} D., {Jones} T.~W., 2012, ArXiv e-prints
 
 \bibitem[{{Kempner} {et~al}\mbox{.}(2004){Kempner}, {Blanton}, {Clarke},
   {En{\ss}lin}, {Johnston-Hollitt}, \& {Rudnick}}]{2004rcfg.procE..25K}
@@ -271,10 +291,6 @@
 
 \bibitem[{{Keshet}(2010)}]{2010arXiv1011.0729K}
 {Keshet} U., 2010, ArXiv:1011.0729
-
-\bibitem[{{Keshet} {et~al}\mbox{.}(2012){Keshet}, {Kushnir}, {Loeb}, \&
-  {Waxman}}]{2012arXiv1210.1574K}
-{Keshet} U., {Kushnir} D., {Loeb} A., {Waxman} E., 2012, ArXiv e-prints
 
 \bibitem[{{Keshet} \& {Loeb}(2010)}]{2010arXiv1003.1133K}
 {Keshet} U., {Loeb} A., 2010, ApJ, 722, 737
@@ -301,12 +317,24 @@
   {Nagai}}]{2006ApJ...650..128K}
 {Kravtsov} A.~V., {Vikhlinin} A., {Nagai} D., 2006, ApJ, 650, 128
 
+\bibitem[{{Kronberg} {et~al}\mbox{.}(2007){Kronberg}, {Kothes}, {Salter}, \&
+  {Perillat}}]{2007ApJ...659..267K}
+{Kronberg} P.~P., {Kothes} R., {Salter} C.~J., {Perillat} P., 2007, ApJ, 659,
+  267
+
 \bibitem[{{Kuchar} \& {En{\ss}lin}(2011)}]{2011A&A...529A..13K}
 {Kuchar} P., {En{\ss}lin} T.~A., 2011, A\&A, 529, A13+
+
+\bibitem[{{Kulsrud} \& {Pearce}(1969)}]{1969ApJ...156..445K}
+{Kulsrud} R., {Pearce} W.~P., 1969, ApJ, 156, 445
 
 \bibitem[{{Kushnir} {et~al}\mbox{.}(2009){Kushnir}, {Katz}, \&
   {Waxman}}]{2009JCAP...09..024K}
 {Kushnir} D., {Katz} B., {Waxman} E., 2009, JCAP, 9, 24
+
+\bibitem[{{Lau} {et~al}\mbox{.}(2009){Lau}, {Kravtsov}, \&
+  {Nagai}}]{2009ApJ...705.1129L}
+{Lau} E.~T., {Kravtsov} A.~V., {Nagai} D., 2009, ApJ, 705, 1129
 
 \bibitem[{{MAGIC Collaboration}(2010)}]{2010ApJ...710..634A}
 {MAGIC Collaboration}, 2010, ApJ, 710, 634
@@ -417,6 +445,15 @@
 {Pfrommer} C., {En{\ss}lin} T.~A., {Springel} V., {Jubelgas} M., {Dolag} K.,
   2007, MNRAS, 378, 385
 
+\bibitem[{{Pfrommer} {et~al}\mbox{.}(2006){Pfrommer}, {Springel}, {En{\ss}lin},
+  \& {Jubelgas}}]{2006MNRAS.367..113P}
+{Pfrommer} C., {Springel} V., {En{\ss}lin} T.~A., {Jubelgas} M., 2006, MNRAS,
+  367, 113
+
+\bibitem[{{Pinzke} {et~al}\mbox{.}(2013){Pinzke}, {Oh}, \&
+  {Pfrommer}}]{pinzke13}
+{Pinzke} A., {Oh} S.~P., {Pfrommer} C., 2013, in prep.
+
 \bibitem[{{Pinzke} \& {Pfrommer}(2010)}]{2010MNRAS.409..449P}
 {Pinzke} A., {Pfrommer} C., 2010, MNRAS, 409, 449
 
@@ -455,6 +492,14 @@
   {Wise}}]{2012JApA..tmp...34R}
 {R{\"o}ttgering} H. {et~al.}, 2012, Journal of Astrophysics and Astronomy, 34
 
+\bibitem[{{Ryu} {et~al}\mbox{.}(2008){Ryu}, {Kang}, {Cho}, \&
+  {Das}}]{2008Sci...320..909R}
+{Ryu} D., {Kang} H., {Cho} J., {Das} S., 2008, Science, 320, 909
+
+\bibitem[{{Ryu} {et~al}\mbox{.}(2003){Ryu}, {Kang}, {Hallman}, \&
+  {Jones}}]{2003ApJ...593..599R}
+{Ryu} D., {Kang} H., {Hallman} E., {Jones} T.~W., 2003, ApJ, 593, 599
+
 \bibitem[{{Sanderson} {et~al}\mbox{.}(2009){Sanderson}, {O'Sullivan}, \&
   {Ponman}}]{2009MNRAS.395..764S}
 {Sanderson} A.~J.~R., {O'Sullivan} E., {Ponman} T.~J., 2009, MNRAS, 395, 764
@@ -471,8 +516,27 @@
   {Thiemann}}]{1987A&A...182...21S}
 {Schlickeiser} R., {Sievers} A., {Thiemann} H., 1987, A\&A, 182, 21
 
+\bibitem[{{Schuecker} {et~al}\mbox{.}(2004){Schuecker}, {Finoguenov},
+  {Miniati}, {B{\"o}hringer}, \& {Briel}}]{2004A&A...426..387S}
+{Schuecker} P., {Finoguenov} A., {Miniati} F., {B{\"o}hringer} H., {Briel}
+  U.~G., 2004, A\&A, 426, 387
+
 \bibitem[{{Sijbring}(1993)}]{Sijbring1993}
 {Sijbring} L.~G., 1993, PhD thesis, Groningen University
+
+\bibitem[{{Skillman} {et~al}\mbox{.}(2008){Skillman}, {O'Shea}, {Hallman},
+  {Burns}, \& {Norman}}]{2008ApJ...689.1063S}
+{Skillman} S.~W., {O'Shea} B.~W., {Hallman} E.~J., {Burns} J.~O., {Norman}
+  M.~L., 2008, ApJ, 689, 1063
+
+\bibitem[{{Skillman} {et~al}\mbox{.}(2012){Skillman}, {Xu}, {Hallman},
+  {O'Shea}, {Burns}, {Li}, {Collins}, \& {Norman}}]{2012arXiv1211.3122S}
+{Skillman} S.~W., {Xu} H., {Hallman} E.~J., {O'Shea} B.~W., {Burns} J.~O., {Li}
+  H., {Collins} D.~C., {Norman} M.~L., 2012, ArXiv e-prints
+
+\bibitem[{{Subramanian} {et~al}\mbox{.}(2006){Subramanian}, {Shukurov}, \&
+  {Haugen}}]{2006MNRAS.366.1437S}
+{Subramanian} K., {Shukurov} A., {Haugen} N.~E.~L., 2006, MNRAS, 366, 1437
 
 \bibitem[{{Sun} {et~al}\mbox{.}(2009){Sun}, {Voit}, {Donahue}, {Jones},
   {Forman}, \& {Vikhlinin}}]{2009ApJ...693.1142S}
@@ -503,6 +567,10 @@
   {Stappers}, {Steinmetz}, {Swinbank}, {Tagger}, {Tang}, {Vermeulen}, {de Vos},
   \& {van Haarlem}}]{2012A&A...543A..43V}
 {van Weeren} R.~J. {et~al.}, 2012, A\&A, 543, A43
+
+\bibitem[{{Vazza} {et~al}\mbox{.}(2009){Vazza}, {Brunetti}, \&
+  {Gheller}}]{2009MNRAS.395.1333V}
+{Vazza} F., {Brunetti} G., {Gheller} C., 2009, MNRAS, 395, 1333
 
 \bibitem[{{Venturi} {et~al}\mbox{.}(2007){Venturi}, {Giacintucci}, {Brunetti},
   {Cassano}, {Bardelli}, {Dallacasa}, \& {Setti}}]{VenturiGMRT_1}
