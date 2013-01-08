@@ -1,4 +1,4 @@
-\begin{thebibliography}{133}
+\begin{thebibliography}{134}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Abramowitz} \& {Stegun}(1965)}]{1965hmfw.book.....A}
@@ -54,6 +54,10 @@
 \bibitem[{{Broderick} {et~al}\mbox{.}(2012){Broderick}, {Chang}, \&
   {Pfrommer}}]{2011arXiv1106.5494B}
 {Broderick} A.~E., {Chang} P., {Pfrommer} C., 2012, ApJ, 752, 22
+
+\bibitem[{{Brown} {et~al}\mbox{.}(2011){Brown}, {Emerick}, {Rudnick}, \&
+  {Brunetti}}]{2011ApJ...740L..28B}
+{Brown} S., {Emerick} A., {Rudnick} L., {Brunetti} G., 2011, ApJL, 740, L28
 
 \bibitem[{{Brown} \& {Rudnick}(2011)}]{2011MNRAS.412....2B}
 {Brown} S., {Rudnick} L., 2011, MNRAS, 412, 2
@@ -146,6 +150,10 @@
   {Martineau-Huynh}}]{2009arXiv0907.3001D}
 {Domainko} W., {Nedbal} D., {Hinton} J.~A., {Martineau-Huynh} O., 2009,
   International Journal of Modern Physics D, 18, 1627
+
+\bibitem[{{Donnert} {et~al}\mbox{.}(2012){Donnert}, {Dolag}, {Brunetti}, \&
+  {Cassano}}]{2012arXiv1211.3337D}
+{Donnert} J., {Dolag} K., {Brunetti} G., {Cassano} R., 2012, ArXiv e-prints
 
 \bibitem[{{Donnert} {et~al}\mbox{.}(2010{\natexlab{a}}){Donnert}, {Dolag},
   {Brunetti}, {Cassano}, \& {Bonafede}}]{2010MNRAS.401...47D}
@@ -259,11 +267,6 @@
   {Feretti}, {Giovannini}, {Taylor}, \& {Carretti}}]{2009A&A...499..371G}
 {Govoni} F., {Murgia} M., {Markevitch} M., {Feretti} L., {Giovannini} G.,
   {Taylor} G.~B., {Carretti} E., 2009, A\&A, 499, 371
-
-\bibitem[{{Han} {et~al}\mbox{.}(2012){Han}, {Frenk}, {Eke}, {Gao}, {White},
-  {Boyarsky}, {Malyshev}, \& {Ruchayskiy}}]{2012arXiv1207.6749H}
-{Han} J., {Frenk} C.~S., {Eke} V.~R., {Gao} L., {White} S.~D.~M., {Boyarsky}
-  A., {Malyshev} D., {Ruchayskiy} O., 2012, ArXiv:1207.6749
 
 \bibitem[{{HESS Collaboration}(2009{\natexlab{a}})}]{2009arXiv0907.0727T}
 {HESS Collaboration}, 2009{\natexlab{a}}, A\&A, 502, 437
