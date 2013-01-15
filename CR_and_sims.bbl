@@ -1,4 +1,4 @@
-\begin{thebibliography}{134}
+\begin{thebibliography}{135}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Abramowitz} \& {Stegun}(1965)}]{1965hmfw.book.....A}
@@ -97,6 +97,9 @@
   {Tenzer}}]{2011MSAIS..17..159C}
 {Cappelluti} N. {et~al.}, 2011, Memorie della Societa Astronomica Italiana
   Supplementi, 17, 159
+
+\bibitem[{{Cassano} \& {Brunetti}(2005)}]{2005MNRAS.357.1313C}
+{Cassano} R., {Brunetti} G., 2005, MNRAS, 357, 1313
 
 \bibitem[{{Cassano} {et~al}\mbox{.}(2012){Cassano}, {Brunetti}, {Norris},
   {Roettgering}, {Johnston-Hollitt}, \& {Trasatti}}]{2012arXiv1210.1020C}
