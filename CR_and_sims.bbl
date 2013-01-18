@@ -1,4 +1,4 @@
-\begin{thebibliography}{135}
+\begin{thebibliography}{136}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Abramowitz} \& {Stegun}(1965)}]{1965hmfw.book.....A}
@@ -270,6 +270,11 @@
   {Feretti}, {Giovannini}, {Taylor}, \& {Carretti}}]{2009A&A...499..371G}
 {Govoni} F., {Murgia} M., {Markevitch} M., {Feretti} L., {Giovannini} G.,
   {Taylor} G.~B., {Carretti} E., 2009, A\&A, 499, 371
+
+\bibitem[{{Han} {et~al}\mbox{.}(2012){Han}, {Frenk}, {Eke}, {Gao}, {White},
+  {Boyarsky}, {Malyshev}, \& {Ruchayskiy}}]{2012arXiv1207.6749H}
+{Han} J., {Frenk} C.~S., {Eke} V.~R., {Gao} L., {White} S.~D.~M., {Boyarsky}
+  A., {Malyshev} D., {Ruchayskiy} O., 2012, MNRAS, 427, 1651
 
 \bibitem[{{HESS Collaboration}(2009{\natexlab{a}})}]{2009arXiv0907.0727T}
 {HESS Collaboration}, 2009{\natexlab{a}}, A\&A, 502, 437
