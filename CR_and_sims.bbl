@@ -1,4 +1,4 @@
-\begin{thebibliography}{136}
+\begin{thebibliography}{141}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Abramowitz} \& {Stegun}(1965)}]{1965hmfw.book.....A}
@@ -61,6 +61,9 @@
 
 \bibitem[{{Brown} \& {Rudnick}(2011)}]{2011MNRAS.412....2B}
 {Brown} S., {Rudnick} L., 2011, MNRAS, 412, 2
+
+\bibitem[{{Brunetti}(2004)}]{2004JKAS...37..493B}
+{Brunetti} G., 2004, Journal of Korean Astronomical Society, 37, 493
 
 \bibitem[{{Brunetti} \& {Blasi}(2005)}]{2005MNRAS.363.1173B}
 {Brunetti} G., {Blasi} P., 2005, MNRAS, 363, 1173
@@ -185,6 +188,9 @@
   {Miniati}, \& {Subramanian}}]{2011A&A...527A..99E}
 {En{\ss}lin} T., {Pfrommer} C., {Miniati} F., {Subramanian} K., 2011, A\&A,
   527, A99+
+
+\bibitem[{{En{\ss}lin}(2002)}]{2002A&A...396L..17E}
+{En{\ss}lin} T.~A., 2002, A\&A, 396, L17
 
 \bibitem[{{En{\ss}lin} \& {R{\"o}ttgering}(2002)}]{2002A&A...396...83E}
 {En{\ss}lin} T.~A., {R{\"o}ttgering} H., 2002, A\&A, 396, 83
@@ -472,10 +478,11 @@
   {Bergstr{\"o}m}}]{2011arXiv1105.3240P}
 {Pinzke} A., {Pfrommer} C., {Bergstr{\"o}m} L., 2011, Phys. Rev. D,, 84, 123509
 
-\bibitem[{{Planck Collaboration} {et~al}\mbox{.}(2011){Planck Collaboration},
-  {Ade}, {Aghanim}, {Arnaud}, {Ashdown}, {Aumont}, {Baccigalupi}, {Balbi},
-  {Banday}, {Barreiro}, \& et~al.}]{2011A&A...536A..11P}
-{Planck Collaboration} {et~al.}, 2011, A\&A, 536, A11
+\bibitem[{{Planck Collaboration}(2011)}]{2011A&A...536A..11P}
+{Planck Collaboration}, 2011, A\&A, 536, A11
+
+\bibitem[{{Planck Collaboration}(2012)}]{2012arXiv1208.3611P}
+{Planck Collaboration}, 2012, ArXiv:1208.3611
 
 \bibitem[{{Prada} {et~al}\mbox{.}(2012){Prada}, {Klypin}, {Cuesta},
   {Betancort-Rijo}, \& {Primack}}]{2011arXiv1104.5130P}
@@ -486,6 +493,10 @@
   {B{\"o}hringer}}]{2009A&A...498..361P}
 {Pratt} G.~W., {Croston} J.~H., {Arnaud} M., {B{\"o}hringer} H., 2009, A\&A,
   498, 361
+
+\bibitem[{{Reimer} {et~al}\mbox{.}(2004){Reimer}, {Reimer}, {Schlickeiser}, \&
+  {Iyudin}}]{2004A&A...424..773R}
+{Reimer} A., {Reimer} O., {Schlickeiser} R., {Iyudin} A., 2004, A\&A, 424, 773
 
 \bibitem[{{Reimer} {et~al}\mbox{.}(2003){Reimer}, {Pohl}, {Sreekumar}, \&
   {Mattox}}]{2003ApJ...588..155R}
@@ -556,6 +567,10 @@
 
 \bibitem[{{Sutter} \& {Ricker}(2012)}]{2011arXiv1110.2786S}
 {Sutter} P.~M., {Ricker} P.~M., 2012, ApJ, 759, 92
+
+\bibitem[{{Thierbach} {et~al}\mbox{.}(2003){Thierbach}, {Klein}, \&
+  {Wielebinski}}]{2003A&A...397...53T}
+{Thierbach} M., {Klein} U., {Wielebinski} R., 2003, A\&A, 397, 53
 
 \bibitem[{{van Weeren} {et~al}\mbox{.}(2010){van Weeren}, {R{\"o}ttgering},
   {Br{\"u}ggen}, \& {Hoeft}}]{2011A&A...533A..35V}

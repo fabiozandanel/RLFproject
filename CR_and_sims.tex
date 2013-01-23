@@ -148,7 +148,7 @@ rate faster than the cooling processes.  We refer the reader to
 these two models.
 
 RHs can be divided in two classes. Giant radio halos are typically associated
-with merging clusters and have large extensions, e.g., the Coma radio halo has
+with merging clusters and have large extensions, e.g., the Coma RH has
 an extension of about 2~Mpc. Radio mini-halos are associated with relaxed
 clusters that harbor a cool core and typically extend over a few hundred
 kilo-parsecs, e.g., the Perseus radio mini-halo has an extension of about
@@ -179,9 +179,9 @@ presence of RHs in all clusters. The failure to reproduce the observed cluster
 radio-to-X-ray bimodality was one of the main criticisms against the hadronic
 model.  Additionally, the \emph{classical} hadronic model cannot reproduce some
 spectral features observed in clusters, such as the total spectral (convex)
-curvature claimed in the Coma radio halo or the spectral steepening observed at
+curvature claimed in the Coma RH or the spectral steepening observed at
 the boundary of some RHs. However, the recent report of spectral flattening with
-frequency of the radio halo in A2256 \citep{2012A&A...543A..43V} could easily be
+frequency of the RH in A2256 \citep{2012A&A...543A..43V} could easily be
 accommodated in the hadronic model, which naturally produces such a concave
 spectrum \citep{2010MNRAS.409..449P}. This rises the interesting question
 whether such a variability among different sources that are generally classified
@@ -1092,7 +1092,6 @@ Ophiuchucs     & $0.028$ & $121$  & $0.19$  &  [2] \\[0.5em]
 \label{fig:SBmodeling}
 \end{figure*}
 
-
 \del{ We adopt a $10\%$ uncertainty range for the inner points of the Coma
   $352$~MHz data.}
 
@@ -1165,18 +1164,40 @@ the top left panel of Fig.~\ref{fig:SBmodeling}, which shows the fraction of
 missing surface brightness as a function of radius and accumulates to a total
 missing power of about 35\%.
 
-Recently, \citet{2012arXiv1207.3025B} point out problems of the hadronic model
+%Recently, \citet{2012arXiv1207.3025B} point out problems of the hadronic model
+%for the {\em limited} parameter space $\alpha\gtrsim2.6$, while adopting a much
+%broader azimuthally averaged RH profile at 352 MHz
+%\citep{2011MNRAS.412....2B} than the one used in the present study so far
+%\citep{1997A&A...321...55D}. The problem is only somewhat mitigated when
+%considering the entire parameter space of $\alpha$. In fact, harder CR spectra
+%of $2.1\lesssim \alpha\lesssim2.5$ provide a good description of the radio
+%emission after taking into account the negative flux bowl due to the SZ effect
+%that causes the measured RH spectrum to experience a sharp cutoff
+%towards high frequencies \citep{2004A&A...413...17P}. 
+
+{\bf Recently, \citet{2012arXiv1207.3025B} pointed out problems of the hadronic model
 for the {\em limited} parameter space $\alpha\gtrsim2.6$, while adopting a much
-broader azimuthally averaged radio halo profile at 352 MHz
-\citep{2011MNRAS.412....2B} than the one used in the present study so far
-\citep{1997A&A...321...55D}. The problem is only somewhat mitigated when
-considering the entire parameter space of $\alpha$. In fact, harder CR spectra
-of $2.1\lesssim \alpha\lesssim2.5$ provide a good description of the radio
-emission after taking into account the negative flux bowl due to the SZ effect
-that causes the measured radio halo spectrum to experience a sharp cutoff
-towards high frequencies \citep{2004A&A...413...17P}. Hence, we complement our
-RH modeling at high frequencies (1.4 GHz) with modeling of the new data at 352
-MHz \citep{2011MNRAS.412....2B}. To this end, we use a {\em novel} $352$~MHz
+broader azimuthally averaged RH profile at 352~MHz \citep{2011MNRAS.412....2B}
+than the one used in the present study so far \citep{1997A&A...321...55D}.
+The problem of reproducing the spectral steepening claimed in the Coma RH is mitigated when 
+considering the negative flux bowl due to the SZ effect that causes the measured
+RH spectrum to experience a sharp cutoff towards high frequencies \citep{2004A&A...413...17P}.
+Hence, we calculate the SZ decrement (see e.g.~\citealp{2002A&A...396L..17E}) for the Coma 
+RH using the novel measurement from \cite{2012arXiv1208.3611P}, integrating their y-parameter 
+up to the RH radial extension at 352~MHz of about $1.3$~$h_{0.7}^{-1}$~Mpc. We show the 
+resulting SZ decrement in Fig.~\ref{fig:SZ_Coma} together with the Coma RH flux at different 
+frequencies \citep{2003A&A...397...53T}. We fit the RH flux data points with power-law spectra 
+$(\nu/\nu_{0})^{-\alpha/2}$ with different spectral indices $2.1\lesssim \alpha\lesssim2.9$., using 
+the normalization and $\nu_{0}$ as free parameters. The spectra are modified at high frequencies by 
+means of  the SZ effect. The resulting reduced-$\chi^{2}$ values underline the discrepancy between RH 
+flux measurements at different frequencies. Note, however, the sharp cutoff at high frequencies.
+In fact, the SZ decrement at about 5~GHz is at the same level as the measured RH flux: higher than
+shown in \cite{2004JKAS...37..493B}, \cite{2004A&A...424..773R} and \cite{2010MNRAS.401...47D},
+but lower than obtained by \cite{2002A&A...396L..17E} and \cite{2004A&A...413...17P}.}
+
+{\bf However, the much broader RH profile at 352~MHz represents a challenge for our extended model.
+We complement} our RH modeling at high frequencies (1.4 GHz) with modeling of the new data at 
+352~MHz \citep{2011MNRAS.412....2B}. To this end, we use a {\em novel} $352$~MHz
 surface brightness profile that was corrected for residual point-source
 contamination by applying adaptive filtering techniques as well as adopting the
 X-ray center (Rudnick, priv.{\ }comm.). The resulting profile is shown in dark
@@ -1186,16 +1207,16 @@ faster towards the outskirts that the profile used by
 contamination. Nevertheless, the point-source corrected profile at 352 MHz
 \citep{2011MNRAS.412....2B} is still considerably more extended than the 1.4 GHz
 profile \citep{1997A&A...321...55D}.  As shown in Fig.~\ref{fig:SB_Coma}, the
-1.4-GHz profile can be brought into agreement with the low-frequency profile by
-choosing a lower zero level (Rudnick, priv. comm.), however at the expense of
-emerging super cluster emission from the Coma region on scales much more
-extended than the radio halo \citep{2007ApJ...659..267K}. Conversely, by
+1.4 GHz profile can be brought into agreement with the low-frequency profile by
+choosing a lower zero level (Rudnick, priv. comm.; {\bf see also \citealp{2012arXiv1208.3611P}}), 
+however at the expense of emerging super cluster emission from the Coma region on scales much 
+more extended than the RH \citep{2007ApJ...659..267K}. Conversely, by
 increasing the zero level of the 352 MHz data \citep{2011MNRAS.412....2B}
 reconciles that profile with the narrower profile of \citet{1997A&A...321...55D}
 (Fig.~\ref{fig:SB_Coma}), possibly at the expense of an implausibly high zero
 level, judging from the more sensitive 352 MHz data (Rudnick, priv.{\ }comm.).
 Assuming for a moment that the choices of zero level at both frequencies were
-indeed correct, this would imply a larger extent of the radio halo at lower
+indeed correct, this would imply a larger extent of the RH at lower
 frequencies. A combination of better data at 1.4 GHz, careful cleaning of the
 emission of tailed radio galaxies, and a full accounting of the resulting
 systematic uncertainties into the total error budget are certainly needed to
@@ -1203,8 +1224,19 @@ fully clarify the observational situation.
 
 \begin{figure} 
 \centering
+\includegraphics[width=\columnwidth]{figures/SZ_Coma.eps}
+\caption{{\bf Observed RH fluxes of the Coma cluster as compiledby \citet{2003A&A...397...53T}, where we adopt a 10\% uncertainty
+where the quoted error is smaller. We fit the data points with power-law 
+spectra using different spectral indices $\alpha$ and report the corresponding
+reduced-$\chi^{2}$ values. The spectra are modified at high frequencies by 
+means of the SZ effect. The SZ decrement is also shown.}}
+\label{fig:SZ_Coma}
+\end{figure}
+
+\begin{figure} 
+\centering
 \includegraphics[width=\columnwidth]{figures/SB_Coma_norm_band.eps}
-\caption{Surface brightness profiles of the Coma radio halo, normalized at 300
+\caption{Surface brightness profiles of the Coma RH, normalized at 300
   kpc. We compare the 352 MHz profile of \citet{2012arXiv1207.3025B}, that is
   affected by residual point source contributions (black squares), to profiles
   where an adaptive filtering technique was applied to remove residual point
@@ -1225,7 +1257,7 @@ As shown by the 2 model realizations in Fig.~\ref{fig:SBmodeling}, the
 any value in the ($\gamma_{\rmn{tu}}$, $\alpha_{\rmn{B}}$) parameter space; in
 agreement with the findings of \citet{2012arXiv1207.3025B}. At the same time,
 our analysis also confirms the result by \citet{2012...VERITAS} who also
-conclude that the hadronic model for the Coma radio halo is a viable explanation
+conclude that the hadronic model for the Coma RH is a viable explanation
 for magnetic field estimates inferred by Faraday rotation measure studies
 \citep{2010A&A...513A..30B} and is not challenged by {\em Fermi} upper limits on
 the gamma-ray emission. However, this model agreement is bought at the expense
@@ -1372,7 +1404,7 @@ multiplier of $g(\zeta_{\rmn{p,max}})=0.014$.
 \subsection{Possible biases in the modeling of individual radio halos}
 
 In order to cleanly assess the possibility of the hadronic model to explain the
-radio halo data, we only considered the hadronically-induced radio emission
+RH data, we only considered the hadronically-induced radio emission
 component in the preceding (sub-)sections. Hence, by construction, we neglect
 other (leptonic) emission components such as re-accelerated electrons. We are
 now discussing possible biases that may effect the previous conclusions:
@@ -1446,13 +1478,13 @@ Summarizing, it seems unlikely that these biases severely affect our findings
 that the extended hadronic model successfully reproduces the main morphological
 characteristics of radio mini-halos with a wide range of possible values for
 $\gamma_{\rmn{tu}}$ and without violating gamma-ray constraints. In contrast, it
-appears to fail in the outskirts of the Coma radio halo at low frequencies and
+appears to fail in the outskirts of the Coma RH at low frequencies and
 would require a flat CR distribution and very extended magnetic profile in
 A2163---in contradiction to the expectation of peaked CR profiles in turbulent
 clusters \citep{2011A&A...527A..99E}. This motivates us to propose a
 modification of this purely hadronic model in explaining RHs, which we will then
 scrutinize statistically in the following Sections, namely by investigating the
-radio-to-X-ray and radio-to-SZ scaling relations as well as radio halo
+radio-to-X-ray and radio-to-SZ scaling relations as well as RH
 luminosity functions.
 
 
@@ -1518,7 +1550,7 @@ the different components, this model suggests various halo phenomena:
   speeds, we expect the development of a (fuzzy) transition region between
   hadronic and leptonic component. This generalizes the simulation-inspired
   model by \cite{2008MNRAS.385.1211P} who propose that primary electron
-  substantially contribute to the peripheral radio halo emission.
+  substantially contribute to the peripheral RH emission.
 \end{enumerate}
 
 \subsection{What are the observational implications of this picture?}
@@ -1628,7 +1660,7 @@ and defer the study of the physical details of this component and its
 correlation to the hadronic component to future work. Additionally, the high-mass 
 range where the leptonic emission component would have a decisive impact 
 is affected by incompleteness of the simulation. Hence for a given set of
-parameter choices, our radio halo fluxes are conservative lower limits; in
+parameter choices, our RH fluxes are conservative lower limits; in
 particular for the subsample of radio loud NCCCs.
 
 
@@ -1729,7 +1761,7 @@ for visual purposes, from their simple analytical hadronic model.
 
 In order to compare our model to the observed 1.4~GHz radio-to-SZ scaling
 relation, we use the result by \cite{2012MNRAS.421L.112B} that is based on the
-radio halo sample from \cite{2007MNRAS.378.1565C} (hereafter C07), which has a
+RH sample from \cite{2007MNRAS.378.1565C} (hereafter C07), which has a
 median redshift of $z \approx 0.18$ and excludes radio mini-halos. For this
 sample, \cite{2012MNRAS.421L.112B} computes $Y_{\rmn{SZ}}$ within the radio-halo
 radii given by \cite{2007MNRAS.378.1565C}. These radii have a median of about
@@ -1770,7 +1802,7 @@ $\gamma_{\rmn{tu}}=1$, and in radio-loud clusters, we adopt randomly and
 uniformly $\gamma_{\rmn{tu}}$ values in the intervals $[40,80]$ and $[1,5]$ for
 NCCCs and CCCs, respectively. As eluded before, we only model the hadronic
 emission component and neglect the possible leptonic component which could
-result in an under-prediction of radio halo fluxes of radio loud NCCCs.
+result in an under-prediction of RH fluxes of radio loud NCCCs.
 
 Our modeling of magnetic fields is inspired by Faraday rotation studies that
 point to higher field values in the core region of CCCs compared to NCCCs
@@ -1789,7 +1821,7 @@ that our parameter choices are mostly phenomenologically driven with the aim to
 reproduce observations. The parameter study in Fig.~\ref{fig:SR} exemplifies
 considerable degeneracies so that different combinations of parameters can
 potentially result in very similar distributions. We emphasize the need of more
-detailed observations of radio halos and in particular of multi-frequency
+detailed observations of RHs and in particular of multi-frequency
 correlation studies to constrain the interplay of some of these parameters.
 
 In Fig.~\ref{fig:PLSZ}, we show our model in comparison to the observed
@@ -1922,7 +1954,7 @@ Fig.~\ref{fig:RLF_1.4} we compare our RLF and the RLFs based on observational
 scaling relations for a 10\% fraction of radio-loud clusters to the NVSS
 RLF. This suggests that the low-luminosity (low-mass) clusters will be the most
 useful in disentangling between different models. This emphasizes the importance
-of conducting homogeneous, well controlled surveys of radio halos with the
+of conducting homogeneous, well controlled surveys of RHs with the
 Jansky VLA, ASKAP \citep{2011PASA...28..215N} and APERTIF
 \citep{2012JApA..tmp...34R} at 1.4 GHz and LOFAR at lower frequencies. Since the
 latter has already started to take data, it is extremely timely to present RLF
@@ -1943,11 +1975,11 @@ $M_{200}=10^{14}\,h^{-1}\,M_\odot$, which has been adopted to reliably model the
 cluster gas distribution, translates into a luminosity cutoff. This causes the
 differential luminosity function to turn over at the low-luminosity end and may
 artificially flatten the slope already at sightly higher luminosities than the
-luminosity maximum that indicates our formal incompleteness limit.  Note that
+luminosity maximum that indicates our formal incompleteness limit.  {\bf Note that
 calibrating our model to 1.4~GHz observations may cause an overestimate of the
 number of low-frequency halos since we are neither considering any spectral
 steepening due to CR transport nor a variation of the fractional hadronic
-contribution to the radio-loud NCCC population with decreasing frequencies.
+contribution to the radio-loud NCCC population with decreasing frequencies.}
 
 \begin{figure*} 
 \centering
@@ -1985,7 +2017,7 @@ halo. In order to make more reliable predictions, in the following, we will
 calculate the RH flux limit with equation~(10) of \cite{2010A&A...509A..68C},
 approximating the halo extension by $R_{500}$ and requiring the mean flux within
 the RH half-radius to be higher than $F_{5\sigma}^{\rmn{PS}}$. This may result
-in an overestimation of the flux limit for CCCs, whose radio emission is more
+in an overestimate of the flux limit for CCCs, whose radio emission is more
 centrally concentrated than in NCCCs. The median $R_{500}$ of our sample is
 about $0.4$~$h_{70}^{-1}$~Mpc at all redshifts. This translates to a flux limit
 of about $30$~mJy at $z = 0.1$, $7$~mJy at $z = 0.2$ and $0.5$~mJy (equal to the
@@ -2200,7 +2232,7 @@ brightness profiles of giant halos at {\em high} frequencies (1.4 GHz), the
 hadronic model would require flat CR profiles for magnetic field configurations
 favored by Faraday rotation measurements.  These flat CR profiles can only be
 realized through CR streaming transport in {\em relaxed} clusters, which appears
-to be in conflict with the observation that radio halos are hosted by merging
+to be in conflict with the observation that giant radio halos are hosted by merging
 {\em turbulent} clusters. Moreover, the hadronic model fails to explain the
 emission in the outer parts of the Coma halo at 352 MHz, which is even more
 extended than the high-frequency halo emission; provided that the zero point of
@@ -2246,7 +2278,7 @@ of the magnetic field toward the cluster outskirts). Multi-frequency data will
 be needed to better constrain these parameters and to break these degeneracies.
 
 Assuming a fraction of 10\% radio-loud clusters, we demonstrate that our model
-matches the NVSS radio halo luminosity function (RLF). However, the
+matches the NVSS RH luminosity function (RLF). However, the
 high-luminosity tail of our model RLF is subject to cosmic variance because of
 the comparably small simulation volume of $1
 h^{-3}\,\rmn{Gpc}^3$. Interestingly, the RLF derived from the
@@ -2306,7 +2338,11 @@ B\"{o}ringher (2002) cluster positions, and Wolfgang Reich for providing the
 Anatoly Klypin, Andrey Kravtsov, Adam Mantz, Frazer Pearce, Miguel-Angel Perez
 Torres, Huub R{\"o}ttgering, Jos\'e Alberto Rubi\~no, and Gustavo Yepes, for the
 useful discussions and advices.  Finally, we thank the MultiDark database
-people, in particular Adrian Partl and Kristin Riebe. F.Z.{\ }acknowledges the
+people, in particular Adrian Partl and Kristin Riebe. 
+%
+F.Z.{\ }acknowledges the hospitality of Leiden Observatory during his stay.
+%
+F.Z.{\ }acknowledges the
 CSIC financial support as a JAE-Predoc grant of the program ``Junta para la
 Ampliaci\'on de Estudios'' co-financed by the FSE. F.Z.{\ }and F.P.{\ } thank
 the support of the Spanish MICINN's Consolider-Ingenio 2010 Programme under
