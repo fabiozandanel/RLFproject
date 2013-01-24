@@ -1,4 +1,4 @@
-\begin{thebibliography}{141}
+\begin{thebibliography}{142}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[{{Abramowitz} \& {Stegun}(1965)}]{1965hmfw.book.....A}
@@ -513,6 +513,9 @@
   {Tasse}, {Bemmel}, {van der Tol}, {van Weeren}, {Verheijen}, {White}, \&
   {Wise}}]{2012JApA..tmp...34R}
 {R{\"o}ttgering} H. {et~al.}, 2012, Journal of Astrophysics and Astronomy, 34
+
+\bibitem[{{Rudnick}(2002)}]{2002PASP..114..427R}
+{Rudnick} L., 2002, PASP, 114, 427
 
 \bibitem[{{Ryu} {et~al}\mbox{.}(2008){Ryu}, {Kang}, {Cho}, \&
   {Das}}]{2008Sci...320..909R}
